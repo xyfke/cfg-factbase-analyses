@@ -1,3 +1,7 @@
+# output files
+python-scripts/script-json
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
