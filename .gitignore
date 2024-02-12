@@ -1,6 +1,6 @@
 # output files
-python-scripts/script-json
-
+python-scripts/script-json/
+output/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
