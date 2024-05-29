@@ -19,6 +19,7 @@ scriptpath="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 projectpath="${scriptpath}/../../"
 projectpathreal="$(realpath "$projectpath")"
 neo4jpath="$(realpath "$projectpathreal")/output"
+neo4jpathP="$(realpath "$projectpathreal")"
 
 # Find neo4j output path
 neo4jFactPath="${projectpathreal}/factbases/${software}/"
@@ -104,11 +105,11 @@ if [ ! -d ${neo4joutput} ]; then
     mkdir -p ${neo4joutput}
 fi
 
-jsonFilePath="${neo4jpath}/python-scripts/script-json/${software}.json"
+jsonFilePath="${neo4jpathP}/python-scripts/script-json/${software}.json"
 
 # make sure repo is there
-if [! -d "${neo4jpath}/python-scripts/script-json/" ]; then
-    mkdir -p "${neo4jpath}/python-scripts/script-json/"
+if [ ! -d "${neo4jpathP}/python-scripts/script-json/" ]; then
+    mkdir -p "${neo4jpathP}/python-scripts/script-json/"
 fi
 
 if [ -f ${jsonFilePath} ]; then 
