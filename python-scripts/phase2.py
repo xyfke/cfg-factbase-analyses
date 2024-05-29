@@ -59,8 +59,8 @@ def createDFRelationship(session, df_reader):
         key = dfEdge[":START_ID"] + dfEdge[":END_ID"] + dfEdge["compName"]
         if (key not in addedEdge):
             createStatement = """MATCH (from {{ id:"{0}" }}), (to {{ id:"{1}" }}) 
-            CREATE (from)-[:dataflow {{compName : "{3}"}}]->(to);""".format(dfEdge[":START_ID"], 
-                                                                    dfEdge[":END_ID"], "dataflow", 
+            CREATE (from)-[{:{2}} {{compName : "{3}"}}]->(to);""".format(dfEdge[":START_ID"], 
+                                                                    dfEdge[":END_ID"], dfEdge[":TYPE"], 
                                                                     dfEdge["compName"])
             session.run(createStatement)
             addedEdge.append(key)

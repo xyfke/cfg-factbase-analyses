@@ -49,7 +49,7 @@ def extract_component(component_csv_path, query_file):
 
 def run_analyses(node_file, edge_file, neo4j_path, fact_folder_path, cypher_folder,
                  prefix_file, suffix_file, interm_file,
-                 cmd_log, query_log, check_cfg, comp_name, df_csv):
+                 cmd_log, query_log, check_cfg, comp_name, df_csv, summary_type):
     """
     ------------------------------------------------------------------------
     Append facts to neo4j and run query
@@ -110,7 +110,7 @@ def run_analyses(node_file, edge_file, neo4j_path, fact_folder_path, cypher_fold
     # Run interm subquery analyses
     interm_time, interm_size = run_query_write_results(session=session, 
             cypher_file_path=cypher_folder + "-interm.cypher", path_file=interm_file,
-            summary_name="dataflow", query_name="interm " + check_cfg, query_file=query_log, 
+            summary_name=summary_type, query_name="interm " + check_cfg, query_file=query_log, 
             unique=True, comp_name=comp_name, df_csv=df_csv)
     
     print()
@@ -133,6 +133,10 @@ if __name__=='__main__':
     cypher_name = input("Enter cypher name: ")
     run_prefix_suffix = input("Are there prefix and suffix queries? (y/n) ") == "y"
     phase_n = "1"
+    summary_fact_type = input("Enter type for summary fact(default = dataflow): ")
+
+    if (summary_fact_type == ""):
+        summary_fact_type = "dataflow"
 
     # Create output cfg and ncfg directories
     output_cfg_path, _ = create_output_folder(check_cfg="cfg", cypher_name=cypher_name, 
@@ -213,7 +217,7 @@ if __name__=='__main__':
                 prefix_file=prefix_cfg_file, suffix_file=suffix_cfg_file, 
                 interm_file=df_cfg_file,cmd_log=cmd_log, query_log=query_log, 
                 check_cfg="cfg", fact_folder_path=fact_folder_path, comp_name=k, 
-                df_csv=interm_file_cfg_writer)
+                df_csv=interm_file_cfg_writer,summary_type=summary_fact_type)
         
         print(file=query_log)
 
@@ -225,7 +229,7 @@ if __name__=='__main__':
                 prefix_file=prefix_ncfg_file, suffix_file=suffix_ncfg_file, 
                 interm_file=df_ncfg_file,cmd_log=cmd_log, query_log=query_log, 
                 check_cfg="ncfg", fact_folder_path=fact_folder_path, comp_name=k, 
-                df_csv=interm_file_ncfg_writer)
+                df_csv=interm_file_ncfg_writer,summary_type=summary_fact_type)
         
         time_file_writer.writerow([k, fact_ncfg_time, fact_cfg_time,
                                 interm_ncfg_time, interm_ncfg_size,
