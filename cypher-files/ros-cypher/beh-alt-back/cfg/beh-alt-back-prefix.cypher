@@ -1,12 +1,12 @@
 MATCH (:cVariable)-[vw:varWrite]->(:cVariable)
 MATCH (:cVariable)-[pv:pubVar]->(:rosTopic)
 WITH *, apoc.cfgPath.rosFindPaths(vw, {
-    relSequence : "varWrite|parWrite|retWrite*",
-    nodeFilter : "cVariable,cReturn",
+    relSeq : "varWrite|parWrite|retWrite*",
+    filter : "cVariable,cReturn",
     endEdge : pv,
-    allShortestPath : true,
+    shortest : true,
     backward : true,
-    cfgConfiguration : [
+    config : [
         {name : "parWrite", startLabel : "cReturn", endLabel : "cVariable",
         attribute : "cfgReturn,cfgInvoke", length : "2"}, 
         {name : "parWrite", startLabel : "cVariable", endLabel : "cVariable",

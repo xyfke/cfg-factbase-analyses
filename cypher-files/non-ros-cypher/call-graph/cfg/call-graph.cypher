@@ -1,8 +1,8 @@
 MATCH (a:cFunction)
 WITH *, apoc.cfgPath.rosFindPaths(a, {
-    relSequence : "call+",
-    nodeFilter : "cFunction",
-    cfgConfiguration : [{
+    relSeq : "call+",
+    filter : "cFunction",
+    config : [{
         name : "call",
         startLabel : "cFunction",
         endLabel : "cFunction",

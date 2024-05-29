@@ -1,9 +1,9 @@
 MATCH (:rosTopic)-[sub:subscribe]->(:rosSubscriber)
 WITH *, apoc.cfgPath.rosFindPaths(sub, {
-    relSequence : "call+",
-    nodeFilter : "cFunction,rosSubscriber",
-    cfgCheck : true,
-    cfgConfiguration : [
+    relSeq : "call+",
+    filter : "cFunction,rosSubscriber",
+    cfg : true,
+    config : [
         {name : "call", startLabel : "cFunction", endLabel : "cFunction",
         attribute : "cfgInvoke", length : "1"}
     ]

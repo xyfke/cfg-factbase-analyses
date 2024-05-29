@@ -1,11 +1,11 @@
 MATCH (:rosTopic)-[pt:pubTarget]->(:cVariable)
 MATCH ()-[vif:varInfFunc]->(:cFunction)
 WITH *, apoc.cfgPath.rosFindPaths(pt, {
-    relSequence : "varWrite|parWrite|retWrite*",
-    endEdge : vif,
-    cfgCheck : false,
-    nodeFilter : "cVariable,cReturn",
-    allShortestPath : true,
+    relSeq : "varWrite|parWrite|retWrite*",
+    endE : vif,
+    cfg : false,
+    filter : "cVariable,cReturn",
+    shortest : true,
     backward : true
 }) As paths
 UNWIND paths As path

@@ -1,10 +1,10 @@
 MATCH (:rosTopic)-[sub:subscribe]->(:rosSubscriber)
 MATCH (:rosPublisher)-[pub:publish]->(:rosTopic)
 WITH *, apoc.cfgPath.rosFindPaths(sub, {
-    relSequence : "call+",
-    nodeFilter : "cFunction,rosPublisher",
-    endEdge : pub,
-    cfgConfiguration : [
+    relSeq : "call+",
+    filter : "cFunction,rosPublisher",
+    endE : pub,
+    config : [
         {name : "call", startLabel : "cFunction", endLabel : "cFunction",
         attribute : "cfgInvoke", length : "1"}
     ]

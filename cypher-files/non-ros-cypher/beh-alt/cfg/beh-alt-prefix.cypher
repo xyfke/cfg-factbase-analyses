@@ -1,11 +1,11 @@
 MATCH (:cVariable)-[vw:varWrite]->(:cVariable)
-MATCH ()-[pv:varWriteOut|parWriteOut|retWriteOut]->(:cCompEnd)
+MATCH ()-[pv:parWriteOut|retWriteOut]->(:cCompEnd)
 WITH *, apoc.cfgPath.rosFindPaths(vw, {
-    relSequence : "varWrite|parWrite|retWrite*",
-    nodeFilter : "cVariable,cReturn",
-    endEdge : pv,
-    allShortestPath : true,
-    cfgConfiguration : [
+    relSeq : "varWrite|parWrite|retWrite*",
+    filter : "cVariable,cReturn",
+    endE : pv,
+    shortest : true,
+    config : [
         {name : "parWrite", startLabel : "cReturn", endLabel : "cVariable",
         attribute : "cfgReturn,cfgInvoke", length : "2"}, 
         {name : "parWrite", startLabel : "cVariable", endLabel : "cVariable",
