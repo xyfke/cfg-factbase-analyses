@@ -1,0 +1,91 @@
+# Deal with calls first
+    for (caller in crossCall) {
+        for (calling in crossCall[caller]) {
+            
+            # Get source and destination of related CFG call links
+            n1 = split(cSrc[caller], cfgSrcList, "#");
+            n2 = split(cDst[calling], cfgDstList, "#");
+
+            # Loop through these possible cross componnet CFG links
+            for (i = 1; i <= n1; i++) {
+                srcCFG = cfgSrcList[i];
+                for (j = 1; j <= n2; j++) {
+                    dstCFG = cfgDstList[j];
+
+                    if (dstCFG == "" || srcCFG == "") {
+                        continue;
+                    }
+
+                    # Check if there is a cfgInvoke that is cross component
+                    if (cfgInvoke[srcCFG][dstCFG] != 1) {
+                        continue;
+                    }
+
+                    # Get component names and start and end points
+                    srcComp = nodeToComp[caller];
+                    dstComp = nodeToComp[calling];
+                    compSrcEnd = caller srcComp ";;cCompEnd;;";
+                    compDstStart = calling dstComp ";;cCompStart;;";
+
+                    # Get the nodes and edge files
+                    srcNodeFile = compNode srcComp "-nodes.csv";
+                    srcEdgeFile = compEdge srcComp "-edges.csv";
+                    dstNodeFile = compNode dstComp "-nodes.csv";
+                    dstEdgeFile = compEdge dstComp "-edges.csv";
+
+                    print caller "\t" calling > "o.txt";
+                    print srcCFG "\t" dstCFG > "o.txt";
+                    print srcComp "\t" dstComp > "o.txt";
+                    print "" > "o.txt";
+
+                    if (srcComp == "" || dstComp == "") {
+                        continue;
+                    }
+
+                    # Create start and end nodes
+                    if (!compEnd[compSrcEnd]++) {
+                        print compSrcEnd "\tcCompEnd\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t" > srcNodeFile; 
+                        print compSrcEnd "\tcCompEnd\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t" > allNode;
+                    }
+                    if (!compStart[compDstStart]++) {
+                        print compDstStart "\tcCompStart\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t" > dstNodeFile; 
+                        print compDstStart "\tcCompStart\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t" > allNode;
+                    }
+
+                    # Create `compCall` edge + CFG linkages (only need to be in all component file)
+                    if (!compCall[compSrcEnd compDstStart]++) {
+                        print compSrcEnd "\t" compDstStart "\tcompCall\t\t\t\t\t" > allEdge;
+                        print compSrcEnd "\t" srcCFG "\tcompCallSource\t\t\t\t\t" > allEdge;
+                        print compDstStart "\t" dstCFG "\tcompCallDestination\t\t\t\t\t" > allEdge;
+                    }
+
+                    # Create `callOut` and `callIn` edge + CFG linkages
+                    if (!callOut[caller compSrcEnd]++) {
+                        print caller "\t" compSrcEnd "\tcallOut\t\t\t\t\t" > srcEdgeFile;
+                        print caller "\t" compSrcEnd "\tcallOut\t\t\t\t\t" > allEdge; 
+
+                        # Link to src CFG
+                        print caller "\t" srcCFG "\tcallOutSource\t\t\t\t\t" > srcEdgeFile;
+                        print caller "\t" srcCFG "\tcallOutSource\t\t\t\t\t" > allEdge;
+                        print compSrcEnd "\t" srcCFG "\tcallOutDestination\t\t\t\t\t" > srcEdgeFile;
+                        print compSrcEnd "\t" srcCFG "\tcallOutDestination\t\t\t\t\t" > allEdge; 
+                    }
+                    if (!callIn[compDstStart calling]++) {
+                        print compDstStart "\t" calling "\tcallIn\t\t\t\t\t" > dstEdgeFile;
+                        print compDstStart "\t" calling "\tcallIn\t\t\t\t\t" > allEdge;
+
+                        # Link to dst CFG
+                        print compDstStart "\t" dstCFG "\tcallInSource\t\t\t\t\t" > dstEdgeFile;
+                        print compDstStart "\t" dstCFG "\tcallInSource\t\t\t\t\t" > allEdge;
+                        print calling "\t" dstCFG "\tcallInDestination\t\t\t\t\t" > dstEdgeFile;
+                        print calling "\t" dstCFG "\tcallInDestination\t\t\t\t\t" > allEdge;
+                    }
+
+                }
+            }
+
+
+        }
+    }
+
+
