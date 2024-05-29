@@ -1,0 +1,68 @@
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/autorally_chassis/AutoRallyChassis.cpp'
+Rex Warning: topic names that are not string literals are not supported. /home/autorallyCode/ws/src/autorally/autorally_core/src/autorally_chassis/AutoRallyChassis.cpp:97:27
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/CameraAutoBalance/CameraAutoBalance.cpp'
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/CameraAutoBalance/CameraAutoBalanceFLIR.cpp'
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/CameraAutoBalance/CameraAutoBalancePtGrey.cpp'
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/CameraAutoBalance/SpinnakerAdjuster.cpp'
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/CameraAutoBalance/FlycaptureAdjuster.cpp'
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/camera_trigger/CameraTrigger.cpp'
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/Diagnostics/Diagnostics.cpp'
+Rex Warning: could not determine callback for call to createTimer. /home/autorallyCode/ws/src/autorally/autorally_core/src/Diagnostics/Diagnostics.cpp:72:22
+Rex Warning: could not determine callback for call to createTimer. /home/autorallyCode/ws/src/autorally/autorally_core/src/Diagnostics/Diagnostics.cpp:75:19
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/gps/GPSHemisphere.cpp'
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/ImageRepublisher/ImageRepublisher.cpp'
+Rex Warning: Unable to find package name for file: 'Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/ocs/main.cpp'
+/home/autorallyCode/ws/src/autorally/autorally_core/src/ocs/DiagnosticsEntry.cppRex Warning: Unable to find package name for file: ''/home/autorallyCode/ws/src/autorally/autorally_core/src/ocs/main_window.cpp
+'
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/ocs/ImageMaskEntry.cpp'
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/ocs/qnode.cpp'
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/RingBuffer/RingBuffer.cpp'
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/RunStop/RunStop.cpp'
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/SafeSpeed/SafeSpeed.cpp'
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/SerialSensorInterface/SerialInterfaceThreaded.cpp'
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/SerialSensorInterface/SerialSensorInterface.cpp'
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/SerialSensorInterface/SerialCommon.cpp'
+Rex Warning: could not determine callback for call to createTimer. /home/autorallyCode/ws/src/autorally/autorally_core/src/SerialSensorInterface/SerialSensorInterface.cpp:111:21
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/StateEstimator/StateEstimator.cpp'
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/WheelOdometry/wheel_odometry.cpp'
+Rex Warning: Unable to find package name for file: 'Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/xbee/XbeeNode.cpp/home/autorallyCode/ws/src/autorally/autorally_core/src/xbee/XbeeCoordinator.cpp''
+
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/xbee/XbeeInterface.cpp'
+Rex Warning: topic names that are not string literals are not supported. /home/autorallyCode/ws/src/autorally/autorally_core/src/xbee/XbeeNode.cpp:367:35
+Rex Warning: Ignoring call to publish/home/autorallyCode/ws/src/autorally/autorally_core/src/xbee/XbeeNode.cpp:375:3
+Rex Warning: Ignoring call to advertise/home/autorallyCode/ws/src/autorally/autorally_core/src/xbee/XbeeCoordinator.cpp:224:35
+Rex Warning: Ignoring call to publish/home/autorallyCode/ws/src/autorally/autorally_core/src/xbee/XbeeCoordinator.cpp:231:3
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/autorally_chassis/AutoRallyChassis.cpp'
+Rex Warning: topic names that are not string literals are not supported. /home/autorallyCode/ws/src/autorally/autorally_core/src/autorally_chassis/AutoRallyChassis.cpp:97:27
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/CameraAutoBalance/CameraAutoBalanceFLIR.cpp'
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/CameraAutoBalance/CameraAutoBalancePtGrey.cpp'
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/CameraAutoBalance/CameraAutoBalance.cpp'
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/CameraAutoBalance/SpinnakerAdjuster.cpp'
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/CameraAutoBalance/FlycaptureAdjuster.cpp'
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/camera_trigger/CameraTrigger.cpp'
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/Diagnostics/Diagnostics.cpp'
+Rex Warning: could not determine callback for call to createTimer. /home/autorallyCode/ws/src/autorally/autorally_core/src/Diagnostics/Diagnostics.cpp:72:22
+Rex Warning: could not determine callback for call to createTimer. /home/autorallyCode/ws/src/autorally/autorally_core/src/Diagnostics/Diagnostics.cpp:75:19
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/gps/GPSHemisphere.cpp'
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/ImageRepublisher/ImageRepublisher.cpp'
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/ocs/DiagnosticsEntry.cpp'Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/ocs/main.cpp
+'
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/ocs/main_window.cppRex Warning: Unable to find package name for file: ''
+/home/autorallyCode/ws/src/autorally/autorally_core/src/ocs/ImageMaskEntry.cpp'
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/ocs/qnode.cpp'
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/RingBuffer/RingBuffer.cpp'
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/RunStop/RunStop.cpp'
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/SafeSpeed/SafeSpeed.cpp'
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/SerialSensorInterface/SerialSensorInterface.cpp'
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/SerialSensorInterface/SerialCommon.cpp'
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/SerialSensorInterface/SerialInterfaceThreaded.cpp'
+Rex Warning: could not determine callback for call to createTimer. /home/autorallyCode/ws/src/autorally/autorally_core/src/SerialSensorInterface/SerialSensorInterface.cpp:111:21
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/StateEstimator/StateEstimator.cpp'
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/WheelOdometry/wheel_odometry.cpp'
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/xbee/XbeeCoordinator.cpp'
+Rex Warning: Unable to find package name for file: '/home/autorallyCode/ws/src/autorally/autorally_core/src/xbee/XbeeInterface.cppRex Warning: Unable to find package name for file: ''
+/home/autorallyCode/ws/src/autorally/autorally_core/src/xbee/XbeeNode.cpp'
+Rex Warning: topic names that are not string literals are not supported. /home/autorallyCode/ws/src/autorally/autorally_core/src/xbee/XbeeNode.cpp:367:35
+Rex Warning: Ignoring call to publish/home/autorallyCode/ws/src/autorally/autorally_core/src/xbee/XbeeNode.cpp:375:3
+Rex Warning: Ignoring call to advertise/home/autorallyCode/ws/src/autorally/autorally_core/src/xbee/XbeeCoordinator.cpp:224:35
+Rex Warning: Ignoring call to publish/home/autorallyCode/ws/src/autorally/autorally_core/src/xbee/XbeeCoordinator.cpp:231:3
