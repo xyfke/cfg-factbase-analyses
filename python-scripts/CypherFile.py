@@ -169,10 +169,11 @@ def append_nodes_edges_command_line(component_node, component_edge, cmd_log_file
     """
 
     # Stop neo4j database
+    time.sleep(30)
     os.chdir(neo4j_path + "bin/")
     cmd = "./neo4j stop".split(" ")
     returnCode = command_line(cmd, cmd_log_file)
-    time.sleep(30)
+    #time.sleep(30)
 
     # construct component factbase path
     component_node = fact_path + component_node

@@ -42,7 +42,7 @@ def clearDataflowEdges(session):
     print("[{}] Cleared databse.".format(datetime.now()))
 
 
-def createDFRelationship(session, df_reader):
+def createDFRelationship(session, df_reader, query_log):
     """
     ------------------------------------------------------------------------
     Add Dataflow relationships to Neo4J project with all the facts
@@ -59,11 +59,14 @@ def createDFRelationship(session, df_reader):
         key = dfEdge[":START_ID"] + dfEdge[":END_ID"] + dfEdge["compName"]
         if (key not in addedEdge):
             createStatement = """MATCH (from {{ id:"{0}" }}), (to {{ id:"{1}" }}) 
-            CREATE (from)-[{:{2}} {{compName : "{3}"}}]->(to);""".format(dfEdge[":START_ID"], 
+            CREATE (from)-[:{2} {{compName : "{3}"}}]->(to);""".format(dfEdge[":START_ID"], 
                                                                     dfEdge[":END_ID"], dfEdge[":TYPE"], 
-                                                                    dfEdge["compName"])
-            session.run(createStatement)
+                                                                    dfEdge["compName"])                  
+            res = session.run(createStatement)
+            res.consume()
             addedEdge.append(key)
+
+    
 
 
 def run_analyses(output_path, neo4j_path, fact_folder_path,
@@ -113,7 +116,7 @@ def run_analyses(output_path, neo4j_path, fact_folder_path,
 
     # create summary facts
     df_reader = csv.DictReader(df_csv, delimiter="\t")
-    createDFRelationship(session, df_reader)
+    createDFRelationship(session, df_reader, query_log)
 
     fact_time = ((datetime.now() - fact_time).total_seconds()-60) * 1000
     print("[{}] Import fact time: {}ms".format(datetime.now(), fact_time))
