@@ -1,0 +1,10 @@
+{
+  "neo4jInstancePath": "/home/fafake/runTest/cfg-factbase-analyses/output/neo4j-instances/n-autonomoose/",
+  "neo4jOutputPath": "/home/fafake/runTest/cfg-factbase-analyses/output/neo4j-output/autonomoose-output/",
+  "neo4jInputPath": "/home/fafake/runTest/cfg-factbase-analyses/output/neo4j-output/autonomoose-output/",
+  "neo4jFactPath": "/home/fafake/runTest/cfg-factbase-analyses/factbases/autonomoose/",
+  "neo4jComponentCSV": "/home/fafake/runTest/cfg-factbase-analyses/factbases/autonomoose/components.csv",
+  "neo4jBoltPort": "7687",
+  "neo4jUsername": "neo4j",
+  "neo4jPassword": "test1234"
+}
