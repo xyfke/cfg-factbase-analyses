@@ -1,10 +1,11 @@
 MATCH (:rosTopic)-[pt:pubTarget]->(:cVariable)
-MATCH (:cVariable)-[pv:pubVar]->(:rosTopic)
+MATCH ()-[vif:varInfluence]->(:rosPublisher)
 WITH *, apoc.cfgPath.rosFindPaths(pt, {
     relSeq : "varWrite|parWrite|retWrite*",
+    endE : vif,
     filter : "cVariable,cReturn",
-    endE : pv,
     shortest : true,
+    checkLine : true,
     config : [
         {name : "parWrite", startLabel : "cReturn", endLabel : "cVariable",
         attribute : "cfgReturn,cfgInvoke", length : "2"}, 
@@ -13,8 +14,12 @@ WITH *, apoc.cfgPath.rosFindPaths(pt, {
         {name : "retWrite", startLabel : "cReturn", endLabel : "cVariable",
         attribute : "cfgReturn", length : "1"}, 
         {name : "retWrite", startLabel : "cReturn", endLabel : "cReturn",
-        attribute : "cfgReturn", length : "1"}
+        attribute : "cfgReturn", length : "1"},
+        {name : "varInfluence", startLabel : "cVariable", endLabel : "rosPublisher",
+        length : "+"},
+        {name : "varInfluence", startLabel : "cReturn", endLabel : "rosPublisher",
+        length : "+"}
     ]
 }) As paths
 UNWIND paths As path
-RETURN DISTINCT path;
+RETURN path;

@@ -2,7 +2,7 @@ MATCH (:rosTopic)-[pt:pubTarget]->(:cVariable)
 MATCH (b:cVariable)
 WITH *, apoc.cfgPath.rosFindPaths(pt, {
     relSeq : "varWrite|parWrite|retWrite*",
-    endNode : b,
+    endN : b,
     shortest : true,
     filter : "cVariable,cReturn",
     config : [
