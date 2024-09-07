@@ -1,6 +1,6 @@
 MATCH (a:cVariable)
 WITH *, apoc.cfgPath.rosFindPaths(a, {
-    endNode : a,
+    endN : a,
     relSeq : "varWrite|parWrite,varWrite|parWrite,varWrite|parWrite",
     config : [
         {name : "parWrite", startLabel : "cReturn", endLabel : "cVariable",

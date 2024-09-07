@@ -5,6 +5,7 @@ WITH *, apoc.cfgPath.rosFindPaths(pt, {
     filter : "cVariable,cReturn",
     endE : pv,
     shortest : true,
+    checkLine : true,
     config : [
         {name : "parWrite", startLabel : "cReturn", endLabel : "cVariable",
         attribute : "cfgReturn,cfgInvoke", length : "2"}, 
