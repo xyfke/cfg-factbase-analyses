@@ -132,6 +132,7 @@ if __name__=='__main__':
     cypher_type = input("Enter cypher type: ")
     cypher_name = input("Enter cypher name: ")
     run_prefix_suffix = input("Are there prefix and suffix queries? (y/n) ") == "y"
+    check_line = input("Are there check line queries? ") == "y"
     phase_n = "1"
     summary_fact_type = input("Enter type for summary fact(default = dataflow): ")
 
@@ -142,16 +143,24 @@ if __name__=='__main__':
     output_cfg_path, _ = create_output_folder(check_cfg="cfg", cypher_name=cypher_name, 
                             output_folder_path=output_folder_path, classification=cypher_type,
                             phase_n=phase_n, is_remove=True)
-    output_ncfg_path, general_path = create_output_folder(check_cfg="ncfg", cypher_name=cypher_name,
+    output_lcfg_path, _ = create_output_folder(check_cfg="lcfg", 
+                                        cypher_name=cypher_name,
+                                        output_folder_path=output_folder_path, 
+                                        classification=cypher_type, phase_n=phase_n)
+    output_ncfg_path, general_path = create_output_folder(check_cfg="ncfg", 
+                                        cypher_name=cypher_name,
                                         output_folder_path=output_folder_path, 
                                         classification=cypher_type, phase_n=phase_n)
 
+
     input_cfg_path = "{}{}/{}/{}/{}".format(cypher_path, cypher_type, cypher_name, "cfg", cypher_name)
+    input_lcfg_path = "{}{}/{}/{}/{}".format(cypher_path, cypher_type, cypher_name, "lcfg", cypher_name)
     input_ncfg_path = "{}{}/{}/{}/{}".format(cypher_path, cypher_type, cypher_name, "ncfg", cypher_name)
 
     # Check if all files exists 
     if not (os.path.exists(input_cfg_path + "-interm.cypher") \
-        and os.path.exists(input_ncfg_path + "-interm.cypher")):
+        and os.path.exists(input_ncfg_path + "-interm.cypher") \
+        and os.path.exists(input_lcfg_path + "-interm.cypher")):
         print("Interm query file does not exists. Please recheck your user inputs")
         exit(0)
 
@@ -162,7 +171,12 @@ if __name__=='__main__':
             and os.path.exists(input_ncfg_path + "-suffix.cypher")):
             print("Prefix or suffix query files does not exists. Please recheck your user inputs")
             exit(0)
-        
+    
+    if (check_line and run_prefix_suffix):
+        if not (os.path.exists(input_lcfg_path + "-prefix.cypher") \
+            and os.path.exists(input_lcfg_path + "-suffix.cypher")):
+            print("Prefix or suffix query files does not exists. Please recheck your user inputs")
+            exit(0)
 
     query_log = open(general_path + "query.log", "a")
     cmd_log = open(general_path + "cmd.log", "a")
@@ -177,6 +191,11 @@ if __name__=='__main__':
     interm_file_cfg_writer = csv.writer(interm_file_cfg, delimiter="\t")
     interm_file_cfg_writer.writerow([":START_ID", ":END_ID", ":TYPE", "compName"])
 
+    # Intermediate Dataflow (CFG-line)
+    interm_file_lcfg = open(output_lcfg_path + "dataflow_lcfg_edges.csv", "a")
+    interm_file_lcfg_writer = csv.writer(interm_file_lcfg, delimiter="\t")
+    interm_file_lcfg_writer.writerow([":START_ID", ":END_ID", ":TYPE", "compName"])
+
     # Intermediate Dataflow (NCFG)
     interm_file_ncfg = open(output_ncfg_path + "dataflow_ncfg_edges.csv", "a")
     interm_file_ncfg_writer = csv.writer(interm_file_ncfg, delimiter="\t")
@@ -188,21 +207,41 @@ if __name__=='__main__':
         prefix_cfg_file = open(output_cfg_path + "prefix_cfg.txt", "a")
         suffix_ncfg_file = open(output_ncfg_path + "suffix_ncfg.txt", "a")
         prefix_ncfg_file = open(output_ncfg_path + "prefix_ncfg.txt", "a")
+        if (check_line):
+            suffix_lcfg_file = open(output_lcfg_path + "suffix_lcfg.txt", "a")
+            prefix_lcfg_file = open(output_lcfg_path + "prefix_lcfg.txt", "a")
+
     else:
         suffix_cfg_file = None
         prefix_cfg_file = None
         suffix_ncfg_file = None
         prefix_ncfg_file = None
+        if (check_line):
+            suffix_lcfg_file = None
+            prefix_lcfg_file = None
+
     df_cfg_file = open(output_cfg_path + "df_cfg.txt", "a")
     df_ncfg_file = open(output_ncfg_path + "df_cfg.txt", "a")
+
+    if (check_line):
+        df_lcfg_file = open(output_lcfg_path + "df_lcfg.txt", "a")
 
     # timing file
     time_file = open(general_path + "timeQuery.csv", "a")
     time_file_writer=csv.writer(time_file, delimiter=",")
-    time_file_writer.writerow(["Component", "fact-ncfg-time", "fact-cfg-time",
-                             "ncfg", "ncfg-size", "cfg-otf", "cfg-otf-size", 
-                             "prefixNCFG", "prefixNCFG-size", "prefixCFG", "prefixCFG-size",  
-                             "suffixNCFG", "suffixNCFG-size", "suffixCFG", "suffixCFG-size",])
+
+    if (check_line):
+        time_file_writer.writerow(["Component", "fact-ncfg-time", "fact-cfg-time",
+                                "ncfg", "ncfg-size", "cfg-otf", "cfg-otf-size", 
+                                "lcfg-otf", "lcfg-otf-size",
+                                "prefixNCFG", "prefixNCFG-size", "prefixCFG", "prefixCFG-size",
+                                "prefixLCFG", "prefixLCFG-size",  
+                                "suffixNCFG", "suffixNCFG-size", "suffixCFG", "suffixCFG-size","suffixLCFG", "suffixLCFG-size"])
+    else:
+        time_file_writer.writerow(["Component", "fact-ncfg-time", "fact-cfg-time",
+                                "ncfg", "ncfg-size", "cfg-otf", "cfg-otf-size", 
+                                "prefixNCFG", "prefixNCFG-size", "prefixCFG", "prefixCFG-size", 
+                                "suffixNCFG", "suffixNCFG-size", "suffixCFG", "suffixCFG-size"])
     
     
     sys.stdout.flush()
@@ -221,6 +260,17 @@ if __name__=='__main__':
         
         print(file=query_log)
 
+        # Run CFG query
+        if (check_line):
+            fact_lcfg_time, prefix_lcfg_time, prefix_lcfg_size, suffix_lcfg_time, \
+            suffix_lcfg_size, interm_lcfg_time, interm_lcfg_size = run_analyses(node_file=v[0], 
+                    edge_file=v[1], neo4j_path=neo4j_path, cypher_folder=input_lcfg_path,
+                    prefix_file=prefix_lcfg_file, suffix_file=suffix_lcfg_file, 
+                    interm_file=df_lcfg_file,cmd_log=cmd_log, query_log=query_log, 
+                    check_cfg="lcfg", fact_folder_path=fact_folder_path, comp_name=k, 
+                    df_csv=interm_file_lcfg_writer,summary_type=summary_fact_type)
+            print(file=query_log)
+        
 
         # Run NCFG query
         fact_ncfg_time, prefix_ncfg_time, prefix_ncfg_size, suffix_ncfg_time, \
@@ -230,14 +280,26 @@ if __name__=='__main__':
                 interm_file=df_ncfg_file,cmd_log=cmd_log, query_log=query_log, 
                 check_cfg="ncfg", fact_folder_path=fact_folder_path, comp_name=k, 
                 df_csv=interm_file_ncfg_writer,summary_type=summary_fact_type)
-        
-        time_file_writer.writerow([k, fact_ncfg_time, fact_cfg_time,
-                                interm_ncfg_time, interm_ncfg_size,
-                                interm_cfg_time, interm_cfg_size, 
-                                prefix_ncfg_time, prefix_ncfg_size,
-                                prefix_cfg_time, prefix_cfg_size, 
-                                suffix_ncfg_time, suffix_ncfg_size, 
-                                suffix_cfg_time, suffix_cfg_size])
+
+        if (check_line):
+            time_file_writer.writerow([k, fact_ncfg_time, fact_cfg_time,
+                                    interm_ncfg_time, interm_ncfg_size,
+                                    interm_cfg_time, interm_cfg_size, 
+                                    interm_lcfg_time, interm_lcfg_size,
+                                    prefix_ncfg_time, prefix_ncfg_size,
+                                    prefix_cfg_time, prefix_cfg_size, 
+                                    prefix_lcfg_time, prefix_lcfg_size, 
+                                    suffix_ncfg_time, suffix_ncfg_size, 
+                                    suffix_cfg_time, suffix_cfg_size,
+                                    suffix_lcfg_time, suffix_lcfg_size])
+        else:
+            time_file_writer.writerow([k, fact_ncfg_time, fact_cfg_time,
+                                    interm_ncfg_time, interm_ncfg_size,
+                                    interm_cfg_time, interm_cfg_size, 
+                                    prefix_ncfg_time, prefix_ncfg_size,
+                                    prefix_cfg_time, prefix_cfg_size, 
+                                    suffix_ncfg_time, suffix_ncfg_size, 
+                                    suffix_cfg_time, suffix_cfg_size])
         
         print(file=query_log)
         print(file=query_log)
@@ -256,12 +318,19 @@ if __name__=='__main__':
     # close path reporting files
     interm_file_cfg.close()
     interm_file_ncfg.close()
+    if (check_line):
+        interm_file_lcfg.close()
 
     if (run_prefix_suffix):
         prefix_cfg_file.close()
         prefix_ncfg_file.close()
         suffix_cfg_file.close()
         suffix_ncfg_file.close()
+
+        if (check_line):
+            prefix_lcfg_file.close()
+            suffix_lcfg_file.close()
+
 
 
         

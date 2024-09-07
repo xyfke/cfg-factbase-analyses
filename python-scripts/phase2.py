@@ -146,6 +146,7 @@ if __name__=='__main__':
     min_interm = input("Enter minimum intermediate components (default: zero or more): ")
     date = input("Enter date (default: today): ")
     multiple = input("Are there multiple paths? (y/n) ") == "y"
+    check_line = input("Check line queries? (y/n) ") == "y"
     phase_n = input("Enter phase number: ")
     is_ros = input("Is this a ROS program? ") == "y"
 
@@ -161,8 +162,11 @@ if __name__=='__main__':
     output_cfg_path, _ = create_output_folder(check_cfg="cfg", cypher_name=cypher_name, 
                             output_folder_path=output_folder_path, phase_n=phase_n, is_remove=True,
                             date=date, min_interm=min_interm, classification=cypher_type)
-    output_ncfg_path, general_path = create_output_folder(check_cfg="ncfg", cypher_name=cypher_name, 
-                            output_folder_path=output_folder_path, phase_n=phase_n, is_remove=False, 
+    if check_line:
+        output_lcfg_path, _ = create_output_folder(check_cfg="lcfg", cypher_name=cypher_name, 
+                                output_folder_path=output_folder_path, phase_n=phase_n, is_remove=False, date=date, min_interm=min_interm, classification=cypher_type)
+    output_ncfg_path, general_path = create_output_folder(check_cfg="ncfg",
+                            cypher_name=cypher_name, output_folder_path=output_folder_path, phase_n=phase_n, is_remove=False, 
                             date=date, min_interm=min_interm, classification=cypher_type)
 
     # Get input path
@@ -170,6 +174,10 @@ if __name__=='__main__':
         input_cfg_path, _ = create_output_folder(check_cfg="cfg", cypher_name=cypher_name, 
                                 output_folder_path=output_folder_path, phase_n=phase_n-1, 
                                 is_remove=False, date=date, classification=cypher_type)
+        if (check_line):
+            input_lcfg_path, _ = create_output_folder(check_cfg="lcfg", cypher_name=cypher_name, 
+                                    output_folder_path=output_folder_path, phase_n=phase_n-1, 
+                                    is_remove=False, date=date, classification=cypher_type)
         input_ncfg_path, _ = create_output_folder(check_cfg="ncfg", cypher_name=cypher_name, 
                                 output_folder_path=output_folder_path, phase_n=phase_n-1, 
                                 is_remove=False, date=date, classification=cypher_type)
@@ -179,6 +187,7 @@ if __name__=='__main__':
 
     # query path
     cypher_cfg_path = "{}{}/{}/{}/{}".format(cypher_path, cypher_type, cypher_name, "cfg", cypher_name)
+    cypher_lcfg_path = "{}{}/{}/{}/{}".format(cypher_path, cypher_type, cypher_name, "lcfg", cypher_name)
     cypher_ncfg_path = "{}{}/{}/{}/{}".format(cypher_path, cypher_type, cypher_name, "ncfg", cypher_name)
 
     if not (os.path.exists(cypher_cfg_path + "-dataflow" + min_interm + ".cypher") \
@@ -203,6 +212,20 @@ if __name__=='__main__':
     
     df_cfg_file.close()
     otf_output.close()
+
+    # CFG phase2 analysis
+    if (check_line):
+        df_lcfg_file = open(input_lcfg_path + "dataflow_lcfg_edges.csv", "r")
+        lotf_output = open(output_lcfg_path + "lotfOutput.txt", "a")
+
+        df_lcfg_time, df_lcfg_size = run_analyses(output_path=lotf_output, neo4j_path=neo4j_path,
+            fact_folder_path=fact_folder_path, cmd_log=cmd_log, query_log=query_log, check_cfg="lcfg",
+            df_csv=df_lcfg_file, cypher_path=cypher_lcfg_path, min_interm=min_interm,is_ros=is_ros,
+            multiple=multiple)
+
+        
+        df_lcfg_file.close()
+        lotf_output.close()
 
     # NCFG phase2 analysis
     df_ncfg_file = open(input_ncfg_path + "dataflow_ncfg_edges.csv", "r")

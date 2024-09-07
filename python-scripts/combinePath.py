@@ -159,6 +159,7 @@ if __name__=='__main__':
     min_cross = input("Enter minimum components (default: zero or more): ")
     date = input("Enter date (default: today): ")
     keep_result = input("Do you want to keep the output paths? (y/n) ") == "y"
+    check_line = input("Check line queries? (y/n) ") == "y"
 
     if (date == ""):
         date = datetime.today().strftime('%m-%d')
@@ -170,6 +171,10 @@ if __name__=='__main__':
         phase1_cfg_path, _ = create_output_folder(check_cfg="cfg", cypher_name=cypher_name, 
                                 output_folder_path=output_folder_path, phase_n=1, is_remove=False, 
                                 date=date, classification=cypher_type)
+        if (check_line):
+            phase1_lcfg_path, _ = create_output_folder(check_cfg="lcfg", cypher_name=cypher_name, 
+                                    output_folder_path=output_folder_path, phase_n=1, is_remove=False, 
+                                    date=date, classification=cypher_type)
         phase1_ncfg_path, _ = create_output_folder(check_cfg="ncfg", cypher_name=cypher_name, 
                                 output_folder_path=output_folder_path, phase_n=1, is_remove=False, 
                                 date=date,classification=cypher_type)
@@ -182,6 +187,10 @@ if __name__=='__main__':
         phase2_cfg_path, _ = create_output_folder(check_cfg="cfg", cypher_name=cypher_name, 
                                 output_folder_path=output_folder_path, phase_n=2, is_remove=False, 
                                 date=date, min_interm=min_cross, classification=cypher_type)
+        if (check_line):
+            phase2_lcfg_path, _ = create_output_folder(check_cfg="lcfg", cypher_name=cypher_name, 
+                                    output_folder_path=output_folder_path, phase_n=2, is_remove=False, 
+                                    date=date, min_interm=min_cross, classification=cypher_type)
         phase2_ncfg_path, _ = create_output_folder(check_cfg="ncfg", cypher_name=cypher_name, 
                                 output_folder_path=output_folder_path, phase_n=2, is_remove=False, 
                                 date=date, min_interm=min_cross, classification=cypher_type)
@@ -193,6 +202,10 @@ if __name__=='__main__':
     phase3_cfg_path, _ = create_output_folder(check_cfg="cfg", cypher_name=cypher_name, 
                             output_folder_path=output_folder_path, phase_n=3, is_remove=True, 
                             date=date, min_interm=min_cross, classification=cypher_type)
+    if (check_line):
+        phase3_lcfg_path, _ = create_output_folder(check_cfg="lcfg", 
+                cypher_name=cypher_name, output_folder_path=output_folder_path, phase_n=3, 
+                is_remove=False, date=date, min_interm=min_cross, classification=cypher_type)
     phase3_ncfg_path, general_path = create_output_folder(check_cfg="ncfg", 
             cypher_name=cypher_name, output_folder_path=output_folder_path, phase_n=3, 
             is_remove=False, date=date, min_interm=min_cross, classification=cypher_type)
@@ -254,9 +267,35 @@ if __name__=='__main__':
     #cfg_output.close()
     combined_cfg_df.close()
 
+     # Open file for cfg
+    if (check_line):
+        combine_time = datetime.now()
+        print("[{}] Start LCFG combine path: ".format(datetime.now()), file=cmd_log)
+        print("[{}] Start LCFG combine path: ".format(datetime.now()))
+        prefix_lcfg = open(phase1_lcfg_path + "prefix_lcfg.txt", "r")
+        suffix_lcfg = open(phase1_lcfg_path + "suffix_lcfg.txt", "r")
+        dfs_lcfg = open(phase2_lcfg_path + "lotfOutput.txt", "r")
+        #cfg_output = open(phase3_cfg_path + "CFG.txt", "a")
+        combined_lcfg_df = open(phase3_lcfg_path + "validatedDF.txt", "a")
+        combine(suffix_lcfg, prefix_lcfg, dfs_lcfg, phase3_lcfg_path + "LCFG.txt", combined_lcfg_df, 
+                cmd_log, True)
+        print("[{}] Finish LCFG combine path.".format(datetime.now()), file=cmd_log)
+        print("[{}] Finish LCFG combine path.".format(datetime.now()))
+        combine_time = (datetime.now() - combine_time).total_seconds() * 1000
+        print("[{}] Time: {:,}ms".format(datetime.now(), combine_time), file=cmd_log)
+        print("[{}] Time: {:,}ms".format(datetime.now(), combine_time))
+        print()
+
+        # close cfg files
+        prefix_lcfg.close()
+        suffix_lcfg.close()
+        dfs_lcfg.close()
+        #cfg_output.close()
+        combined_lcfg_df.close()
+
     cmd_log.close()
 
 
 
-    
+        
 
