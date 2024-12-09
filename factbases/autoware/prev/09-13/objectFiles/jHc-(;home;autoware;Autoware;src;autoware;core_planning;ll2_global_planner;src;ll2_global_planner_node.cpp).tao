@@ -1,0 +1,85 @@
+8 24 10 8 34
+68 decl;ll2_global_planner_node.cpp::main(int,char **,)::nodelet_name;; 9 cVariable
+60 decl;ll2_global_planner_node.cpp::main(int,char **,)::argc;; 9 cVariable
+63 decl;ll2_global_planner_node.cpp::main(int,char **,)::nodelet;; 9 cVariable
+62 decl;ll2_global_planner_node.cpp::main(int,char **,);;__ret!;; 7 cReturn
+54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 9 cFunction
+60 decl;ll2_global_planner_node.cpp::main(int,char **,)::argv;; 9 cVariable
+61 decl;ll2_global_planner_node.cpp::main(int,char **,)::nargv;; 9 cVariable
+61 decl;ll2_global_planner_node.cpp::main(int,char **,)::remap;; 9 cVariable
+3 obj 68 decl;ll2_global_planner_node.cpp::main(int,char **,)::nodelet_name;; 42 decl;basic_string.tcc::std::basic_string;;
+8 parWrite 68 decl;ll2_global_planner_node.cpp::main(int,char **,)::nodelet_name;; 138 decl;loader.h::nodelet::Loader::load(const std::string &,const std::string &,const nodelet::M_string &,const nodelet::V_string &,)::name;;
+8 parWrite 60 decl;ll2_global_planner_node.cpp::main(int,char **,)::argc;; 75 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,)::argc;;
+3 obj 63 decl;ll2_global_planner_node.cpp::main(int,char **,)::nodelet;; 32 decl;loader.h::nodelet::Loader;;
+4 call 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 69 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,);;
+5 write 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__s;;
+5 write 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__a;;
+5 write 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 63 decl;ll2_global_planner_node.cpp::main(int,char **,)::nodelet;;
+5 write 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 65 decl;loader.h::nodelet::Loader::Loader(_Bool,)::provide_ros_api;;
+5 write 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 61 decl;ll2_global_planner_node.cpp::main(int,char **,)::remap;;
+5 write 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 331 decl;stl_map.h::std::map::map::map(const class std::map<class std::__cxx11::basic_string<char>, class std::__cxx11::basic_string<char>, struct std::less<class std::__cxx11::basic_string<char> >, class std::allocator<struct std::pair<const class std::__cxx11::basic_string<char>, class std::__cxx11::basic_string<char> > > > &,)::;;
+4 call 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 43 decl;names.h::ros::names::getRemappings();;
+5 write 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 61 decl;ll2_global_planner_node.cpp::main(int,char **,)::nargv;;
+5 write 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 68 decl;ll2_global_planner_node.cpp::main(int,char **,)::nodelet_name;;
+5 write 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 110 decl;basic_string.h::std::basic_string::basic_string(const class std::__cxx11::basic_string<char> &,)::__str;;
+4 call 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 45 decl;this_node.h::ros::this_node::getName();;
+4 call 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 132 decl;loader.h::nodelet::Loader::load(const std::string &,const std::string &,const nodelet::M_string &,const nodelet::V_string &,);;
+4 call 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 26 decl;init.h::ros::spin();;
+7 contain 32 decl;loader.h::nodelet::Loader;; 132 decl;loader.h::nodelet::Loader::load(const std::string &,const std::string &,const nodelet::M_string &,const nodelet::V_string &,);;
+8 parWrite 60 decl;ll2_global_planner_node.cpp::main(int,char **,)::argv;; 75 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,)::argv;;
+3 obj 61 decl;ll2_global_planner_node.cpp::main(int,char **,)::nargv;; 40 decl;stl_vector.h::std::vector::vector;;
+8 parWrite 61 decl;ll2_global_planner_node.cpp::main(int,char **,)::nargv;; 141 decl;loader.h::nodelet::Loader::load(const std::string &,const std::string &,const nodelet::M_string &,const nodelet::V_string &,)::my_argv;;
+3 obj 61 decl;ll2_global_planner_node.cpp::main(int,char **,)::remap;; 31 decl;stl_map.h::std::map::map;;
+8 parWrite 61 decl;ll2_global_planner_node.cpp::main(int,char **,)::remap;; 144 decl;loader.h::nodelet::Loader::load(const std::string &,const std::string &,const nodelet::M_string &,const nodelet::V_string &,)::remappings;;
+8 varWrite 68 decl;ll2_global_planner_node.cpp::main(int,char **,)::nodelet_name;; 63 decl;ll2_global_planner_node.cpp::main(int,char **,)::nodelet;;
+7 contain 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 60 decl;ll2_global_planner_node.cpp::main(int,char **,)::argc;;
+7 contain 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 60 decl;ll2_global_planner_node.cpp::main(int,char **,)::argv;;
+7 contain 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 63 decl;ll2_global_planner_node.cpp::main(int,char **,)::nodelet;;
+7 contain 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 61 decl;ll2_global_planner_node.cpp::main(int,char **,)::remap;;
+7 contain 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 61 decl;ll2_global_planner_node.cpp::main(int,char **,)::nargv;;
+7 contain 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 68 decl;ll2_global_planner_node.cpp::main(int,char **,)::nodelet_name;;
+5 write 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 62 decl;ll2_global_planner_node.cpp::main(int,char **,);;__ret!;;
+8 varWrite 61 decl;ll2_global_planner_node.cpp::main(int,char **,)::nargv;; 63 decl;ll2_global_planner_node.cpp::main(int,char **,)::nodelet;;
+8 varWrite 61 decl;ll2_global_planner_node.cpp::main(int,char **,)::remap;; 63 decl;ll2_global_planner_node.cpp::main(int,char **,)::nodelet;;
+60 decl;ll2_global_planner_node.cpp::main(int,char **,)::argc;; 2 0 8 filename 101 /home/autoware/Autoware/src/autoware/core_planning/ll2_global_planner/src/ll2_global_planner_node.cpp 15 filenameDeclare 101 /home/autoware/Autoware/src/autoware/core_planning/ll2_global_planner/src/ll2_global_planner_node.cpp 
+60 decl;ll2_global_planner_node.cpp::main(int,char **,)::argv;; 2 0 8 filename 101 /home/autoware/Autoware/src/autoware/core_planning/ll2_global_planner/src/ll2_global_planner_node.cpp 15 filenameDeclare 101 /home/autoware/Autoware/src/autoware/core_planning/ll2_global_planner/src/ll2_global_planner_node.cpp 
+61 decl;ll2_global_planner_node.cpp::main(int,char **,)::nargv;; 5 0 8 filename 101 /home/autoware/Autoware/src/autoware/core_planning/ll2_global_planner/src/ll2_global_planner_node.cpp 15 filenameDeclare 101 /home/autoware/Autoware/src/autoware/core_planning/ll2_global_planner/src/ll2_global_planner_node.cpp 13 isControlFlow 1 0 7 isParam 1 0 5 label 62 ll2_global_planner/src/ll2_global_planner_node.cpp:main::nargv 
+63 decl;ll2_global_planner_node.cpp::main(int,char **,)::nodelet;; 5 0 8 filename 101 /home/autoware/Autoware/src/autoware/core_planning/ll2_global_planner/src/ll2_global_planner_node.cpp 15 filenameDeclare 101 /home/autoware/Autoware/src/autoware/core_planning/ll2_global_planner/src/ll2_global_planner_node.cpp 13 isControlFlow 1 0 7 isParam 1 0 5 label 64 ll2_global_planner/src/ll2_global_planner_node.cpp:main::nodelet 
+68 decl;ll2_global_planner_node.cpp::main(int,char **,)::nodelet_name;; 5 0 8 filename 101 /home/autoware/Autoware/src/autoware/core_planning/ll2_global_planner/src/ll2_global_planner_node.cpp 15 filenameDeclare 101 /home/autoware/Autoware/src/autoware/core_planning/ll2_global_planner/src/ll2_global_planner_node.cpp 13 isControlFlow 1 0 7 isParam 1 0 5 label 69 ll2_global_planner/src/ll2_global_planner_node.cpp:main::nodelet_name 
+61 decl;ll2_global_planner_node.cpp::main(int,char **,)::remap;; 5 0 8 filename 101 /home/autoware/Autoware/src/autoware/core_planning/ll2_global_planner/src/ll2_global_planner_node.cpp 15 filenameDeclare 101 /home/autoware/Autoware/src/autoware/core_planning/ll2_global_planner/src/ll2_global_planner_node.cpp 13 isControlFlow 1 0 7 isParam 1 0 5 label 62 ll2_global_planner/src/ll2_global_planner_node.cpp:main::remap 
+54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 4 0 8 filename 101 /home/autoware/Autoware/src/autoware/core_planning/ll2_global_planner/src/ll2_global_planner_node.cpp 15 filenameDeclare 101 /home/autoware/Autoware/src/autoware/core_planning/ll2_global_planner/src/ll2_global_planner_node.cpp 14 isCallbackFunc 1 0 5 label 55 ll2_global_planner/src/ll2_global_planner_node.cpp:main 
+62 decl;ll2_global_planner_node.cpp::main(int,char **,);;__ret!;; 2 0 8 filename 101 /home/autoware/Autoware/src/autoware/core_planning/ll2_global_planner/src/ll2_global_planner_node.cpp 15 filenameDeclare 101 /home/autoware/Autoware/src/autoware/core_planning/ll2_global_planner/src/ll2_global_planner_node.cpp 
+4 call 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 69 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,);; 0 0 
+4 call 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 26 decl;init.h::ros::spin();; 0 0 
+4 call 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 132 decl;loader.h::nodelet::Loader::load(const std::string &,const std::string &,const nodelet::M_string &,const nodelet::V_string &,);; 0 0 
+4 call 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 43 decl;names.h::ros::names::getRemappings();; 0 0 
+4 call 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 45 decl;this_node.h::ros::this_node::getName();; 0 0 
+7 contain 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 60 decl;ll2_global_planner_node.cpp::main(int,char **,)::argc;; 0 0 
+7 contain 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 60 decl;ll2_global_planner_node.cpp::main(int,char **,)::argv;; 0 0 
+7 contain 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 61 decl;ll2_global_planner_node.cpp::main(int,char **,)::nargv;; 0 0 
+7 contain 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 63 decl;ll2_global_planner_node.cpp::main(int,char **,)::nodelet;; 0 0 
+7 contain 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 68 decl;ll2_global_planner_node.cpp::main(int,char **,)::nodelet_name;; 0 0 
+7 contain 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 61 decl;ll2_global_planner_node.cpp::main(int,char **,)::remap;; 0 0 
+7 contain 32 decl;loader.h::nodelet::Loader;; 132 decl;loader.h::nodelet::Loader::load(const std::string &,const std::string &,const nodelet::M_string &,const nodelet::V_string &,);; 0 0 
+3 obj 61 decl;ll2_global_planner_node.cpp::main(int,char **,)::nargv;; 40 decl;stl_vector.h::std::vector::vector;; 0 0 
+3 obj 63 decl;ll2_global_planner_node.cpp::main(int,char **,)::nodelet;; 32 decl;loader.h::nodelet::Loader;; 0 0 
+3 obj 68 decl;ll2_global_planner_node.cpp::main(int,char **,)::nodelet_name;; 42 decl;basic_string.tcc::std::basic_string;; 0 0 
+3 obj 61 decl;ll2_global_planner_node.cpp::main(int,char **,)::remap;; 31 decl;stl_map.h::std::map::map;; 0 0 
+8 parWrite 60 decl;ll2_global_planner_node.cpp::main(int,char **,)::argc;; 75 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,)::argc;; 0 0 
+8 parWrite 60 decl;ll2_global_planner_node.cpp::main(int,char **,)::argv;; 75 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,)::argv;; 0 0 
+8 parWrite 61 decl;ll2_global_planner_node.cpp::main(int,char **,)::nargv;; 141 decl;loader.h::nodelet::Loader::load(const std::string &,const std::string &,const nodelet::M_string &,const nodelet::V_string &,)::my_argv;; 0 0 
+8 parWrite 68 decl;ll2_global_planner_node.cpp::main(int,char **,)::nodelet_name;; 138 decl;loader.h::nodelet::Loader::load(const std::string &,const std::string &,const nodelet::M_string &,const nodelet::V_string &,)::name;; 0 0 
+8 parWrite 61 decl;ll2_global_planner_node.cpp::main(int,char **,)::remap;; 144 decl;loader.h::nodelet::Loader::load(const std::string &,const std::string &,const nodelet::M_string &,const nodelet::V_string &,)::remappings;; 0 0 
+8 varWrite 61 decl;ll2_global_planner_node.cpp::main(int,char **,)::nargv;; 63 decl;ll2_global_planner_node.cpp::main(int,char **,)::nodelet;; 0 0 
+8 varWrite 68 decl;ll2_global_planner_node.cpp::main(int,char **,)::nodelet_name;; 63 decl;ll2_global_planner_node.cpp::main(int,char **,)::nodelet;; 0 0 
+8 varWrite 61 decl;ll2_global_planner_node.cpp::main(int,char **,)::remap;; 63 decl;ll2_global_planner_node.cpp::main(int,char **,)::nodelet;; 0 0 
+5 write 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__a;; 0 0 
+5 write 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__s;; 0 0 
+5 write 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 110 decl;basic_string.h::std::basic_string::basic_string(const class std::__cxx11::basic_string<char> &,)::__str;; 0 0 
+5 write 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 61 decl;ll2_global_planner_node.cpp::main(int,char **,)::nargv;; 0 0 
+5 write 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 63 decl;ll2_global_planner_node.cpp::main(int,char **,)::nodelet;; 0 0 
+5 write 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 68 decl;ll2_global_planner_node.cpp::main(int,char **,)::nodelet_name;; 0 0 
+5 write 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 61 decl;ll2_global_planner_node.cpp::main(int,char **,)::remap;; 0 0 
+5 write 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 62 decl;ll2_global_planner_node.cpp::main(int,char **,);;__ret!;; 0 0 
+5 write 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 65 decl;loader.h::nodelet::Loader::Loader(_Bool,)::provide_ros_api;; 0 0 
+5 write 54 decl;ll2_global_planner_node.cpp::main(int,char **,);; 331 decl;stl_map.h::std::map::map::map(const class std::map<class std::__cxx11::basic_string<char>, class std::__cxx11::basic_string<char>, struct std::less<class std::__cxx11::basic_string<char> >, class std::allocator<struct std::pair<const class std::__cxx11::basic_string<char>, class std::__cxx11::basic_string<char> > > > &,)::;; 0 0 

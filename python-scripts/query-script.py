@@ -47,10 +47,12 @@ if __name__=='__main__':
     cypher_type = input("Enter cypher type: ")
     cypher_name = input("Enter cypher name: ")
     check_cfg = input("Do you want to perform CFG check? (y/n) ") == "y"
+    check_line = input("Do you want to check line? (y/n)") == "y"
     multiple = input("Are there multiple paths? (y/n) ") == "y"
     unique = input("Unique path (y/n)") == "y"
 
     check_cfg = "cfg" if (check_cfg) else "ncfg"
+    check_cfg = "lcfg" if (check_line) else check_cfg
 
     # construct input cypher file path
     ros_cypher_file = "{}{}/{}/{}/{}.cypher".format(cypher_path, cypher_type, cypher_name, 

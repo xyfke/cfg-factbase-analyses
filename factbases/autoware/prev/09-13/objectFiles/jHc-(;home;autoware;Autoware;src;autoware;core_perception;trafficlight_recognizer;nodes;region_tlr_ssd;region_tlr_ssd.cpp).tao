@@ -1,0 +1,403 @@
+62 86 53 62 139
+53 decl;region_tlr_ssd.cpp::main(int,char **,);;__ret!;; 7 cReturn
+51 decl;region_tlr_ssd.cpp::main(int,char **,)::argv;; 9 cVariable
+58 decl;region_tlr_ssd.cpp::PublishImage(int,)::label_color;; 9 cVariable
+60 decl;region_tlr_ssd.cpp::PublishImage(int,)::font_baseline;; 9 cVariable
+57 decl;region_tlr_ssd.cpp::PublishImage(int,)::kFontScale;; 9 cVariable
+56 decl;region_tlr_ssd.cpp::PublishImage(int,)::kFontFace;; 9 cVariable
+32 decl;mat.hpp::cv::Mat::clone();; 9 cFunction
+59 decl;region_tlr_ssd.cpp::PublishImage(int,)::result_image;; 9 cVariable
+64 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,)::color_green;; 9 cVariable
+65 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,)::color_yellow;; 9 cVariable
+64 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,)::color_black;; 9 cVariable
+51 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,);; 9 cFunction
+52 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::frame_;; 9 cVariable
+62 decl;region_tlr_ssd.cpp::PublishString(int,)::previous_state;; 9 cVariable
+56 decl;region_tlr_ssd.cpp::PublishString(int,)::contexts;; 9 cVariable
+46 decl;region_tlr_ssd.cpp::PublishString(int,);; 9 cFunction
+60 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::kStringUnknown;; 9 cVariable
+66 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::kTrafficLightUnknown;; 9 cVariable
+56 decl;region_tlr_ssd.cpp::PublishImage(int,)::converter;; 9 cVariable
+77 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::StartSubscribersAndPublishers();; 9 cFunction
+54 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::use_gpu_;; 9 cVariable
+121 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::ROISignalCallback(const autoware_msgs::Signals::ConstPtr &,)::extracted_pos;; 9 cVariable
+106 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::ROISignalCallback(const autoware_msgs::Signals::ConstPtr &,);; 9 cFunction
+45 decl;region_tlr_ssd.cpp::main(int,char **,);; 9 cFunction
+62 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,)::color_red;; 9 cVariable
+73 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::pretrained_model_file_name_;; 9 cVariable
+75 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::network_definition_file_name_;; 9 cVariable
+59 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::frame_header_;; 9 cVariable
+68 decl;region_tlr_ssd.cpp::PublishTrafficLight(int,)::previous_state;; 9 cVariable
+56 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::recognizer;; 9 cVariable
+91 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::ImageRawCallback(const sensor_msgs::Image &,);; 9 cFunction
+55 decl;region_tlr_ssd.cpp::PublishImage(int,)::contexts;; 9 cVariable
+103 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::ImageRawCallback(const sensor_msgs::Image &,)::cv_image;; 9 cVariable
+67 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::RegionTLRSSDROSNode();; 9 cFunction
+53 decl;region_tlr_ssd.cpp::PublishString(int,)::topic;; 9 cVariable
+100 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,);; 9 cFunction
+51 decl;region_tlr_ssd.cpp::main(int,char **,)::argc;; 9 cVariable
+118 decl;Header.h::std_msgs::Header_::Header_::operator=(const struct std_msgs::Header_<class std::allocator<void> > &,);; 9 cFunction
+62 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::RunRecognition();; 9 cFunction
+128 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::ROISignalCallback(const autoware_msgs::Signals::ConstPtr &,)::previous_timestamp;; 9 cVariable
+45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 9 cFunction
+32 decl;mat.hpp::cv::Mat::empty();; 9 cFunction
+119 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,)::state_judge_count;; 9 cVariable
+82 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::GetROSParam()::private_node_handle;; 13 rosNodeHandle
+92 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::StartSubscribersAndPublishers()::node_handle;; 13 rosNodeHandle
+70 decl;region_tlr_ssd.cpp::main(int,char **,)::region_tlr_ssd_ros_node;; 9 cVariable
+108 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,);;__ret!;; 7 cReturn
+116 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,)::previous_state;; 9 cVariable
+59 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::GetROSParam();; 9 cFunction
+61 decl;time.h::ros::Time::operator=(const class ros::Time &,);; 9 cFunction
+115 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,)::current_state;; 9 cVariable
+53 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::gpu_id_;; 9 cVariable
+68 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::~RegionTLRSSDROSNode();; 9 cFunction
+68 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::kStateTransitionMatrix;; 9 cVariable
+61 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,)::contexts;; 9 cVariable
+98 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::ImageRawCallback(const sensor_msgs::Image &,)::image;; 9 cVariable
+62 decl;region_tlr_ssd.cpp::PublishTrafficLight(int,)::contexts;; 9 cVariable
+124 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,)::transition_candidate;; 9 cVariable
+52 decl;region_tlr_ssd.cpp::PublishTrafficLight(int,);; 9 cFunction
+58 decl;mat.hpp::cv::Mat::operator=(const class cv::Mat &,);; 9 cFunction
+52 decl;region_tlr_ssd.cpp::PublishImage(int,)::label;; 9 cVariable
+59 decl;region_tlr_ssd.cpp::PublishTrafficLight(int,)::topic;; 9 cVariable
+8 parWrite 51 decl;region_tlr_ssd.cpp::main(int,char **,)::argv;; 75 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,)::argv;;
+3 obj 70 decl;region_tlr_ssd.cpp::main(int,char **,)::region_tlr_ssd_ros_node;; 44 decl;region_tlr_ssd.h::RegionTLRSSDROSNode;;
+8 varWrite 122 decl;image_encodings.h::sensor_msgs::image_encodings::BGR8;static;/opt/ros/melodic/include/sensor_msgs/image_encodings.h;; 56 decl;region_tlr_ssd.cpp::PublishImage(int,)::converter;;
+3 obj 58 decl;region_tlr_ssd.cpp::PublishImage(int,)::label_color;; 26 decl;types_c.h::CvScalar;;
+8 varWrite 61 decl;core.hpp::cv::HersheyFonts::FONT_HERSHEY_COMPLEX_SMALL;; 56 decl;region_tlr_ssd.cpp::PublishImage(int,)::kFontFace;;
+3 obj 59 decl;region_tlr_ssd.cpp::PublishImage(int,)::result_image;; 24 decl;base.hpp::cv::Mat;;
+5 write 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 59 decl;region_tlr_ssd.cpp::PublishImage(int,)::result_image;;
+5 write 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 50 decl;mat.hpp::cv::Mat::Mat(class cv::Mat &&,)::m;;
+5 write 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 52 decl;region_tlr_ssd.cpp::PublishImage(int,)::label;;
+5 write 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 56 decl;region_tlr_ssd.cpp::PublishImage(int,)::kFontFace;;
+5 write 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 57 decl;region_tlr_ssd.cpp::PublishImage(int,)::kFontScale;;
+5 write 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 60 decl;region_tlr_ssd.cpp::PublishImage(int,)::font_baseline;;
+5 write 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 58 decl;region_tlr_ssd.cpp::PublishImage(int,)::label_color;;
+5 write 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 56 decl;region_tlr_ssd.cpp::PublishImage(int,)::converter;;
+4 call 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 100 decl;basic_string.h::std::basic_string::operator=(const class std::__cxx11::basic_string<char> &,);;
+3 obj 64 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,)::color_green;; 52 decl;ColorRGBA.h::std_msgs::ColorRGBA_::ColorRGBA_;;
+8 parWrite 75 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::network_definition_file_name_;; 166 decl;traffic_light_recognizer.h::TrafficLightRecognizer::Init(const std::string &,const std::string &,const _Bool,const unsigned int,)::network_definition_file_name;;
+10 varInfFunc 75 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::network_definition_file_name_;; 27 decl;stdlib.h::exit(int,);;
+8 parWrite 54 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::use_gpu_;; 145 decl;traffic_light_recognizer.h::TrafficLightRecognizer::Init(const std::string &,const std::string &,const _Bool,const unsigned int,)::use_gpu;;
+7 contain 42 decl;basic_string.tcc::std::basic_string;; 49 decl;basic_string.h::std::basic_string::empty();;
+7 contain 42 decl;basic_string.tcc::std::basic_string;; 100 decl;basic_string.h::std::basic_string::operator=(const class std::__cxx11::basic_string<char> &,);;
+3 obj 65 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,)::color_yellow;; 52 decl;ColorRGBA.h::std_msgs::ColorRGBA_::ColorRGBA_;;
+7 contain 24 decl;time.h::ros::Time;; 61 decl;time.h::ros::Time::operator=(const class ros::Time &,);;
+5 write 106 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::ROISignalCallback(const autoware_msgs::Signals::ConstPtr &,);; 128 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::ROISignalCallback(const autoware_msgs::Signals::ConstPtr &,)::previous_timestamp;;
+4 call 106 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::ROISignalCallback(const autoware_msgs::Signals::ConstPtr &,);; 76 decl;time.h::ros::TimeBase::TimeBase::operator==(const class ros::Time &,);;
+3 obj 103 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::ImageRawCallback(const sensor_msgs::Image &,)::cv_image;; 55 decl;message_forward.h::boost::shared_ptr::shared_ptr;;
+5 write 67 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::RegionTLRSSDROSNode();; 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__s;;
+5 write 67 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::RegionTLRSSDROSNode();; 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__a;;
+8 parWrite 51 decl;region_tlr_ssd.cpp::main(int,char **,)::argc;; 75 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,)::argc;;
+3 obj 128 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::ROISignalCallback(const autoware_msgs::Signals::ConstPtr &,)::previous_timestamp;; 24 decl;time.h::ros::Time;;
+4 call 62 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::RunRecognition();; 136 decl;traffic_light_recognizer.h::TrafficLightRecognizer::Init(const std::string &,const std::string &,const _Bool,const unsigned int,);;
+4 call 62 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::RunRecognition();; 26 decl;init.h::ros::spin();;
+7 contain 44 decl;region_tlr_ssd.h::RegionTLRSSDROSNode;; 59 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::GetROSParam();;
+7 contain 44 decl;region_tlr_ssd.h::RegionTLRSSDROSNode;; 75 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::network_definition_file_name_;;
+7 contain 44 decl;region_tlr_ssd.h::RegionTLRSSDROSNode;; 56 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::recognizer;;
+7 contain 44 decl;region_tlr_ssd.h::RegionTLRSSDROSNode;; 73 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::pretrained_model_file_name_;;
+7 contain 44 decl;region_tlr_ssd.h::RegionTLRSSDROSNode;; 54 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::use_gpu_;;
+7 contain 44 decl;region_tlr_ssd.h::RegionTLRSSDROSNode;; 53 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::gpu_id_;;
+7 contain 44 decl;region_tlr_ssd.h::RegionTLRSSDROSNode;; 77 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::StartSubscribersAndPublishers();;
+7 contain 44 decl;region_tlr_ssd.h::RegionTLRSSDROSNode;; 59 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::frame_header_;;
+7 contain 44 decl;region_tlr_ssd.h::RegionTLRSSDROSNode;; 68 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::kStateTransitionMatrix;;
+7 contain 44 decl;region_tlr_ssd.h::RegionTLRSSDROSNode;; 66 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::kTrafficLightUnknown;;
+7 contain 44 decl;region_tlr_ssd.h::RegionTLRSSDROSNode;; 60 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::kStringUnknown;;
+7 contain 44 decl;region_tlr_ssd.h::RegionTLRSSDROSNode;; 52 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::frame_;;
+7 contain 57 decl;traffic_light_recognizer.h::TrafficLightRecognizer;; 136 decl;traffic_light_recognizer.h::TrafficLightRecognizer::Init(const std::string &,const std::string &,const _Bool,const unsigned int,);;
+3 obj 52 decl;region_tlr_ssd.cpp::PublishImage(int,)::label;; 42 decl;basic_string.tcc::std::basic_string;;
+3 obj 59 decl;region_tlr_ssd.cpp::PublishTrafficLight(int,)::topic;; 66 decl;TrafficLight.h::autoware_msgs::TrafficLight_::TrafficLight_;;
+5 write 100 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,);; 124 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,)::transition_candidate;;
+3 obj 53 decl;region_tlr_ssd.cpp::PublishString(int,)::topic;; 43 decl;String.h::std_msgs::String_::String_;;
+7 contain 38 decl;time.h::ros::TimeBase::TimeBase;; 76 decl;time.h::ros::TimeBase::TimeBase::operator==(const class ros::Time &,);;
+5 write 59 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::GetROSParam();; 82 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::GetROSParam()::private_node_handle;;
+5 write 59 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::GetROSParam();; 97 decl;node_handle.h::ros::NodeHandle::NodeHandle(const std::string &,const ros::M_string &,)::ns;;
+5 write 59 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::GetROSParam();; 105 decl;node_handle.h::ros::NodeHandle::NodeHandle(const std::string &,const ros::M_string &,)::remappings;;
+5 write 59 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::GetROSParam();; 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__s;;
+5 write 59 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::GetROSParam();; 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__a;;
+4 call 59 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::GetROSParam();; 49 decl;basic_string.h::std::basic_string::empty();;
+4 call 59 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::GetROSParam();; 27 decl;stdlib.h::exit(int,);;
+3 obj 56 decl;region_tlr_ssd.cpp::PublishImage(int,)::converter;; 38 decl;cv_bridge.h::cv_bridge::CvImage;;
+5 write 77 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::StartSubscribersAndPublishers();; 92 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::StartSubscribersAndPublishers()::node_handle;;
+5 write 77 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::StartSubscribersAndPublishers();; 97 decl;node_handle.h::ros::NodeHandle::NodeHandle(const std::string &,const ros::M_string &,)::ns;;
+5 write 77 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::StartSubscribersAndPublishers();; 105 decl;node_handle.h::ros::NodeHandle::NodeHandle(const std::string &,const ros::M_string &,)::remappings;;
+5 write 46 decl;region_tlr_ssd.cpp::PublishString(int,);; 62 decl;region_tlr_ssd.cpp::PublishString(int,)::previous_state;;
+5 write 46 decl;region_tlr_ssd.cpp::PublishString(int,);; 110 decl;basic_string.h::std::basic_string::basic_string(const class std::__cxx11::basic_string<char> &,)::__str;;
+3 obj 82 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::GetROSParam()::private_node_handle;; 34 decl;forwards.h::ros::NodeHandle;;
+7 contain 43 decl;Header.h::std_msgs::Header_::Header_;; 118 decl;Header.h::std_msgs::Header_::Header_::operator=(const struct std_msgs::Header_<class std::allocator<void> > &,);;
+3 obj 92 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::StartSubscribersAndPublishers()::node_handle;; 34 decl;forwards.h::ros::NodeHandle;;
+8 parWrite 53 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::gpu_id_;; 144 decl;traffic_light_recognizer.h::TrafficLightRecognizer::Init(const std::string &,const std::string &,const _Bool,const unsigned int,)::gpu_id;;
+8 varWrite 68 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::kStateTransitionMatrix;; 124 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,)::transition_candidate;;
+3 obj 64 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,)::color_black;; 52 decl;ColorRGBA.h::std_msgs::ColorRGBA_::ColorRGBA_;;
+5 write 52 decl;region_tlr_ssd.cpp::PublishTrafficLight(int,);; 68 decl;region_tlr_ssd.cpp::PublishTrafficLight(int,)::previous_state;;
+8 varWrite 66 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::kTrafficLightUnknown;; 68 decl;region_tlr_ssd.cpp::PublishTrafficLight(int,)::previous_state;;
+8 varWrite 60 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::kStringUnknown;; 62 decl;region_tlr_ssd.cpp::PublishString(int,)::previous_state;;
+8 varWrite 60 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::kStringUnknown;; 110 decl;basic_string.h::std::basic_string::basic_string(const class std::__cxx11::basic_string<char> &,)::__str;;
+8 varWrite 52 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::frame_;; 59 decl;region_tlr_ssd.cpp::PublishImage(int,)::result_image;;
+8 varWrite 52 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::frame_;; 50 decl;mat.hpp::cv::Mat::Mat(class cv::Mat &&,)::m;;
+3 obj 62 decl;region_tlr_ssd.cpp::PublishString(int,)::previous_state;; 42 decl;basic_string.tcc::std::basic_string;;
+4 call 45 decl;region_tlr_ssd.cpp::main(int,char **,);; 69 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,);;
+5 write 45 decl;region_tlr_ssd.cpp::main(int,char **,);; 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__s;;
+5 write 45 decl;region_tlr_ssd.cpp::main(int,char **,);; 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__a;;
+5 write 45 decl;region_tlr_ssd.cpp::main(int,char **,);; 70 decl;region_tlr_ssd.cpp::main(int,char **,)::region_tlr_ssd_ros_node;;
+7 contain 24 decl;base.hpp::cv::Mat;; 32 decl;mat.hpp::cv::Mat::empty();;
+7 contain 24 decl;base.hpp::cv::Mat;; 32 decl;mat.hpp::cv::Mat::clone();;
+7 contain 24 decl;base.hpp::cv::Mat;; 58 decl;mat.hpp::cv::Mat::operator=(const class cv::Mat &,);;
+8 parWrite 73 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::pretrained_model_file_name_;; 164 decl;traffic_light_recognizer.h::TrafficLightRecognizer::Init(const std::string &,const std::string &,const _Bool,const unsigned int,)::pretrained_model_file_name;;
+10 varInfFunc 73 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::pretrained_model_file_name_;; 27 decl;stdlib.h::exit(int,);;
+3 obj 62 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,)::color_red;; 52 decl;ColorRGBA.h::std_msgs::ColorRGBA_::ColorRGBA_;;
+8 varWrite 59 decl;region_tlr_ssd.cpp::PublishImage(int,)::result_image;; 56 decl;region_tlr_ssd.cpp::PublishImage(int,)::converter;;
+7 contain 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 55 decl;region_tlr_ssd.cpp::PublishImage(int,)::contexts;;
+7 contain 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 59 decl;region_tlr_ssd.cpp::PublishImage(int,)::result_image;;
+4 call 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 32 decl;mat.hpp::cv::Mat::clone();;
+7 contain 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 52 decl;region_tlr_ssd.cpp::PublishImage(int,)::label;;
+7 contain 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 56 decl;region_tlr_ssd.cpp::PublishImage(int,)::kFontFace;;
+7 contain 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 57 decl;region_tlr_ssd.cpp::PublishImage(int,)::kFontScale;;
+7 contain 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 60 decl;region_tlr_ssd.cpp::PublishImage(int,)::font_baseline;;
+7 contain 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 58 decl;region_tlr_ssd.cpp::PublishImage(int,)::label_color;;
+7 contain 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 56 decl;region_tlr_ssd.cpp::PublishImage(int,)::converter;;
+4 call 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 118 decl;Header.h::std_msgs::Header_::Header_::operator=(const struct std_msgs::Header_<class std::allocator<void> > &,);;
+4 call 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 58 decl;mat.hpp::cv::Mat::operator=(const class cv::Mat &,);;
+8 varWrite 75 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::network_definition_file_name_;; 56 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::recognizer;;
+8 varWrite 54 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::use_gpu_;; 56 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::recognizer;;
+8 varWrite 59 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::frame_header_;; 128 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::ROISignalCallback(const autoware_msgs::Signals::ConstPtr &,)::previous_timestamp;;
+8 varWrite 59 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::frame_header_;; 56 decl;region_tlr_ssd.cpp::PublishImage(int,)::converter;;
+7 contain 106 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::ROISignalCallback(const autoware_msgs::Signals::ConstPtr &,);; 121 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::ROISignalCallback(const autoware_msgs::Signals::ConstPtr &,)::extracted_pos;;
+7 contain 106 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::ROISignalCallback(const autoware_msgs::Signals::ConstPtr &,);; 128 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::ROISignalCallback(const autoware_msgs::Signals::ConstPtr &,)::previous_timestamp;;
+4 call 106 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::ROISignalCallback(const autoware_msgs::Signals::ConstPtr &,);; 32 decl;mat.hpp::cv::Mat::empty();;
+4 call 106 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::ROISignalCallback(const autoware_msgs::Signals::ConstPtr &,);; 61 decl;time.h::ros::Time::operator=(const class ros::Time &,);;
+7 contain 91 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::ImageRawCallback(const sensor_msgs::Image &,);; 98 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::ImageRawCallback(const sensor_msgs::Image &,)::image;;
+7 contain 91 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::ImageRawCallback(const sensor_msgs::Image &,);; 103 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::ImageRawCallback(const sensor_msgs::Image &,)::cv_image;;
+4 call 62 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::RunRecognition();; 59 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::GetROSParam();;
+5 write 62 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::RunRecognition();; 56 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::recognizer;;
+4 call 62 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::RunRecognition();; 77 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::StartSubscribersAndPublishers();;
+7 contain 100 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,);; 116 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,)::previous_state;;
+7 contain 100 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,);; 115 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,)::current_state;;
+7 contain 100 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,);; 119 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,)::state_judge_count;;
+7 contain 100 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,);; 124 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,)::transition_candidate;;
+5 write 100 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,);; 119 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,)::state_judge_count;;
+5 write 100 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,);; 108 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,);;__ret!;;
+7 contain 59 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::GetROSParam();; 82 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::GetROSParam()::private_node_handle;;
+7 contain 77 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::StartSubscribersAndPublishers();; 92 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::StartSubscribersAndPublishers()::node_handle;;
+7 contain 46 decl;region_tlr_ssd.cpp::PublishString(int,);; 56 decl;region_tlr_ssd.cpp::PublishString(int,)::contexts;;
+7 contain 46 decl;region_tlr_ssd.cpp::PublishString(int,);; 53 decl;region_tlr_ssd.cpp::PublishString(int,)::topic;;
+7 contain 46 decl;region_tlr_ssd.cpp::PublishString(int,);; 62 decl;region_tlr_ssd.cpp::PublishString(int,)::previous_state;;
+7 contain 51 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,);; 61 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,)::contexts;;
+7 contain 51 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,);; 64 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,)::color_black;;
+7 contain 51 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,);; 62 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,)::color_red;;
+7 contain 51 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,);; 65 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,)::color_yellow;;
+7 contain 51 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,);; 64 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,)::color_green;;
+8 varWrite 53 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::gpu_id_;; 56 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::recognizer;;
+8 varWrite 124 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,)::transition_candidate;; 108 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,);;__ret!;;
+8 varWrite 116 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,)::previous_state;; 108 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,);;__ret!;;
+7 contain 52 decl;region_tlr_ssd.cpp::PublishTrafficLight(int,);; 62 decl;region_tlr_ssd.cpp::PublishTrafficLight(int,)::contexts;;
+7 contain 52 decl;region_tlr_ssd.cpp::PublishTrafficLight(int,);; 59 decl;region_tlr_ssd.cpp::PublishTrafficLight(int,)::topic;;
+7 contain 52 decl;region_tlr_ssd.cpp::PublishTrafficLight(int,);; 68 decl;region_tlr_ssd.cpp::PublishTrafficLight(int,)::previous_state;;
+7 contain 45 decl;region_tlr_ssd.cpp::main(int,char **,);; 51 decl;region_tlr_ssd.cpp::main(int,char **,)::argc;;
+7 contain 45 decl;region_tlr_ssd.cpp::main(int,char **,);; 51 decl;region_tlr_ssd.cpp::main(int,char **,)::argv;;
+7 contain 45 decl;region_tlr_ssd.cpp::main(int,char **,);; 70 decl;region_tlr_ssd.cpp::main(int,char **,)::region_tlr_ssd_ros_node;;
+4 call 45 decl;region_tlr_ssd.cpp::main(int,char **,);; 62 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::RunRecognition();;
+5 write 45 decl;region_tlr_ssd.cpp::main(int,char **,);; 53 decl;region_tlr_ssd.cpp::main(int,char **,);;__ret!;;
+8 varWrite 73 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::pretrained_model_file_name_;; 56 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::recognizer;;
+118 decl;Header.h::std_msgs::Header_::Header_::operator=(const struct std_msgs::Header_<class std::allocator<void> > &,);; 4 0 8 filename 42 /opt/ros/melodic/include/std_msgs/Header.h 15 filenameDeclare 42 /opt/ros/melodic/include/std_msgs/Header.h 14 isCallbackFunc 1 0 5 label 63 include/std_msgs/Header.h:std_msgs::Header_::Header_::operator= 
+32 decl;mat.hpp::cv::Mat::clone();; 3 0 15 filenameDeclare 33 /usr/include/opencv2/core/mat.hpp 14 isCallbackFunc 1 0 5 label 35 opencv2/core/mat.hpp:cv::Mat::clone 
+32 decl;mat.hpp::cv::Mat::empty();; 4 0 15 filenameDeclare 33 /usr/include/opencv2/core/mat.hpp 14 isCallbackFunc 1 0 13 isControlFlow 1 1 5 label 35 opencv2/core/mat.hpp:cv::Mat::empty 
+58 decl;mat.hpp::cv::Mat::operator=(const class cv::Mat &,);; 3 0 15 filenameDeclare 33 /usr/include/opencv2/core/mat.hpp 14 isCallbackFunc 1 0 5 label 39 opencv2/core/mat.hpp:cv::Mat::operator= 
+55 decl;region_tlr_ssd.cpp::PublishImage(int,)::contexts;; 2 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 
+56 decl;region_tlr_ssd.cpp::PublishImage(int,)::converter;; 5 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 13 isControlFlow 1 0 7 isParam 1 0 5 label 63 nodes/region_tlr_ssd/region_tlr_ssd.cpp:PublishImage::converter 
+60 decl;region_tlr_ssd.cpp::PublishImage(int,)::font_baseline;; 5 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 13 isControlFlow 1 0 7 isParam 1 0 5 label 67 nodes/region_tlr_ssd/region_tlr_ssd.cpp:PublishImage::font_baseline 
+56 decl;region_tlr_ssd.cpp::PublishImage(int,)::kFontFace;; 5 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 13 isControlFlow 1 0 7 isParam 1 0 5 label 63 nodes/region_tlr_ssd/region_tlr_ssd.cpp:PublishImage::kFontFace 
+57 decl;region_tlr_ssd.cpp::PublishImage(int,)::kFontScale;; 5 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 13 isControlFlow 1 0 7 isParam 1 0 5 label 64 nodes/region_tlr_ssd/region_tlr_ssd.cpp:PublishImage::kFontScale 
+52 decl;region_tlr_ssd.cpp::PublishImage(int,)::label;; 5 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 13 isControlFlow 1 0 7 isParam 1 0 5 label 59 nodes/region_tlr_ssd/region_tlr_ssd.cpp:PublishImage::label 
+58 decl;region_tlr_ssd.cpp::PublishImage(int,)::label_color;; 5 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 13 isControlFlow 1 0 7 isParam 1 0 5 label 65 nodes/region_tlr_ssd/region_tlr_ssd.cpp:PublishImage::label_color 
+59 decl;region_tlr_ssd.cpp::PublishImage(int,)::result_image;; 5 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 13 isControlFlow 1 0 7 isParam 1 0 5 label 66 nodes/region_tlr_ssd/region_tlr_ssd.cpp:PublishImage::result_image 
+45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 4 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 14 isCallbackFunc 1 0 5 label 52 nodes/region_tlr_ssd/region_tlr_ssd.cpp:PublishImage 
+64 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,)::color_black;; 5 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 13 isControlFlow 1 0 7 isParam 1 0 5 label 71 nodes/region_tlr_ssd/region_tlr_ssd.cpp:PublishMarkerArray::color_black 
+64 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,)::color_green;; 5 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 13 isControlFlow 1 0 7 isParam 1 0 5 label 71 nodes/region_tlr_ssd/region_tlr_ssd.cpp:PublishMarkerArray::color_green 
+62 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,)::color_red;; 5 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 13 isControlFlow 1 0 7 isParam 1 0 5 label 69 nodes/region_tlr_ssd/region_tlr_ssd.cpp:PublishMarkerArray::color_red 
+65 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,)::color_yellow;; 5 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 13 isControlFlow 1 0 7 isParam 1 0 5 label 72 nodes/region_tlr_ssd/region_tlr_ssd.cpp:PublishMarkerArray::color_yellow 
+61 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,)::contexts;; 2 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 
+51 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,);; 4 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 14 isCallbackFunc 1 0 5 label 58 nodes/region_tlr_ssd/region_tlr_ssd.cpp:PublishMarkerArray 
+56 decl;region_tlr_ssd.cpp::PublishString(int,)::contexts;; 2 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 
+62 decl;region_tlr_ssd.cpp::PublishString(int,)::previous_state;; 5 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 13 isControlFlow 1 0 7 isParam 1 0 5 label 69 nodes/region_tlr_ssd/region_tlr_ssd.cpp:PublishString::previous_state 
+53 decl;region_tlr_ssd.cpp::PublishString(int,)::topic;; 5 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 13 isControlFlow 1 0 7 isParam 1 0 5 label 60 nodes/region_tlr_ssd/region_tlr_ssd.cpp:PublishString::topic 
+46 decl;region_tlr_ssd.cpp::PublishString(int,);; 4 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 14 isCallbackFunc 1 0 5 label 53 nodes/region_tlr_ssd/region_tlr_ssd.cpp:PublishString 
+62 decl;region_tlr_ssd.cpp::PublishTrafficLight(int,)::contexts;; 2 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 
+68 decl;region_tlr_ssd.cpp::PublishTrafficLight(int,)::previous_state;; 5 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 13 isControlFlow 1 0 7 isParam 1 0 5 label 75 nodes/region_tlr_ssd/region_tlr_ssd.cpp:PublishTrafficLight::previous_state 
+59 decl;region_tlr_ssd.cpp::PublishTrafficLight(int,)::topic;; 5 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 13 isControlFlow 1 0 7 isParam 1 0 5 label 66 nodes/region_tlr_ssd/region_tlr_ssd.cpp:PublishTrafficLight::topic 
+52 decl;region_tlr_ssd.cpp::PublishTrafficLight(int,);; 4 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 14 isCallbackFunc 1 0 5 label 59 nodes/region_tlr_ssd/region_tlr_ssd.cpp:PublishTrafficLight 
+124 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,)::transition_candidate;; 5 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 13 isControlFlow 1 1 7 isParam 1 0 5 label 76 nodes/region_tlr_ssd/region_tlr_ssd.cpp:DetermineState::transition_candidate 
+82 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::GetROSParam()::private_node_handle;; 5 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 13 isControlFlow 1 0 7 isParam 1 0 5 label 72 nodes/region_tlr_ssd/region_tlr_ssd.cpp:GetROSParam::private_node_handle 
+103 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::ImageRawCallback(const sensor_msgs::Image &,)::cv_image;; 5 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 13 isControlFlow 1 0 7 isParam 1 0 5 label 66 nodes/region_tlr_ssd/region_tlr_ssd.cpp:ImageRawCallback::cv_image 
+128 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::ROISignalCallback(const autoware_msgs::Signals::ConstPtr &,)::previous_timestamp;; 5 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 13 isControlFlow 1 1 7 isParam 1 0 5 label 77 nodes/region_tlr_ssd/region_tlr_ssd.cpp:ROISignalCallback::previous_timestamp 
+92 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::StartSubscribersAndPublishers()::node_handle;; 5 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 13 isControlFlow 1 0 7 isParam 1 0 5 label 82 nodes/region_tlr_ssd/region_tlr_ssd.cpp:StartSubscribersAndPublishers::node_handle 
+51 decl;region_tlr_ssd.cpp::main(int,char **,)::argc;; 2 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 
+51 decl;region_tlr_ssd.cpp::main(int,char **,)::argv;; 2 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 
+70 decl;region_tlr_ssd.cpp::main(int,char **,)::region_tlr_ssd_ros_node;; 5 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 13 isControlFlow 1 0 7 isParam 1 0 5 label 69 nodes/region_tlr_ssd/region_tlr_ssd.cpp:main::region_tlr_ssd_ros_node 
+45 decl;region_tlr_ssd.cpp::main(int,char **,);; 4 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 14 isCallbackFunc 1 0 5 label 44 nodes/region_tlr_ssd/region_tlr_ssd.cpp:main 
+53 decl;region_tlr_ssd.cpp::main(int,char **,);;__ret!;; 2 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 
+115 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,)::current_state;; 2 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 140 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h 
+116 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,)::previous_state;; 3 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 140 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h 13 isControlFlow 1 1 
+119 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,)::state_judge_count;; 3 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 140 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h 13 isControlFlow 1 1 
+100 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,);; 4 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 140 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h 14 isCallbackFunc 1 0 5 label 54 nodes/region_tlr_ssd/region_tlr_ssd.cpp:DetermineState 
+108 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,);;__ret!;; 2 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 140 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h 
+59 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::GetROSParam();; 4 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 140 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h 14 isCallbackFunc 1 0 5 label 88 trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h:RegionTLRSSDROSNode::GetROSParam 
+98 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::ImageRawCallback(const sensor_msgs::Image &,)::image;; 2 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 140 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h 
+91 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::ImageRawCallback(const sensor_msgs::Image &,);; 4 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 140 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h 14 isCallbackFunc 1 0 5 label 56 nodes/region_tlr_ssd/region_tlr_ssd.cpp:ImageRawCallback 
+121 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::ROISignalCallback(const autoware_msgs::Signals::ConstPtr &,)::extracted_pos;; 2 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 140 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h 
+106 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::ROISignalCallback(const autoware_msgs::Signals::ConstPtr &,);; 4 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 140 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h 14 isCallbackFunc 1 0 5 label 57 nodes/region_tlr_ssd/region_tlr_ssd.cpp:ROISignalCallback 
+67 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::RegionTLRSSDROSNode();; 4 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 140 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h 14 isCallbackFunc 1 0 5 label 59 nodes/region_tlr_ssd/region_tlr_ssd.cpp:RegionTLRSSDROSNode 
+62 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::RunRecognition();; 4 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 140 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h 14 isCallbackFunc 1 0 5 label 54 nodes/region_tlr_ssd/region_tlr_ssd.cpp:RunRecognition 
+77 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::StartSubscribersAndPublishers();; 4 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 140 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h 14 isCallbackFunc 1 0 5 label 106 trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h:RegionTLRSSDROSNode::StartSubscribersAndPublishers 
+52 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::frame_;; 4 0 8 filename 140 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h 15 filenameDeclare 140 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h 13 isControlFlow 1 0 5 label 83 trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h:RegionTLRSSDROSNode::frame_ 
+59 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::frame_header_;; 4 0 8 filename 140 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h 15 filenameDeclare 140 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h 13 isControlFlow 1 0 5 label 90 trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h:RegionTLRSSDROSNode::frame_header_ 
+53 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::gpu_id_;; 4 0 8 filename 140 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h 15 filenameDeclare 140 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h 13 isControlFlow 1 0 5 label 84 trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h:RegionTLRSSDROSNode::gpu_id_ 
+68 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::kStateTransitionMatrix;; 4 0 8 filename 140 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h 15 filenameDeclare 140 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h 13 isControlFlow 1 0 5 label 99 trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h:RegionTLRSSDROSNode::kStateTransitionMatrix 
+60 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::kStringUnknown;; 4 0 8 filename 140 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h 15 filenameDeclare 140 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h 13 isControlFlow 1 0 5 label 91 trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h:RegionTLRSSDROSNode::kStringUnknown 
+66 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::kTrafficLightUnknown;; 4 0 8 filename 140 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h 15 filenameDeclare 140 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h 13 isControlFlow 1 0 5 label 97 trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h:RegionTLRSSDROSNode::kTrafficLightUnknown 
+75 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::network_definition_file_name_;; 4 0 8 filename 140 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h 15 filenameDeclare 140 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h 13 isControlFlow 1 1 5 label 106 trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h:RegionTLRSSDROSNode::network_definition_file_name_ 
+73 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::pretrained_model_file_name_;; 4 0 8 filename 140 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h 15 filenameDeclare 140 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h 13 isControlFlow 1 1 5 label 104 trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h:RegionTLRSSDROSNode::pretrained_model_file_name_ 
+56 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::recognizer;; 4 0 8 filename 140 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h 15 filenameDeclare 140 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h 13 isControlFlow 1 0 5 label 87 trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h:RegionTLRSSDROSNode::recognizer 
+54 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::use_gpu_;; 4 0 8 filename 140 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h 15 filenameDeclare 140 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h 13 isControlFlow 1 0 5 label 85 trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h:RegionTLRSSDROSNode::use_gpu_ 
+68 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::~RegionTLRSSDROSNode();; 4 0 8 filename 116 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp 15 filenameDeclare 140 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h 14 isCallbackFunc 1 0 5 label 60 nodes/region_tlr_ssd/region_tlr_ssd.cpp:~RegionTLRSSDROSNode 
+61 decl;time.h::ros::Time::operator=(const class ros::Time &,);; 4 0 8 filename 35 /opt/ros/melodic/include/ros/time.h 15 filenameDeclare 35 /opt/ros/melodic/include/ros/time.h 14 isCallbackFunc 1 0 5 label 39 include/ros/time.h:ros::Time::operator= 
+4 call 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 118 decl;Header.h::std_msgs::Header_::Header_::operator=(const struct std_msgs::Header_<class std::allocator<void> > &,);; 0 0 
+4 call 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 100 decl;basic_string.h::std::basic_string::operator=(const class std::__cxx11::basic_string<char> &,);; 0 0 
+4 call 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 32 decl;mat.hpp::cv::Mat::clone();; 0 0 
+4 call 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 58 decl;mat.hpp::cv::Mat::operator=(const class cv::Mat &,);; 0 0 
+4 call 45 decl;region_tlr_ssd.cpp::main(int,char **,);; 69 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,);; 0 0 
+4 call 45 decl;region_tlr_ssd.cpp::main(int,char **,);; 62 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::RunRecognition();; 0 0 
+4 call 59 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::GetROSParam();; 49 decl;basic_string.h::std::basic_string::empty();; 0 0 
+4 call 59 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::GetROSParam();; 27 decl;stdlib.h::exit(int,);; 0 0 
+4 call 106 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::ROISignalCallback(const autoware_msgs::Signals::ConstPtr &,);; 32 decl;mat.hpp::cv::Mat::empty();; 0 0 
+4 call 106 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::ROISignalCallback(const autoware_msgs::Signals::ConstPtr &,);; 61 decl;time.h::ros::Time::operator=(const class ros::Time &,);; 0 0 
+4 call 106 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::ROISignalCallback(const autoware_msgs::Signals::ConstPtr &,);; 76 decl;time.h::ros::TimeBase::TimeBase::operator==(const class ros::Time &,);; 0 0 
+4 call 62 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::RunRecognition();; 26 decl;init.h::ros::spin();; 0 0 
+4 call 62 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::RunRecognition();; 59 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::GetROSParam();; 0 0 
+4 call 62 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::RunRecognition();; 77 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::StartSubscribersAndPublishers();; 0 0 
+4 call 62 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::RunRecognition();; 136 decl;traffic_light_recognizer.h::TrafficLightRecognizer::Init(const std::string &,const std::string &,const _Bool,const unsigned int,);; 0 0 
+7 contain 43 decl;Header.h::std_msgs::Header_::Header_;; 118 decl;Header.h::std_msgs::Header_::Header_::operator=(const struct std_msgs::Header_<class std::allocator<void> > &,);; 0 0 
+7 contain 24 decl;base.hpp::cv::Mat;; 32 decl;mat.hpp::cv::Mat::clone();; 0 0 
+7 contain 24 decl;base.hpp::cv::Mat;; 32 decl;mat.hpp::cv::Mat::empty();; 0 0 
+7 contain 24 decl;base.hpp::cv::Mat;; 58 decl;mat.hpp::cv::Mat::operator=(const class cv::Mat &,);; 0 0 
+7 contain 42 decl;basic_string.tcc::std::basic_string;; 49 decl;basic_string.h::std::basic_string::empty();; 0 0 
+7 contain 42 decl;basic_string.tcc::std::basic_string;; 100 decl;basic_string.h::std::basic_string::operator=(const class std::__cxx11::basic_string<char> &,);; 0 0 
+7 contain 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 55 decl;region_tlr_ssd.cpp::PublishImage(int,)::contexts;; 0 0 
+7 contain 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 56 decl;region_tlr_ssd.cpp::PublishImage(int,)::converter;; 0 0 
+7 contain 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 60 decl;region_tlr_ssd.cpp::PublishImage(int,)::font_baseline;; 0 0 
+7 contain 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 56 decl;region_tlr_ssd.cpp::PublishImage(int,)::kFontFace;; 0 0 
+7 contain 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 57 decl;region_tlr_ssd.cpp::PublishImage(int,)::kFontScale;; 0 0 
+7 contain 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 52 decl;region_tlr_ssd.cpp::PublishImage(int,)::label;; 0 0 
+7 contain 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 58 decl;region_tlr_ssd.cpp::PublishImage(int,)::label_color;; 0 0 
+7 contain 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 59 decl;region_tlr_ssd.cpp::PublishImage(int,)::result_image;; 0 0 
+7 contain 51 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,);; 64 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,)::color_black;; 0 0 
+7 contain 51 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,);; 64 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,)::color_green;; 0 0 
+7 contain 51 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,);; 62 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,)::color_red;; 0 0 
+7 contain 51 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,);; 65 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,)::color_yellow;; 0 0 
+7 contain 51 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,);; 61 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,)::contexts;; 0 0 
+7 contain 46 decl;region_tlr_ssd.cpp::PublishString(int,);; 56 decl;region_tlr_ssd.cpp::PublishString(int,)::contexts;; 0 0 
+7 contain 46 decl;region_tlr_ssd.cpp::PublishString(int,);; 62 decl;region_tlr_ssd.cpp::PublishString(int,)::previous_state;; 0 0 
+7 contain 46 decl;region_tlr_ssd.cpp::PublishString(int,);; 53 decl;region_tlr_ssd.cpp::PublishString(int,)::topic;; 0 0 
+7 contain 52 decl;region_tlr_ssd.cpp::PublishTrafficLight(int,);; 62 decl;region_tlr_ssd.cpp::PublishTrafficLight(int,)::contexts;; 0 0 
+7 contain 52 decl;region_tlr_ssd.cpp::PublishTrafficLight(int,);; 68 decl;region_tlr_ssd.cpp::PublishTrafficLight(int,)::previous_state;; 0 0 
+7 contain 52 decl;region_tlr_ssd.cpp::PublishTrafficLight(int,);; 59 decl;region_tlr_ssd.cpp::PublishTrafficLight(int,)::topic;; 0 0 
+7 contain 45 decl;region_tlr_ssd.cpp::main(int,char **,);; 51 decl;region_tlr_ssd.cpp::main(int,char **,)::argc;; 0 0 
+7 contain 45 decl;region_tlr_ssd.cpp::main(int,char **,);; 51 decl;region_tlr_ssd.cpp::main(int,char **,)::argv;; 0 0 
+7 contain 45 decl;region_tlr_ssd.cpp::main(int,char **,);; 70 decl;region_tlr_ssd.cpp::main(int,char **,)::region_tlr_ssd_ros_node;; 0 0 
+7 contain 100 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,);; 124 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,)::transition_candidate;; 0 0 
+7 contain 100 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,);; 115 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,)::current_state;; 0 0 
+7 contain 100 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,);; 116 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,)::previous_state;; 0 0 
+7 contain 100 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,);; 119 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,)::state_judge_count;; 0 0 
+7 contain 59 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::GetROSParam();; 82 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::GetROSParam()::private_node_handle;; 0 0 
+7 contain 91 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::ImageRawCallback(const sensor_msgs::Image &,);; 103 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::ImageRawCallback(const sensor_msgs::Image &,)::cv_image;; 0 0 
+7 contain 91 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::ImageRawCallback(const sensor_msgs::Image &,);; 98 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::ImageRawCallback(const sensor_msgs::Image &,)::image;; 0 0 
+7 contain 106 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::ROISignalCallback(const autoware_msgs::Signals::ConstPtr &,);; 128 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::ROISignalCallback(const autoware_msgs::Signals::ConstPtr &,)::previous_timestamp;; 0 0 
+7 contain 106 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::ROISignalCallback(const autoware_msgs::Signals::ConstPtr &,);; 121 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::ROISignalCallback(const autoware_msgs::Signals::ConstPtr &,)::extracted_pos;; 0 0 
+7 contain 77 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::StartSubscribersAndPublishers();; 92 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::StartSubscribersAndPublishers()::node_handle;; 0 0 
+7 contain 44 decl;region_tlr_ssd.h::RegionTLRSSDROSNode;; 59 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::GetROSParam();; 0 0 
+7 contain 44 decl;region_tlr_ssd.h::RegionTLRSSDROSNode;; 77 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::StartSubscribersAndPublishers();; 0 0 
+7 contain 44 decl;region_tlr_ssd.h::RegionTLRSSDROSNode;; 52 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::frame_;; 0 0 
+7 contain 44 decl;region_tlr_ssd.h::RegionTLRSSDROSNode;; 59 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::frame_header_;; 0 0 
+7 contain 44 decl;region_tlr_ssd.h::RegionTLRSSDROSNode;; 53 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::gpu_id_;; 0 0 
+7 contain 44 decl;region_tlr_ssd.h::RegionTLRSSDROSNode;; 68 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::kStateTransitionMatrix;; 0 0 
+7 contain 44 decl;region_tlr_ssd.h::RegionTLRSSDROSNode;; 60 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::kStringUnknown;; 0 0 
+7 contain 44 decl;region_tlr_ssd.h::RegionTLRSSDROSNode;; 66 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::kTrafficLightUnknown;; 0 0 
+7 contain 44 decl;region_tlr_ssd.h::RegionTLRSSDROSNode;; 75 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::network_definition_file_name_;; 0 0 
+7 contain 44 decl;region_tlr_ssd.h::RegionTLRSSDROSNode;; 73 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::pretrained_model_file_name_;; 0 0 
+7 contain 44 decl;region_tlr_ssd.h::RegionTLRSSDROSNode;; 56 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::recognizer;; 0 0 
+7 contain 44 decl;region_tlr_ssd.h::RegionTLRSSDROSNode;; 54 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::use_gpu_;; 0 0 
+7 contain 24 decl;time.h::ros::Time;; 61 decl;time.h::ros::Time::operator=(const class ros::Time &,);; 0 0 
+7 contain 38 decl;time.h::ros::TimeBase::TimeBase;; 76 decl;time.h::ros::TimeBase::TimeBase::operator==(const class ros::Time &,);; 0 0 
+7 contain 57 decl;traffic_light_recognizer.h::TrafficLightRecognizer;; 136 decl;traffic_light_recognizer.h::TrafficLightRecognizer::Init(const std::string &,const std::string &,const _Bool,const unsigned int,);; 0 0 
+3 obj 56 decl;region_tlr_ssd.cpp::PublishImage(int,)::converter;; 38 decl;cv_bridge.h::cv_bridge::CvImage;; 0 0 
+3 obj 52 decl;region_tlr_ssd.cpp::PublishImage(int,)::label;; 42 decl;basic_string.tcc::std::basic_string;; 0 0 
+3 obj 58 decl;region_tlr_ssd.cpp::PublishImage(int,)::label_color;; 26 decl;types_c.h::CvScalar;; 0 0 
+3 obj 59 decl;region_tlr_ssd.cpp::PublishImage(int,)::result_image;; 24 decl;base.hpp::cv::Mat;; 0 0 
+3 obj 64 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,)::color_black;; 52 decl;ColorRGBA.h::std_msgs::ColorRGBA_::ColorRGBA_;; 0 0 
+3 obj 64 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,)::color_green;; 52 decl;ColorRGBA.h::std_msgs::ColorRGBA_::ColorRGBA_;; 0 0 
+3 obj 62 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,)::color_red;; 52 decl;ColorRGBA.h::std_msgs::ColorRGBA_::ColorRGBA_;; 0 0 
+3 obj 65 decl;region_tlr_ssd.cpp::PublishMarkerArray(int,)::color_yellow;; 52 decl;ColorRGBA.h::std_msgs::ColorRGBA_::ColorRGBA_;; 0 0 
+3 obj 62 decl;region_tlr_ssd.cpp::PublishString(int,)::previous_state;; 42 decl;basic_string.tcc::std::basic_string;; 0 0 
+3 obj 53 decl;region_tlr_ssd.cpp::PublishString(int,)::topic;; 43 decl;String.h::std_msgs::String_::String_;; 0 0 
+3 obj 59 decl;region_tlr_ssd.cpp::PublishTrafficLight(int,)::topic;; 66 decl;TrafficLight.h::autoware_msgs::TrafficLight_::TrafficLight_;; 0 0 
+3 obj 82 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::GetROSParam()::private_node_handle;; 34 decl;forwards.h::ros::NodeHandle;; 0 0 
+3 obj 103 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::ImageRawCallback(const sensor_msgs::Image &,)::cv_image;; 55 decl;message_forward.h::boost::shared_ptr::shared_ptr;; 0 0 
+3 obj 128 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::ROISignalCallback(const autoware_msgs::Signals::ConstPtr &,)::previous_timestamp;; 24 decl;time.h::ros::Time;; 0 0 
+3 obj 92 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::StartSubscribersAndPublishers()::node_handle;; 34 decl;forwards.h::ros::NodeHandle;; 0 0 
+3 obj 70 decl;region_tlr_ssd.cpp::main(int,char **,)::region_tlr_ssd_ros_node;; 44 decl;region_tlr_ssd.h::RegionTLRSSDROSNode;; 0 0 
+8 parWrite 51 decl;region_tlr_ssd.cpp::main(int,char **,)::argc;; 75 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,)::argc;; 0 0 
+8 parWrite 51 decl;region_tlr_ssd.cpp::main(int,char **,)::argv;; 75 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,)::argv;; 0 0 
+8 parWrite 53 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::gpu_id_;; 144 decl;traffic_light_recognizer.h::TrafficLightRecognizer::Init(const std::string &,const std::string &,const _Bool,const unsigned int,)::gpu_id;; 0 0 
+8 parWrite 75 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::network_definition_file_name_;; 166 decl;traffic_light_recognizer.h::TrafficLightRecognizer::Init(const std::string &,const std::string &,const _Bool,const unsigned int,)::network_definition_file_name;; 0 0 
+8 parWrite 73 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::pretrained_model_file_name_;; 164 decl;traffic_light_recognizer.h::TrafficLightRecognizer::Init(const std::string &,const std::string &,const _Bool,const unsigned int,)::pretrained_model_file_name;; 0 0 
+8 parWrite 54 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::use_gpu_;; 145 decl;traffic_light_recognizer.h::TrafficLightRecognizer::Init(const std::string &,const std::string &,const _Bool,const unsigned int,)::use_gpu;; 0 0 
+10 varInfFunc 75 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::network_definition_file_name_;; 27 decl;stdlib.h::exit(int,);; 0 0 
+10 varInfFunc 73 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::pretrained_model_file_name_;; 27 decl;stdlib.h::exit(int,);; 0 0 
+8 varWrite 61 decl;core.hpp::cv::HersheyFonts::FONT_HERSHEY_COMPLEX_SMALL;; 56 decl;region_tlr_ssd.cpp::PublishImage(int,)::kFontFace;; 0 0 
+8 varWrite 122 decl;image_encodings.h::sensor_msgs::image_encodings::BGR8;static;/opt/ros/melodic/include/sensor_msgs/image_encodings.h;; 56 decl;region_tlr_ssd.cpp::PublishImage(int,)::converter;; 0 0 
+8 varWrite 59 decl;region_tlr_ssd.cpp::PublishImage(int,)::result_image;; 56 decl;region_tlr_ssd.cpp::PublishImage(int,)::converter;; 0 0 
+8 varWrite 124 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,)::transition_candidate;; 108 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,);;__ret!;; 0 0 
+8 varWrite 116 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,)::previous_state;; 108 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,);;__ret!;; 0 0 
+8 varWrite 52 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::frame_;; 50 decl;mat.hpp::cv::Mat::Mat(class cv::Mat &&,)::m;; 0 0 
+8 varWrite 52 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::frame_;; 59 decl;region_tlr_ssd.cpp::PublishImage(int,)::result_image;; 0 0 
+8 varWrite 59 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::frame_header_;; 56 decl;region_tlr_ssd.cpp::PublishImage(int,)::converter;; 0 0 
+8 varWrite 59 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::frame_header_;; 128 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::ROISignalCallback(const autoware_msgs::Signals::ConstPtr &,)::previous_timestamp;; 0 0 
+8 varWrite 53 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::gpu_id_;; 56 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::recognizer;; 0 0 
+8 varWrite 68 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::kStateTransitionMatrix;; 124 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,)::transition_candidate;; 0 0 
+8 varWrite 60 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::kStringUnknown;; 110 decl;basic_string.h::std::basic_string::basic_string(const class std::__cxx11::basic_string<char> &,)::__str;; 0 0 
+8 varWrite 60 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::kStringUnknown;; 62 decl;region_tlr_ssd.cpp::PublishString(int,)::previous_state;; 0 0 
+8 varWrite 66 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::kTrafficLightUnknown;; 68 decl;region_tlr_ssd.cpp::PublishTrafficLight(int,)::previous_state;; 0 0 
+8 varWrite 75 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::network_definition_file_name_;; 56 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::recognizer;; 0 0 
+8 varWrite 73 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::pretrained_model_file_name_;; 56 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::recognizer;; 0 0 
+8 varWrite 54 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::use_gpu_;; 56 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::recognizer;; 0 0 
+5 write 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 50 decl;mat.hpp::cv::Mat::Mat(class cv::Mat &&,)::m;; 0 0 
+5 write 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 56 decl;region_tlr_ssd.cpp::PublishImage(int,)::converter;; 0 0 
+5 write 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 60 decl;region_tlr_ssd.cpp::PublishImage(int,)::font_baseline;; 0 0 
+5 write 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 56 decl;region_tlr_ssd.cpp::PublishImage(int,)::kFontFace;; 0 0 
+5 write 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 57 decl;region_tlr_ssd.cpp::PublishImage(int,)::kFontScale;; 0 0 
+5 write 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 52 decl;region_tlr_ssd.cpp::PublishImage(int,)::label;; 0 0 
+5 write 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 58 decl;region_tlr_ssd.cpp::PublishImage(int,)::label_color;; 0 0 
+5 write 45 decl;region_tlr_ssd.cpp::PublishImage(int,);; 59 decl;region_tlr_ssd.cpp::PublishImage(int,)::result_image;; 0 0 
+5 write 46 decl;region_tlr_ssd.cpp::PublishString(int,);; 110 decl;basic_string.h::std::basic_string::basic_string(const class std::__cxx11::basic_string<char> &,)::__str;; 0 0 
+5 write 46 decl;region_tlr_ssd.cpp::PublishString(int,);; 62 decl;region_tlr_ssd.cpp::PublishString(int,)::previous_state;; 0 0 
+5 write 52 decl;region_tlr_ssd.cpp::PublishTrafficLight(int,);; 68 decl;region_tlr_ssd.cpp::PublishTrafficLight(int,)::previous_state;; 0 0 
+5 write 45 decl;region_tlr_ssd.cpp::main(int,char **,);; 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__a;; 0 0 
+5 write 45 decl;region_tlr_ssd.cpp::main(int,char **,);; 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__s;; 0 0 
+5 write 45 decl;region_tlr_ssd.cpp::main(int,char **,);; 70 decl;region_tlr_ssd.cpp::main(int,char **,)::region_tlr_ssd_ros_node;; 0 0 
+5 write 45 decl;region_tlr_ssd.cpp::main(int,char **,);; 53 decl;region_tlr_ssd.cpp::main(int,char **,);;__ret!;; 0 0 
+5 write 100 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,);; 124 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,)::transition_candidate;; 0 0 
+5 write 100 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,);; 119 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,)::state_judge_count;; 0 0 
+5 write 100 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,);; 108 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::DetermineState(enum LightState,enum LightState,int *,);;__ret!;; 0 0 
+5 write 59 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::GetROSParam();; 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__a;; 0 0 
+5 write 59 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::GetROSParam();; 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__s;; 0 0 
+5 write 59 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::GetROSParam();; 97 decl;node_handle.h::ros::NodeHandle::NodeHandle(const std::string &,const ros::M_string &,)::ns;; 0 0 
+5 write 59 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::GetROSParam();; 105 decl;node_handle.h::ros::NodeHandle::NodeHandle(const std::string &,const ros::M_string &,)::remappings;; 0 0 
+5 write 59 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::GetROSParam();; 82 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::GetROSParam()::private_node_handle;; 0 0 
+5 write 106 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::ROISignalCallback(const autoware_msgs::Signals::ConstPtr &,);; 128 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::ROISignalCallback(const autoware_msgs::Signals::ConstPtr &,)::previous_timestamp;; 0 0 
+5 write 67 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::RegionTLRSSDROSNode();; 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__a;; 0 0 
+5 write 67 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::RegionTLRSSDROSNode();; 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__s;; 0 0 
+5 write 62 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::RunRecognition();; 56 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::recognizer;; 0 0 
+5 write 77 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::StartSubscribersAndPublishers();; 97 decl;node_handle.h::ros::NodeHandle::NodeHandle(const std::string &,const ros::M_string &,)::ns;; 0 0 
+5 write 77 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::StartSubscribersAndPublishers();; 105 decl;node_handle.h::ros::NodeHandle::NodeHandle(const std::string &,const ros::M_string &,)::remappings;; 0 0 
+5 write 77 decl;region_tlr_ssd.h::RegionTLRSSDROSNode::StartSubscribersAndPublishers();; 92 decl;region_tlr_ssd.cpp::RegionTLRSSDROSNode::StartSubscribersAndPublishers()::node_handle;; 0 0 

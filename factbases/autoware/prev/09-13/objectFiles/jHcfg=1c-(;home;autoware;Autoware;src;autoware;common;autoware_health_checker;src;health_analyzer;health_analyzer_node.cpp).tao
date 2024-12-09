@@ -1,0 +1,301 @@
+34 90 26 34 116
+59 decl;health_analyzer_node.cpp::main(int,char **,);;__ret!;; 7 cReturn
+57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1 9 cCFGBlock
+61 decl;health_analyzer_node.cpp::main(int,char **,)::analyzer;; 9 cVariable
+56 decl;health_analyzer_node.cpp::main(int,char **,)::pnh;; 13 rosNodeHandle
+55 decl;health_analyzer_node.cpp::main(int,char **,)::nh;; 13 rosNodeHandle
+57 decl;health_analyzer_node.cpp::main(int,char **,)::argc;; 9 cVariable
+51 decl;health_analyzer_node.cpp::main(int,char **,);; 9 cFunction
+117 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);;:CFG:ENTRY 9 cCFGBlock
+113 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);;:CFG:0 9 cCFGBlock
+115 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);;__ret!;; 7 cReturn
+115 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,)::result;; 9 cVariable
+115 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,)::target;; 9 cVariable
+115 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,)::vector;; 9 cVariable
+57 decl;health_analyzer_node.cpp::main(int,char **,)::argv;; 9 cVariable
+69 decl;health_analyzer.h::HealthAnalyzer::warn_nodes_count_threshold_;; 9 cVariable
+55 decl;health_analyzer.h::HealthAnalyzer::depend_graph_;; 9 cVariable
+40 decl;health_analyzer.h::HealthAnalyzer;; 6 cClass
+61 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:ENTRY 9 cCFGBlock
+60 decl;health_analyzer.h::HealthAnalyzer::system_status_sub_;; 13 rosSubscriber
+68 decl;health_analyzer.h::HealthAnalyzer::system_status_summary_pub_;; 12 rosPublisher
+113 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);;:CFG:1 9 cCFGBlock
+50 decl;health_analyzer.h::topic_property::node_pub;; 9 cVariable
+57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:0 9 cCFGBlock
+50 decl;health_analyzer.h::node_property::node_name;; 9 cVariable
+187 decl;constants.h::autoware_health_checker::NODE_STATUS_UPDATE_RATE;static;/home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/constants.h;; 9 cVariable
+39 decl;health_analyzer.h::node_property;; 7 cStruct
+179 decl;constants.h::autoware_health_checker::BUFFER_DURATION;static;/home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/constants.h;; 9 cVariable
+40 decl;health_analyzer.h::topic_property;; 7 cStruct
+50 decl;health_analyzer.h::topic_property::node_sub;; 9 cVariable
+63 decl;health_analyzer.h::HealthAnalyzer::topic_statistics_sub_;; 13 rosSubscriber
+182 decl;constants.h::autoware_health_checker::SYSTEM_UPDATE_RATE;static;/home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/constants.h;; 9 cVariable
+45 decl;health_analyzer.h::HealthAnalyzer::nh_;; 13 rosNodeHandle
+46 decl;health_analyzer.h::HealthAnalyzer::pnh_;; 13 rosNodeHandle
+107 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);; 9 cFunction
+16 writeDestination 59 decl;health_analyzer_node.cpp::main(int,char **,);;__ret!;; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1
+16 writeDestination 86 decl;node_handle.h::ros::NodeHandle::NodeHandle(const class ros::NodeHandle &,)::rhs;; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1
+19 varWriteDestination 86 decl;node_handle.h::ros::NodeHandle::NodeHandle(const class ros::NodeHandle &,)::rhs;; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1
+7 contain 77 decl;health_analyzer.h::HealthAnalyzer::getTargetNode(const std::string &,);; 90 decl;health_analyzer.h::HealthAnalyzer::getTargetNode(const std::string &,)::target_node;;
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 90 decl;health_analyzer.h::HealthAnalyzer::HealthAnalyzer(ros::NodeHandle,ros::NodeHandle,);;
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 59 decl;health_analyzer.h::HealthAnalyzer::~HealthAnalyzer();;
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 117 decl;health_analyzer.h::HealthAnalyzer::systemStatusCallback(const autoware_system_msgs::SystemStatus::ConstPtr &,);;
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 106 decl;health_analyzer.h::HealthAnalyzer::generateDependGraph(const autoware_system_msgs::SystemStatus &,);;
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 92 decl;health_analyzer.h::HealthAnalyzer::addDepend(const rosgraph_msgs::TopicStatistics &,);;
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 105 decl;health_analyzer.h::HealthAnalyzer::filterSystemStatus(const autoware_system_msgs::SystemStatus &,);;
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 103 decl;health_analyzer.h::HealthAnalyzer::findWarningNodes(const autoware_system_msgs::SystemStatus &,);;
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 101 decl;health_analyzer.h::HealthAnalyzer::findErrorNodes(const autoware_system_msgs::SystemStatus &,);;
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 90 decl;health_analyzer.h::HealthAnalyzer::findRootNodes(const std::vector<std::string> &,);;
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 77 decl;health_analyzer.h::HealthAnalyzer::getTargetNode(const std::string &,);;
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 96 decl;health_analyzer.h::HealthAnalyzer::countWarn(const autoware_system_msgs::SystemStatus &,);;
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 52 decl;health_analyzer.h::HealthAnalyzer::writeDot();;
+7 contain 106 decl;health_analyzer.h::HealthAnalyzer::generateDependGraph(const autoware_system_msgs::SystemStatus &,);; 114 decl;health_analyzer.h::HealthAnalyzer::generateDependGraph(const autoware_system_msgs::SystemStatus &,)::status;;
+7 contain 96 decl;health_analyzer.h::HealthAnalyzer::countWarn(const autoware_system_msgs::SystemStatus &,);; 101 decl;health_analyzer.h::HealthAnalyzer::countWarn(const autoware_system_msgs::SystemStatus &,)::msg;;
+7 contain 105 decl;health_analyzer.h::HealthAnalyzer::filterSystemStatus(const autoware_system_msgs::SystemStatus &,);; 113 decl;health_analyzer.h::HealthAnalyzer::filterSystemStatus(const autoware_system_msgs::SystemStatus &,)::status;;
+16 writeDestination 115 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);;__ret!;; 113 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);;:CFG:1
+16 writeDestination 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__a;; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1
+15 functionCFGLink 107 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);; 117 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);;:CFG:ENTRY
+5 write 107 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);; 115 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,)::result;;
+11 writeSource 107 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);; 113 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);;:CFG:1
+7 contain 107 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);; 113 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);;:CFG:0
+7 contain 107 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);; 113 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);;:CFG:1
+7 contain 107 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);; 117 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);;:CFG:ENTRY
+7 contain 92 decl;health_analyzer.h::HealthAnalyzer::addDepend(const rosgraph_msgs::TopicStatistics &,);; 104 decl;health_analyzer.h::HealthAnalyzer::addDepend(const rosgraph_msgs::TopicStatistics &,)::statistics;;
+7 contain 117 decl;health_analyzer.h::HealthAnalyzer::systemStatusCallback(const autoware_system_msgs::SystemStatus::ConstPtr &,);; 122 decl;health_analyzer.h::HealthAnalyzer::systemStatusCallback(const autoware_system_msgs::SystemStatus::ConstPtr &,)::msg;;
+15 callDestination 69 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,);; 79 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,);;:CFG:ENTRY
+7 contain 101 decl;health_analyzer.h::HealthAnalyzer::findErrorNodes(const autoware_system_msgs::SystemStatus &,);; 109 decl;health_analyzer.h::HealthAnalyzer::findErrorNodes(const autoware_system_msgs::SystemStatus &,)::status;;
+3 obj 95 decl;health_analyzer.h::HealthAnalyzer::HealthAnalyzer(ros::NodeHandle,ros::NodeHandle,)::pnh;; 34 decl;forwards.h::ros::NodeHandle;;
+16 writeDestination 95 decl;health_analyzer.h::HealthAnalyzer::HealthAnalyzer(ros::NodeHandle,ros::NodeHandle,)::pnh;; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1
+19 varWriteDestination 95 decl;health_analyzer.h::HealthAnalyzer::HealthAnalyzer(ros::NodeHandle,ros::NodeHandle,)::pnh;; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1
+19 parWriteDestination 75 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,)::argc;; 79 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,);;:CFG:ENTRY
+7 contain 90 decl;health_analyzer.h::HealthAnalyzer::HealthAnalyzer(ros::NodeHandle,ros::NodeHandle,);; 94 decl;health_analyzer.h::HealthAnalyzer::HealthAnalyzer(ros::NodeHandle,ros::NodeHandle,)::nh;;
+7 contain 90 decl;health_analyzer.h::HealthAnalyzer::HealthAnalyzer(ros::NodeHandle,ros::NodeHandle,);; 95 decl;health_analyzer.h::HealthAnalyzer::HealthAnalyzer(ros::NodeHandle,ros::NodeHandle,)::pnh;;
+12 nextCFGBlock 32 decl;init.h::ros::spin();;:CFG:0 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1
+16 writeDestination 115 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,)::result;; 113 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);;:CFG:1
+7 contain 90 decl;health_analyzer.h::HealthAnalyzer::findRootNodes(const std::vector<std::string> &,);; 104 decl;health_analyzer.h::HealthAnalyzer::findRootNodes(const std::vector<std::string> &,)::target_nodes;;
+3 obj 94 decl;health_analyzer.h::HealthAnalyzer::HealthAnalyzer(ros::NodeHandle,ros::NodeHandle,)::nh;; 34 decl;forwards.h::ros::NodeHandle;;
+16 writeDestination 94 decl;health_analyzer.h::HealthAnalyzer::HealthAnalyzer(ros::NodeHandle,ros::NodeHandle,)::nh;; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1
+19 varWriteDestination 94 decl;health_analyzer.h::HealthAnalyzer::HealthAnalyzer(ros::NodeHandle,ros::NodeHandle,)::nh;; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1
+16 writeDestination 105 decl;node_handle.h::ros::NodeHandle::NodeHandle(const std::string &,const ros::M_string &,)::remappings;; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1
+16 writeDestination 97 decl;node_handle.h::ros::NodeHandle::NodeHandle(const std::string &,const ros::M_string &,)::ns;; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1
+15 functionCFGLink 51 decl;health_analyzer_node.cpp::main(int,char **,);; 61 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:ENTRY
+4 call 51 decl;health_analyzer_node.cpp::main(int,char **,);; 69 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,);;
+10 callSource 51 decl;health_analyzer_node.cpp::main(int,char **,);; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1
+5 write 51 decl;health_analyzer_node.cpp::main(int,char **,);; 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__s;;
+11 writeSource 51 decl;health_analyzer_node.cpp::main(int,char **,);; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1
+5 write 51 decl;health_analyzer_node.cpp::main(int,char **,);; 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__a;;
+5 write 51 decl;health_analyzer_node.cpp::main(int,char **,);; 55 decl;health_analyzer_node.cpp::main(int,char **,)::nh;;
+5 write 51 decl;health_analyzer_node.cpp::main(int,char **,);; 97 decl;node_handle.h::ros::NodeHandle::NodeHandle(const std::string &,const ros::M_string &,)::ns;;
+5 write 51 decl;health_analyzer_node.cpp::main(int,char **,);; 105 decl;node_handle.h::ros::NodeHandle::NodeHandle(const std::string &,const ros::M_string &,)::remappings;;
+5 write 51 decl;health_analyzer_node.cpp::main(int,char **,);; 56 decl;health_analyzer_node.cpp::main(int,char **,)::pnh;;
+5 write 51 decl;health_analyzer_node.cpp::main(int,char **,);; 61 decl;health_analyzer_node.cpp::main(int,char **,)::analyzer;;
+5 write 51 decl;health_analyzer_node.cpp::main(int,char **,);; 94 decl;health_analyzer.h::HealthAnalyzer::HealthAnalyzer(ros::NodeHandle,ros::NodeHandle,)::nh;;
+5 write 51 decl;health_analyzer_node.cpp::main(int,char **,);; 95 decl;health_analyzer.h::HealthAnalyzer::HealthAnalyzer(ros::NodeHandle,ros::NodeHandle,)::pnh;;
+5 write 51 decl;health_analyzer_node.cpp::main(int,char **,);; 86 decl;node_handle.h::ros::NodeHandle::NodeHandle(const class ros::NodeHandle &,)::rhs;;
+4 call 51 decl;health_analyzer_node.cpp::main(int,char **,);; 26 decl;init.h::ros::spin();;
+7 contain 51 decl;health_analyzer_node.cpp::main(int,char **,);; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:0
+7 contain 51 decl;health_analyzer_node.cpp::main(int,char **,);; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1
+7 contain 51 decl;health_analyzer_node.cpp::main(int,char **,);; 61 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:ENTRY
+16 writeDestination 61 decl;health_analyzer_node.cpp::main(int,char **,)::analyzer;; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1
+19 varWriteDestination 61 decl;health_analyzer_node.cpp::main(int,char **,)::analyzer;; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1
+12 nextCFGBlock 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1 79 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,);;:CFG:ENTRY
+12 nextCFGBlock 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1 36 decl;init.h::ros::spin();;:CFG:ENTRY
+12 nextCFGBlock 75 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,);;:CFG:0 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1
+8 parWrite 57 decl;health_analyzer_node.cpp::main(int,char **,)::argc;; 75 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,)::argc;;
+14 parWriteSource 57 decl;health_analyzer_node.cpp::main(int,char **,)::argc;; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1
+19 parWriteDestination 75 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,)::argv;; 79 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,);;:CFG:ENTRY
+15 callDestination 26 decl;init.h::ros::spin();; 36 decl;init.h::ros::spin();;:CFG:ENTRY
+8 parWrite 57 decl;health_analyzer_node.cpp::main(int,char **,)::argv;; 75 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,)::argv;;
+14 parWriteSource 57 decl;health_analyzer_node.cpp::main(int,char **,)::argv;; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1
+16 writeDestination 56 decl;health_analyzer_node.cpp::main(int,char **,)::pnh;; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1
+3 obj 56 decl;health_analyzer_node.cpp::main(int,char **,)::pnh;; 34 decl;forwards.h::ros::NodeHandle;;
+8 varWrite 56 decl;health_analyzer_node.cpp::main(int,char **,)::pnh;; 61 decl;health_analyzer_node.cpp::main(int,char **,)::analyzer;;
+14 varWriteSource 56 decl;health_analyzer_node.cpp::main(int,char **,)::pnh;; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1
+8 varWrite 56 decl;health_analyzer_node.cpp::main(int,char **,)::pnh;; 95 decl;health_analyzer.h::HealthAnalyzer::HealthAnalyzer(ros::NodeHandle,ros::NodeHandle,)::pnh;;
+8 varWrite 56 decl;health_analyzer_node.cpp::main(int,char **,)::pnh;; 86 decl;node_handle.h::ros::NodeHandle::NodeHandle(const class ros::NodeHandle &,)::rhs;;
+7 contain 103 decl;health_analyzer.h::HealthAnalyzer::findWarningNodes(const autoware_system_msgs::SystemStatus &,);; 111 decl;health_analyzer.h::HealthAnalyzer::findWarningNodes(const autoware_system_msgs::SystemStatus &,)::status;;
+19 parWriteDestination 75 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,)::name;; 79 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,);;:CFG:ENTRY
+16 writeDestination 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__s;; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1
+19 parWriteDestination 78 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,)::options;; 79 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,);;:CFG:ENTRY
+16 writeDestination 55 decl;health_analyzer_node.cpp::main(int,char **,)::nh;; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1
+3 obj 55 decl;health_analyzer_node.cpp::main(int,char **,)::nh;; 34 decl;forwards.h::ros::NodeHandle;;
+8 varWrite 55 decl;health_analyzer_node.cpp::main(int,char **,)::nh;; 61 decl;health_analyzer_node.cpp::main(int,char **,)::analyzer;;
+14 varWriteSource 55 decl;health_analyzer_node.cpp::main(int,char **,)::nh;; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1
+8 varWrite 55 decl;health_analyzer_node.cpp::main(int,char **,)::nh;; 94 decl;health_analyzer.h::HealthAnalyzer::HealthAnalyzer(ros::NodeHandle,ros::NodeHandle,)::nh;;
+8 varWrite 55 decl;health_analyzer_node.cpp::main(int,char **,)::nh;; 86 decl;node_handle.h::ros::NodeHandle::NodeHandle(const class ros::NodeHandle &,)::rhs;;
+12 nextCFGBlock 61 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:ENTRY 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 60 decl;health_analyzer.h::HealthAnalyzer::system_status_sub_;;
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 63 decl;health_analyzer.h::HealthAnalyzer::topic_statistics_sub_;;
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 68 decl;health_analyzer.h::HealthAnalyzer::system_status_summary_pub_;;
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 45 decl;health_analyzer.h::HealthAnalyzer::nh_;;
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 46 decl;health_analyzer.h::HealthAnalyzer::pnh_;;
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 55 decl;health_analyzer.h::HealthAnalyzer::depend_graph_;;
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 69 decl;health_analyzer.h::HealthAnalyzer::warn_nodes_count_threshold_;;
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 107 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);;
+7 contain 107 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);; 115 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,)::vector;;
+7 contain 107 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);; 115 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,)::target;;
+7 contain 107 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);; 115 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,)::result;;
+5 write 107 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);; 115 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);;__ret!;;
+7 contain 39 decl;health_analyzer.h::node_property;; 50 decl;health_analyzer.h::node_property::node_name;;
+7 contain 40 decl;health_analyzer.h::topic_property;; 50 decl;health_analyzer.h::topic_property::node_pub;;
+7 contain 40 decl;health_analyzer.h::topic_property;; 50 decl;health_analyzer.h::topic_property::node_sub;;
+12 nextCFGBlock 117 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);;:CFG:ENTRY 113 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);;:CFG:1
+12 nextCFGBlock 113 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);;:CFG:1 113 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);;:CFG:0
+7 contain 51 decl;health_analyzer_node.cpp::main(int,char **,);; 57 decl;health_analyzer_node.cpp::main(int,char **,)::argc;;
+7 contain 51 decl;health_analyzer_node.cpp::main(int,char **,);; 57 decl;health_analyzer_node.cpp::main(int,char **,)::argv;;
+7 contain 51 decl;health_analyzer_node.cpp::main(int,char **,);; 55 decl;health_analyzer_node.cpp::main(int,char **,)::nh;;
+7 contain 51 decl;health_analyzer_node.cpp::main(int,char **,);; 56 decl;health_analyzer_node.cpp::main(int,char **,)::pnh;;
+7 contain 51 decl;health_analyzer_node.cpp::main(int,char **,);; 61 decl;health_analyzer_node.cpp::main(int,char **,)::analyzer;;
+5 write 51 decl;health_analyzer_node.cpp::main(int,char **,);; 59 decl;health_analyzer_node.cpp::main(int,char **,);;__ret!;;
+3 obj 61 decl;health_analyzer_node.cpp::main(int,char **,)::analyzer;; 40 decl;health_analyzer.h::HealthAnalyzer;;
+12 nextCFGBlock 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:0
+179 decl;constants.h::autoware_health_checker::BUFFER_DURATION;static;/home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/constants.h;; 5 0 8 filename 111 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/constants.h 15 filenameDeclare 111 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/constants.h 13 isControlFlow 1 0 7 isParam 1 0 5 label 84 include/autoware_health_checker/constants.h:autoware_health_checker::BUFFER_DURATION 
+187 decl;constants.h::autoware_health_checker::NODE_STATUS_UPDATE_RATE;static;/home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/constants.h;; 5 0 8 filename 111 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/constants.h 15 filenameDeclare 111 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/constants.h 13 isControlFlow 1 0 7 isParam 1 0 5 label 92 include/autoware_health_checker/constants.h:autoware_health_checker::NODE_STATUS_UPDATE_RATE 
+182 decl;constants.h::autoware_health_checker::SYSTEM_UPDATE_RATE;static;/home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/constants.h;; 5 0 8 filename 111 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/constants.h 15 filenameDeclare 111 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/constants.h 13 isControlFlow 1 0 7 isParam 1 0 5 label 87 include/autoware_health_checker/constants.h:autoware_health_checker::SYSTEM_UPDATE_RATE 
+55 decl;health_analyzer.h::HealthAnalyzer::depend_graph_;; 4 0 8 filename 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 15 filenameDeclare 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 13 isControlFlow 1 0 5 label 87 autoware_health_checker/health_analyzer/health_analyzer.h:HealthAnalyzer::depend_graph_ 
+115 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,)::result;; 5 0 8 filename 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 15 filenameDeclare 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 13 isControlFlow 1 0 7 isParam 1 0 5 label 112 autoware_health_checker/health_analyzer/health_analyzer.h:HealthAnalyzer::isAlreadyExist::isAlreadyExist::result 
+115 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,)::target;; 2 0 8 filename 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 15 filenameDeclare 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 
+115 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,)::vector;; 2 0 8 filename 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 15 filenameDeclare 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 
+107 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);; 4 0 8 filename 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 15 filenameDeclare 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 14 isCallbackFunc 1 0 5 label 104 autoware_health_checker/health_analyzer/health_analyzer.h:HealthAnalyzer::isAlreadyExist::isAlreadyExist 
+113 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);;:CFG:0 2 0 8 filename 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 15 filenameDeclare 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 
+113 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);;:CFG:1 2 0 8 filename 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 15 filenameDeclare 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 
+117 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);;:CFG:ENTRY 2 0 8 filename 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 15 filenameDeclare 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 
+115 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);;__ret!;; 2 0 8 filename 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 15 filenameDeclare 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 
+45 decl;health_analyzer.h::HealthAnalyzer::nh_;; 4 0 8 filename 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 15 filenameDeclare 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 13 isControlFlow 1 0 5 label 77 autoware_health_checker/health_analyzer/health_analyzer.h:HealthAnalyzer::nh_ 
+46 decl;health_analyzer.h::HealthAnalyzer::pnh_;; 4 0 8 filename 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 15 filenameDeclare 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 13 isControlFlow 1 0 5 label 78 autoware_health_checker/health_analyzer/health_analyzer.h:HealthAnalyzer::pnh_ 
+60 decl;health_analyzer.h::HealthAnalyzer::system_status_sub_;; 4 0 8 filename 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 15 filenameDeclare 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 13 isControlFlow 1 0 5 label 92 autoware_health_checker/health_analyzer/health_analyzer.h:HealthAnalyzer::system_status_sub_ 
+68 decl;health_analyzer.h::HealthAnalyzer::system_status_summary_pub_;; 4 0 8 filename 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 15 filenameDeclare 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 13 isControlFlow 1 0 5 label 100 autoware_health_checker/health_analyzer/health_analyzer.h:HealthAnalyzer::system_status_summary_pub_ 
+63 decl;health_analyzer.h::HealthAnalyzer::topic_statistics_sub_;; 4 0 8 filename 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 15 filenameDeclare 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 13 isControlFlow 1 0 5 label 95 autoware_health_checker/health_analyzer/health_analyzer.h:HealthAnalyzer::topic_statistics_sub_ 
+69 decl;health_analyzer.h::HealthAnalyzer::warn_nodes_count_threshold_;; 4 0 8 filename 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 15 filenameDeclare 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 13 isControlFlow 1 0 5 label 101 autoware_health_checker/health_analyzer/health_analyzer.h:HealthAnalyzer::warn_nodes_count_threshold_ 
+40 decl;health_analyzer.h::HealthAnalyzer;; 3 0 8 filename 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 15 filenameDeclare 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 5 label 72 autoware_health_checker/health_analyzer/health_analyzer.h:HealthAnalyzer 
+50 decl;health_analyzer.h::node_property::node_name;; 4 0 8 filename 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 15 filenameDeclare 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 13 isControlFlow 1 0 5 label 82 autoware_health_checker/health_analyzer/health_analyzer.h:node_property::node_name 
+39 decl;health_analyzer.h::node_property;; 3 0 8 filename 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 15 filenameDeclare 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 5 label 71 autoware_health_checker/health_analyzer/health_analyzer.h:node_property 
+50 decl;health_analyzer.h::topic_property::node_pub;; 4 0 8 filename 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 15 filenameDeclare 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 13 isControlFlow 1 0 5 label 82 autoware_health_checker/health_analyzer/health_analyzer.h:topic_property::node_pub 
+50 decl;health_analyzer.h::topic_property::node_sub;; 4 0 8 filename 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 15 filenameDeclare 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 13 isControlFlow 1 0 5 label 82 autoware_health_checker/health_analyzer/health_analyzer.h:topic_property::node_sub 
+40 decl;health_analyzer.h::topic_property;; 3 0 8 filename 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 15 filenameDeclare 133 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h 5 label 72 autoware_health_checker/health_analyzer/health_analyzer.h:topic_property 
+61 decl;health_analyzer_node.cpp::main(int,char **,)::analyzer;; 5 0 8 filename 112 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_analyzer/health_analyzer_node.cpp 15 filenameDeclare 112 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_analyzer/health_analyzer_node.cpp 13 isControlFlow 1 0 7 isParam 1 0 5 label 59 src/health_analyzer/health_analyzer_node.cpp:main::analyzer 
+57 decl;health_analyzer_node.cpp::main(int,char **,)::argc;; 2 0 8 filename 112 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_analyzer/health_analyzer_node.cpp 15 filenameDeclare 112 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_analyzer/health_analyzer_node.cpp 
+57 decl;health_analyzer_node.cpp::main(int,char **,)::argv;; 2 0 8 filename 112 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_analyzer/health_analyzer_node.cpp 15 filenameDeclare 112 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_analyzer/health_analyzer_node.cpp 
+55 decl;health_analyzer_node.cpp::main(int,char **,)::nh;; 5 0 8 filename 112 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_analyzer/health_analyzer_node.cpp 15 filenameDeclare 112 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_analyzer/health_analyzer_node.cpp 13 isControlFlow 1 0 7 isParam 1 0 5 label 53 src/health_analyzer/health_analyzer_node.cpp:main::nh 
+56 decl;health_analyzer_node.cpp::main(int,char **,)::pnh;; 5 0 8 filename 112 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_analyzer/health_analyzer_node.cpp 15 filenameDeclare 112 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_analyzer/health_analyzer_node.cpp 13 isControlFlow 1 0 7 isParam 1 0 5 label 54 src/health_analyzer/health_analyzer_node.cpp:main::pnh 
+51 decl;health_analyzer_node.cpp::main(int,char **,);; 4 0 8 filename 112 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_analyzer/health_analyzer_node.cpp 15 filenameDeclare 112 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_analyzer/health_analyzer_node.cpp 14 isCallbackFunc 1 0 5 label 49 src/health_analyzer/health_analyzer_node.cpp:main 
+57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:0 2 0 8 filename 112 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_analyzer/health_analyzer_node.cpp 15 filenameDeclare 112 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_analyzer/health_analyzer_node.cpp 
+57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1 2 0 8 filename 112 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_analyzer/health_analyzer_node.cpp 15 filenameDeclare 112 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_analyzer/health_analyzer_node.cpp 
+61 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:ENTRY 2 0 8 filename 112 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_analyzer/health_analyzer_node.cpp 15 filenameDeclare 112 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_analyzer/health_analyzer_node.cpp 
+59 decl;health_analyzer_node.cpp::main(int,char **,);;__ret!;; 2 0 8 filename 112 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_analyzer/health_analyzer_node.cpp 15 filenameDeclare 112 /home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_analyzer/health_analyzer_node.cpp 
+15 callDestination 69 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,);; 79 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,);;:CFG:ENTRY 0 0 
+15 callDestination 26 decl;init.h::ros::spin();; 36 decl;init.h::ros::spin();;:CFG:ENTRY 0 0 
+10 callSource 51 decl;health_analyzer_node.cpp::main(int,char **,);; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1 0 0 
+4 call 51 decl;health_analyzer_node.cpp::main(int,char **,);; 69 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,);; 0 0 
+4 call 51 decl;health_analyzer_node.cpp::main(int,char **,);; 26 decl;init.h::ros::spin();; 0 0 
+7 contain 90 decl;health_analyzer.h::HealthAnalyzer::HealthAnalyzer(ros::NodeHandle,ros::NodeHandle,);; 94 decl;health_analyzer.h::HealthAnalyzer::HealthAnalyzer(ros::NodeHandle,ros::NodeHandle,)::nh;; 0 0 
+7 contain 90 decl;health_analyzer.h::HealthAnalyzer::HealthAnalyzer(ros::NodeHandle,ros::NodeHandle,);; 95 decl;health_analyzer.h::HealthAnalyzer::HealthAnalyzer(ros::NodeHandle,ros::NodeHandle,)::pnh;; 0 0 
+7 contain 92 decl;health_analyzer.h::HealthAnalyzer::addDepend(const rosgraph_msgs::TopicStatistics &,);; 104 decl;health_analyzer.h::HealthAnalyzer::addDepend(const rosgraph_msgs::TopicStatistics &,)::statistics;; 0 0 
+7 contain 96 decl;health_analyzer.h::HealthAnalyzer::countWarn(const autoware_system_msgs::SystemStatus &,);; 101 decl;health_analyzer.h::HealthAnalyzer::countWarn(const autoware_system_msgs::SystemStatus &,)::msg;; 0 0 
+7 contain 105 decl;health_analyzer.h::HealthAnalyzer::filterSystemStatus(const autoware_system_msgs::SystemStatus &,);; 113 decl;health_analyzer.h::HealthAnalyzer::filterSystemStatus(const autoware_system_msgs::SystemStatus &,)::status;; 0 0 
+7 contain 101 decl;health_analyzer.h::HealthAnalyzer::findErrorNodes(const autoware_system_msgs::SystemStatus &,);; 109 decl;health_analyzer.h::HealthAnalyzer::findErrorNodes(const autoware_system_msgs::SystemStatus &,)::status;; 0 0 
+7 contain 90 decl;health_analyzer.h::HealthAnalyzer::findRootNodes(const std::vector<std::string> &,);; 104 decl;health_analyzer.h::HealthAnalyzer::findRootNodes(const std::vector<std::string> &,)::target_nodes;; 0 0 
+7 contain 103 decl;health_analyzer.h::HealthAnalyzer::findWarningNodes(const autoware_system_msgs::SystemStatus &,);; 111 decl;health_analyzer.h::HealthAnalyzer::findWarningNodes(const autoware_system_msgs::SystemStatus &,)::status;; 0 0 
+7 contain 106 decl;health_analyzer.h::HealthAnalyzer::generateDependGraph(const autoware_system_msgs::SystemStatus &,);; 114 decl;health_analyzer.h::HealthAnalyzer::generateDependGraph(const autoware_system_msgs::SystemStatus &,)::status;; 0 0 
+7 contain 77 decl;health_analyzer.h::HealthAnalyzer::getTargetNode(const std::string &,);; 90 decl;health_analyzer.h::HealthAnalyzer::getTargetNode(const std::string &,)::target_node;; 0 0 
+7 contain 107 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);; 115 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,)::result;; 0 0 
+7 contain 107 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);; 115 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,)::target;; 0 0 
+7 contain 107 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);; 115 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,)::vector;; 0 0 
+7 contain 107 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);; 113 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);;:CFG:0 0 0 
+7 contain 107 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);; 113 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);;:CFG:1 0 0 
+7 contain 107 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);; 117 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);;:CFG:ENTRY 0 0 
+7 contain 117 decl;health_analyzer.h::HealthAnalyzer::systemStatusCallback(const autoware_system_msgs::SystemStatus::ConstPtr &,);; 122 decl;health_analyzer.h::HealthAnalyzer::systemStatusCallback(const autoware_system_msgs::SystemStatus::ConstPtr &,)::msg;; 0 0 
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 90 decl;health_analyzer.h::HealthAnalyzer::HealthAnalyzer(ros::NodeHandle,ros::NodeHandle,);; 0 0 
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 92 decl;health_analyzer.h::HealthAnalyzer::addDepend(const rosgraph_msgs::TopicStatistics &,);; 0 0 
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 96 decl;health_analyzer.h::HealthAnalyzer::countWarn(const autoware_system_msgs::SystemStatus &,);; 0 0 
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 55 decl;health_analyzer.h::HealthAnalyzer::depend_graph_;; 0 0 
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 105 decl;health_analyzer.h::HealthAnalyzer::filterSystemStatus(const autoware_system_msgs::SystemStatus &,);; 0 0 
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 101 decl;health_analyzer.h::HealthAnalyzer::findErrorNodes(const autoware_system_msgs::SystemStatus &,);; 0 0 
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 90 decl;health_analyzer.h::HealthAnalyzer::findRootNodes(const std::vector<std::string> &,);; 0 0 
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 103 decl;health_analyzer.h::HealthAnalyzer::findWarningNodes(const autoware_system_msgs::SystemStatus &,);; 0 0 
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 106 decl;health_analyzer.h::HealthAnalyzer::generateDependGraph(const autoware_system_msgs::SystemStatus &,);; 0 0 
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 77 decl;health_analyzer.h::HealthAnalyzer::getTargetNode(const std::string &,);; 0 0 
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 107 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);; 0 0 
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 45 decl;health_analyzer.h::HealthAnalyzer::nh_;; 0 0 
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 46 decl;health_analyzer.h::HealthAnalyzer::pnh_;; 0 0 
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 117 decl;health_analyzer.h::HealthAnalyzer::systemStatusCallback(const autoware_system_msgs::SystemStatus::ConstPtr &,);; 0 0 
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 60 decl;health_analyzer.h::HealthAnalyzer::system_status_sub_;; 0 0 
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 68 decl;health_analyzer.h::HealthAnalyzer::system_status_summary_pub_;; 0 0 
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 63 decl;health_analyzer.h::HealthAnalyzer::topic_statistics_sub_;; 0 0 
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 69 decl;health_analyzer.h::HealthAnalyzer::warn_nodes_count_threshold_;; 0 0 
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 52 decl;health_analyzer.h::HealthAnalyzer::writeDot();; 0 0 
+7 contain 40 decl;health_analyzer.h::HealthAnalyzer;; 59 decl;health_analyzer.h::HealthAnalyzer::~HealthAnalyzer();; 0 0 
+7 contain 39 decl;health_analyzer.h::node_property;; 50 decl;health_analyzer.h::node_property::node_name;; 0 0 
+7 contain 40 decl;health_analyzer.h::topic_property;; 50 decl;health_analyzer.h::topic_property::node_pub;; 0 0 
+7 contain 40 decl;health_analyzer.h::topic_property;; 50 decl;health_analyzer.h::topic_property::node_sub;; 0 0 
+7 contain 51 decl;health_analyzer_node.cpp::main(int,char **,);; 61 decl;health_analyzer_node.cpp::main(int,char **,)::analyzer;; 0 0 
+7 contain 51 decl;health_analyzer_node.cpp::main(int,char **,);; 57 decl;health_analyzer_node.cpp::main(int,char **,)::argc;; 0 0 
+7 contain 51 decl;health_analyzer_node.cpp::main(int,char **,);; 57 decl;health_analyzer_node.cpp::main(int,char **,)::argv;; 0 0 
+7 contain 51 decl;health_analyzer_node.cpp::main(int,char **,);; 55 decl;health_analyzer_node.cpp::main(int,char **,)::nh;; 0 0 
+7 contain 51 decl;health_analyzer_node.cpp::main(int,char **,);; 56 decl;health_analyzer_node.cpp::main(int,char **,)::pnh;; 0 0 
+7 contain 51 decl;health_analyzer_node.cpp::main(int,char **,);; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:0 0 0 
+7 contain 51 decl;health_analyzer_node.cpp::main(int,char **,);; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1 0 0 
+7 contain 51 decl;health_analyzer_node.cpp::main(int,char **,);; 61 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:ENTRY 0 0 
+15 functionCFGLink 107 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);; 117 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);;:CFG:ENTRY 0 0 
+15 functionCFGLink 51 decl;health_analyzer_node.cpp::main(int,char **,);; 61 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:ENTRY 0 0 
+12 nextCFGBlock 113 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);;:CFG:1 113 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);;:CFG:0 0 0 
+12 nextCFGBlock 117 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);;:CFG:ENTRY 113 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);;:CFG:1 0 0 
+12 nextCFGBlock 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:0 0 0 
+12 nextCFGBlock 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1 79 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,);;:CFG:ENTRY 1 0 9 cfgInvoke 1 1 
+12 nextCFGBlock 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1 36 decl;init.h::ros::spin();;:CFG:ENTRY 1 0 9 cfgInvoke 1 1 
+12 nextCFGBlock 61 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:ENTRY 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1 0 0 
+12 nextCFGBlock 75 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,);;:CFG:0 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1 1 0 9 cfgReturn 1 1 
+12 nextCFGBlock 32 decl;init.h::ros::spin();;:CFG:0 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1 1 0 9 cfgReturn 1 1 
+3 obj 94 decl;health_analyzer.h::HealthAnalyzer::HealthAnalyzer(ros::NodeHandle,ros::NodeHandle,)::nh;; 34 decl;forwards.h::ros::NodeHandle;; 0 0 
+3 obj 95 decl;health_analyzer.h::HealthAnalyzer::HealthAnalyzer(ros::NodeHandle,ros::NodeHandle,)::pnh;; 34 decl;forwards.h::ros::NodeHandle;; 0 0 
+3 obj 61 decl;health_analyzer_node.cpp::main(int,char **,)::analyzer;; 40 decl;health_analyzer.h::HealthAnalyzer;; 0 0 
+3 obj 55 decl;health_analyzer_node.cpp::main(int,char **,)::nh;; 34 decl;forwards.h::ros::NodeHandle;; 0 0 
+3 obj 56 decl;health_analyzer_node.cpp::main(int,char **,)::pnh;; 34 decl;forwards.h::ros::NodeHandle;; 0 0 
+19 parWriteDestination 75 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,)::argc;; 79 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,);;:CFG:ENTRY 0 0 
+19 parWriteDestination 75 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,)::argv;; 79 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,);;:CFG:ENTRY 0 0 
+19 parWriteDestination 75 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,)::name;; 79 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,);;:CFG:ENTRY 0 0 
+19 parWriteDestination 78 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,)::options;; 79 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,);;:CFG:ENTRY 0 0 
+14 parWriteSource 57 decl;health_analyzer_node.cpp::main(int,char **,)::argc;; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1 0 0 
+14 parWriteSource 57 decl;health_analyzer_node.cpp::main(int,char **,)::argv;; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1 0 0 
+8 parWrite 57 decl;health_analyzer_node.cpp::main(int,char **,)::argc;; 75 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,)::argc;; 0 0 
+8 parWrite 57 decl;health_analyzer_node.cpp::main(int,char **,)::argv;; 75 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,)::argv;; 0 0 
+19 varWriteDestination 94 decl;health_analyzer.h::HealthAnalyzer::HealthAnalyzer(ros::NodeHandle,ros::NodeHandle,)::nh;; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1 1 0 11 LINE_NUMBER 2 29 
+19 varWriteDestination 95 decl;health_analyzer.h::HealthAnalyzer::HealthAnalyzer(ros::NodeHandle,ros::NodeHandle,)::pnh;; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1 1 0 11 LINE_NUMBER 2 29 
+19 varWriteDestination 61 decl;health_analyzer_node.cpp::main(int,char **,)::analyzer;; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1 1 0 11 LINE_NUMBER 2 29 
+19 varWriteDestination 86 decl;node_handle.h::ros::NodeHandle::NodeHandle(const class ros::NodeHandle &,)::rhs;; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1 1 0 11 LINE_NUMBER 2 29 
+14 varWriteSource 55 decl;health_analyzer_node.cpp::main(int,char **,)::nh;; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1 1 0 11 LINE_NUMBER 2 29 
+14 varWriteSource 56 decl;health_analyzer_node.cpp::main(int,char **,)::pnh;; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1 1 0 11 LINE_NUMBER 2 29 
+8 varWrite 55 decl;health_analyzer_node.cpp::main(int,char **,)::nh;; 94 decl;health_analyzer.h::HealthAnalyzer::HealthAnalyzer(ros::NodeHandle,ros::NodeHandle,)::nh;; 0 0 
+8 varWrite 55 decl;health_analyzer_node.cpp::main(int,char **,)::nh;; 61 decl;health_analyzer_node.cpp::main(int,char **,)::analyzer;; 0 0 
+8 varWrite 55 decl;health_analyzer_node.cpp::main(int,char **,)::nh;; 86 decl;node_handle.h::ros::NodeHandle::NodeHandle(const class ros::NodeHandle &,)::rhs;; 0 0 
+8 varWrite 56 decl;health_analyzer_node.cpp::main(int,char **,)::pnh;; 95 decl;health_analyzer.h::HealthAnalyzer::HealthAnalyzer(ros::NodeHandle,ros::NodeHandle,)::pnh;; 0 0 
+8 varWrite 56 decl;health_analyzer_node.cpp::main(int,char **,)::pnh;; 61 decl;health_analyzer_node.cpp::main(int,char **,)::analyzer;; 0 0 
+8 varWrite 56 decl;health_analyzer_node.cpp::main(int,char **,)::pnh;; 86 decl;node_handle.h::ros::NodeHandle::NodeHandle(const class ros::NodeHandle &,)::rhs;; 0 0 
+16 writeDestination 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__a;; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1 0 0 
+16 writeDestination 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__s;; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1 0 0 
+16 writeDestination 94 decl;health_analyzer.h::HealthAnalyzer::HealthAnalyzer(ros::NodeHandle,ros::NodeHandle,)::nh;; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1 0 0 
+16 writeDestination 95 decl;health_analyzer.h::HealthAnalyzer::HealthAnalyzer(ros::NodeHandle,ros::NodeHandle,)::pnh;; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1 0 0 
+16 writeDestination 115 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,)::result;; 113 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);;:CFG:1 0 0 
+16 writeDestination 115 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);;__ret!;; 113 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);;:CFG:1 0 0 
+16 writeDestination 61 decl;health_analyzer_node.cpp::main(int,char **,)::analyzer;; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1 0 0 
+16 writeDestination 55 decl;health_analyzer_node.cpp::main(int,char **,)::nh;; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1 0 0 
+16 writeDestination 56 decl;health_analyzer_node.cpp::main(int,char **,)::pnh;; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1 0 0 
+16 writeDestination 59 decl;health_analyzer_node.cpp::main(int,char **,);;__ret!;; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1 0 0 
+16 writeDestination 86 decl;node_handle.h::ros::NodeHandle::NodeHandle(const class ros::NodeHandle &,)::rhs;; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1 0 0 
+16 writeDestination 97 decl;node_handle.h::ros::NodeHandle::NodeHandle(const std::string &,const ros::M_string &,)::ns;; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1 0 0 
+16 writeDestination 105 decl;node_handle.h::ros::NodeHandle::NodeHandle(const std::string &,const ros::M_string &,)::remappings;; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1 0 0 
+11 writeSource 107 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);; 113 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);;:CFG:1 0 0 
+11 writeSource 51 decl;health_analyzer_node.cpp::main(int,char **,);; 57 decl;health_analyzer_node.cpp::main(int,char **,);;:CFG:1 0 0 
+5 write 107 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);; 115 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,)::result;; 0 0 
+5 write 107 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);; 115 decl;health_analyzer.h::HealthAnalyzer::isAlreadyExist::isAlreadyExist(const std::vector<T> &,const T &,);;__ret!;; 0 0 
+5 write 51 decl;health_analyzer_node.cpp::main(int,char **,);; 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__a;; 0 0 
+5 write 51 decl;health_analyzer_node.cpp::main(int,char **,);; 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__s;; 0 0 
+5 write 51 decl;health_analyzer_node.cpp::main(int,char **,);; 94 decl;health_analyzer.h::HealthAnalyzer::HealthAnalyzer(ros::NodeHandle,ros::NodeHandle,)::nh;; 0 0 
+5 write 51 decl;health_analyzer_node.cpp::main(int,char **,);; 95 decl;health_analyzer.h::HealthAnalyzer::HealthAnalyzer(ros::NodeHandle,ros::NodeHandle,)::pnh;; 0 0 
+5 write 51 decl;health_analyzer_node.cpp::main(int,char **,);; 61 decl;health_analyzer_node.cpp::main(int,char **,)::analyzer;; 0 0 
+5 write 51 decl;health_analyzer_node.cpp::main(int,char **,);; 55 decl;health_analyzer_node.cpp::main(int,char **,)::nh;; 0 0 
+5 write 51 decl;health_analyzer_node.cpp::main(int,char **,);; 56 decl;health_analyzer_node.cpp::main(int,char **,)::pnh;; 0 0 
+5 write 51 decl;health_analyzer_node.cpp::main(int,char **,);; 59 decl;health_analyzer_node.cpp::main(int,char **,);;__ret!;; 0 0 
+5 write 51 decl;health_analyzer_node.cpp::main(int,char **,);; 86 decl;node_handle.h::ros::NodeHandle::NodeHandle(const class ros::NodeHandle &,)::rhs;; 0 0 
+5 write 51 decl;health_analyzer_node.cpp::main(int,char **,);; 97 decl;node_handle.h::ros::NodeHandle::NodeHandle(const std::string &,const ros::M_string &,)::ns;; 0 0 
+5 write 51 decl;health_analyzer_node.cpp::main(int,char **,);; 105 decl;node_handle.h::ros::NodeHandle::NodeHandle(const std::string &,const ros::M_string &,)::remappings;; 0 0 

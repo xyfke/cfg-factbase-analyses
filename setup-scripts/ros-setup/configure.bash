@@ -14,6 +14,9 @@
 read -p "Enter software name: " software
 [ -z "$software" ] && echo "Need to provide a software name." && exit 0
 
+read -p "Enter instance number: " instance
+[ -z "$instance" ] && instance=""
+
 # get project path
 scriptpath="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 projectpath="${scriptpath}/../../"
@@ -29,7 +32,7 @@ if [ ! -d ${neo4jFactPath} ]; then
 fi
 
 # check if component exits
-componentPath="${projectpathreal}/factbases/${software}/components.csv"
+componentPath="${projectpathreal}/factbases/${software}/components${instance}.csv"
 if [ ! -f ${componentPath} ]; then
     echo "Unable to find component file."
     echo "Make sure components.csv is located here: ${componentPath}"
@@ -65,7 +68,7 @@ if [ ! -d "${neo4jpath}/neo4j-instances" ]; then
     mkdir -p "${neo4jpath}/neo4j-instances"
 fi
 
-neo4jLocation="${neo4jpath}/neo4j-instances/n-${software}/"
+neo4jLocation="${neo4jpath}/neo4j-instances/n-${software}${instance}/"
 if [ ! -d ${neo4jLocation} ]; then 
     tar xf ${neo4jTar} -C "${neo4jpath}"
     mv "${neo4jpath}/neo4j-community-4.4.8/" "${neo4jLocation}"
@@ -85,7 +88,7 @@ echo "dbms.memory.pagecache.size=${cacheSize}" >> "${confLocation}"
 
 # Compile the jar files and copy over
 cd "${neo4jApocProject}"
-git checkout 4.4
+git checkout fk-no-add-line
 git pull
 ./gradlew shadow
 cp "${neo4jApocProject}/core/build/libs/apoc-4.4.0.8-core.jar" "${neo4jLocation}/plugins/"
@@ -105,7 +108,7 @@ if [ ! -d ${neo4joutput} ]; then
     mkdir -p ${neo4joutput}
 fi
 
-jsonFilePath="${neo4jpathP}/python-scripts/script-json/${software}.json"
+jsonFilePath="${neo4jpathP}/python-scripts/script-json/${software}${instance}.json"
 
 # make sure repo is there
 if [ ! -d "${neo4jpathP}/python-scripts/script-json/" ]; then

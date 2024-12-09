@@ -1,6 +1,6 @@
 MATCH pubVarPath = (a)-[:pubVar]->(startPubTopic:rosTopic)
 MATCH pubTargetPath = (endSubTopic:rosTopic)-[:pubTarget]->(b:cVariable) 
-MATCH df=(startPubTopic)-[:dataflow*0..]->(endSubTopic) 
+MATCH df=(startPubTopic)-[:dataflow*1..]->(endSubTopic) 
 UNWIND relationships(df) As r
 WITH pubVarPath, pubTargetPath, a, b, df, COLLECT(DISTINCT r.compName) As compNames
 WHERE size(compNames) = length(df) AND (NOT a.compName IN compNames) 

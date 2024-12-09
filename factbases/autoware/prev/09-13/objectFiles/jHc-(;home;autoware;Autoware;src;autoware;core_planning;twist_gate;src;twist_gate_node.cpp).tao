@@ -1,0 +1,241 @@
+34 53 33 34 86
+58 decl;twist_gate_node.cpp::main(int,char **,)::private_nh;; 13 rosNodeHandle
+52 decl;twist_gate_node.cpp::main(int,char **,)::argv;; 9 cVariable
+52 decl;twist_gate_node.cpp::main(int,char **,)::argc;; 9 cVariable
+58 decl;twist_gate.h::TwistGate::emergency_handling_active_;; 9 cVariable
+54 decl;twist_gate.h::TwistGate::previous_command_mode_;; 9 cVariable
+45 decl;twist_gate.h::TwistGate::command_mode_;; 9 cVariable
+43 decl;twist_gate.h::TwistGate::CommandMode;; 5 cEnum
+40 decl;twist_gate.h::TwistGate::is_alive;; 9 cVariable
+54 decl;twist_gate.h::TwistGate::watchdog_timer_thread_;; 9 cVariable
+47 decl;twist_gate.h::TwistGate::timeout_period_;; 9 cVariable
+43 decl;twist_gate.h::TwistGate::state_time_;; 9 cVariable
+51 decl;twist_gate.h::TwistGate::emergency_stop_msg_;; 9 cVariable
+51 decl;twist_gate.h::TwistGate::use_decision_maker_;; 9 cVariable
+47 decl;twist_gate.h::TwistGate::twist_gate_msg_;; 9 cVariable
+38 decl;twist_gate.h::TwistGate::timer_;; 8 rosTimer
+43 decl;twist_gate.h::TwistGate::config_sub_;; 13 rosSubscriber
+47 decl;twist_gate.h::TwistGate::remote_cmd_sub_;; 13 rosSubscriber
+48 decl;twist_gate.h::TwistGate::vehicle_cmd_pub_;; 12 rosPublisher
+47 decl;twist_gate.h::TwistGate::is_state_drive_;; 9 cVariable
+52 decl;twist_gate.h::TwistGate::control_command_pub_;; 12 rosPublisher
+51 decl;twist_gate.h::TwistGate::health_checker_ptr_;; 9 cVariable
+50 decl;twist_gate_node.cpp::main(int,char **,)::nh;; 13 rosNodeHandle
+35 decl;twist_gate.h::TwistGate::nh_;; 13 rosNodeHandle
+30 decl;twist_gate.h::TwistGate;; 6 cClass
+52 decl;twist_gate.h::TwistGate::auto_cmd_sub_stdmap_;; 9 cVariable
+43 decl;twist_gate.h::TwistGate::private_nh_;; 13 rosNodeHandle
+56 decl;twist_gate.h::TwistGate::emergency_handling_time_;; 9 cVariable
+58 decl;twist_gate_node.cpp::main(int,char **,)::twist_gate;; 9 cVariable
+54 decl;twist_gate_node.cpp::main(int,char **,);;__ret!;; 7 cReturn
+42 decl;twist_gate.h::TwistGate::loop_rate_;; 9 cVariable
+48 decl;twist_gate.h::TwistGate::remote_cmd_time_;; 9 cVariable
+46 decl;twist_gate_node.cpp::main(int,char **,);; 9 cFunction
+51 decl;twist_gate.h::TwistGate::command_mode_topic_;; 9 cVariable
+42 decl;twist_gate.h::TwistGate::spinOnce();; 9 cFunction
+3 obj 50 decl;twist_gate_node.cpp::main(int,char **,)::nh;; 34 decl;forwards.h::ros::NodeHandle;;
+8 varWrite 50 decl;twist_gate_node.cpp::main(int,char **,)::nh;; 58 decl;twist_gate_node.cpp::main(int,char **,)::twist_gate;;
+8 varWrite 50 decl;twist_gate_node.cpp::main(int,char **,)::nh;; 95 decl;twist_gate.h::TwistGate::TwistGate(const ros::NodeHandle &,const ros::NodeHandle &,)::nh;;
+8 parWrite 52 decl;twist_gate_node.cpp::main(int,char **,)::argv;; 75 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,)::argv;;
+8 parWrite 52 decl;twist_gate_node.cpp::main(int,char **,)::argc;; 75 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,)::argc;;
+3 obj 58 decl;twist_gate_node.cpp::main(int,char **,)::private_nh;; 34 decl;forwards.h::ros::NodeHandle;;
+8 varWrite 58 decl;twist_gate_node.cpp::main(int,char **,)::private_nh;; 58 decl;twist_gate_node.cpp::main(int,char **,)::twist_gate;;
+8 varWrite 58 decl;twist_gate_node.cpp::main(int,char **,)::private_nh;; 103 decl;twist_gate.h::TwistGate::TwistGate(const ros::NodeHandle &,const ros::NodeHandle &,)::private_nh;;
+4 call 46 decl;twist_gate_node.cpp::main(int,char **,);; 69 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,);;
+5 write 46 decl;twist_gate_node.cpp::main(int,char **,);; 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__s;;
+5 write 46 decl;twist_gate_node.cpp::main(int,char **,);; 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__a;;
+5 write 46 decl;twist_gate_node.cpp::main(int,char **,);; 50 decl;twist_gate_node.cpp::main(int,char **,)::nh;;
+5 write 46 decl;twist_gate_node.cpp::main(int,char **,);; 97 decl;node_handle.h::ros::NodeHandle::NodeHandle(const std::string &,const ros::M_string &,)::ns;;
+5 write 46 decl;twist_gate_node.cpp::main(int,char **,);; 105 decl;node_handle.h::ros::NodeHandle::NodeHandle(const std::string &,const ros::M_string &,)::remappings;;
+5 write 46 decl;twist_gate_node.cpp::main(int,char **,);; 58 decl;twist_gate_node.cpp::main(int,char **,)::private_nh;;
+5 write 46 decl;twist_gate_node.cpp::main(int,char **,);; 58 decl;twist_gate_node.cpp::main(int,char **,)::twist_gate;;
+5 write 46 decl;twist_gate_node.cpp::main(int,char **,);; 95 decl;twist_gate.h::TwistGate::TwistGate(const ros::NodeHandle &,const ros::NodeHandle &,)::nh;;
+5 write 46 decl;twist_gate_node.cpp::main(int,char **,);; 103 decl;twist_gate.h::TwistGate::TwistGate(const ros::NodeHandle &,const ros::NodeHandle &,)::private_nh;;
+4 call 46 decl;twist_gate_node.cpp::main(int,char **,);; 26 decl;init.h::ros::spin();;
+7 contain 30 decl;twist_gate.h::TwistGate;; 91 decl;twist_gate.h::TwistGate::TwistGate(const ros::NodeHandle &,const ros::NodeHandle &,);;
+7 contain 30 decl;twist_gate.h::TwistGate;; 44 decl;twist_gate.h::TwistGate::~TwistGate();;
+7 contain 30 decl;twist_gate.h::TwistGate;; 44 decl;twist_gate.h::TwistGate::checkState();;
+7 contain 30 decl;twist_gate.h::TwistGate;; 47 decl;twist_gate.h::TwistGate::watchdogTimer();;
+7 contain 30 decl;twist_gate.h::TwistGate;; 83 decl;twist_gate.h::TwistGate::remoteCmdCallback(const remote_msgs_t::ConstPtr &,);;
+7 contain 30 decl;twist_gate.h::TwistGate;; 103 decl;twist_gate.h::TwistGate::autoCmdTwistCmdCallback(const geometry_msgs::TwistStamped::ConstPtr &,);;
+7 contain 30 decl;twist_gate.h::TwistGate;; 96 decl;twist_gate.h::TwistGate::modeCmdCallback(const tablet_socket_msgs::mode_cmd::ConstPtr &,);;
+7 contain 30 decl;twist_gate.h::TwistGate;; 96 decl;twist_gate.h::TwistGate::gearCmdCallback(const tablet_socket_msgs::gear_cmd::ConstPtr &,);;
+7 contain 30 decl;twist_gate.h::TwistGate;; 92 decl;twist_gate.h::TwistGate::accelCmdCallback(const autoware_msgs::AccelCmd::ConstPtr &,);;
+7 contain 30 decl;twist_gate.h::TwistGate;; 92 decl;twist_gate.h::TwistGate::steerCmdCallback(const autoware_msgs::SteerCmd::ConstPtr &,);;
+7 contain 30 decl;twist_gate.h::TwistGate;; 92 decl;twist_gate.h::TwistGate::brakeCmdCallback(const autoware_msgs::BrakeCmd::ConstPtr &,);;
+7 contain 30 decl;twist_gate.h::TwistGate;; 90 decl;twist_gate.h::TwistGate::lampCmdCallback(const autoware_msgs::LampCmd::ConstPtr &,);;
+7 contain 30 decl;twist_gate.h::TwistGate;; 104 decl;twist_gate.h::TwistGate::ctrlCmdCallback(const autoware_msgs::ControlCommandStamped::ConstPtr &,);;
+7 contain 30 decl;twist_gate.h::TwistGate;; 80 decl;twist_gate.h::TwistGate::stateCallback(const std_msgs::StringConstPtr &,);;
+7 contain 30 decl;twist_gate.h::TwistGate;; 90 decl;twist_gate.h::TwistGate::emergencyCmdCallback(const vehicle_cmd_msg_t::ConstPtr &,);;
+7 contain 30 decl;twist_gate.h::TwistGate;; 71 decl;twist_gate.h::TwistGate::timerCallback(const ros::TimerEvent &,);;
+7 contain 30 decl;twist_gate.h::TwistGate;; 96 decl;twist_gate.h::TwistGate::configCallback(const autoware_config_msgs::ConfigTwistFilter &,);;
+7 contain 30 decl;twist_gate.h::TwistGate;; 52 decl;twist_gate.h::TwistGate::resetVehicleCmdMsg();;
+7 contain 103 decl;twist_gate.h::TwistGate::autoCmdTwistCmdCallback(const geometry_msgs::TwistStamped::ConstPtr &,);; 114 decl;twist_gate.h::TwistGate::autoCmdTwistCmdCallback(const geometry_msgs::TwistStamped::ConstPtr &,)::input_msg;;
+7 contain 83 decl;twist_gate.h::TwistGate::remoteCmdCallback(const remote_msgs_t::ConstPtr &,);; 94 decl;twist_gate.h::TwistGate::remoteCmdCallback(const remote_msgs_t::ConstPtr &,)::input_msg;;
+7 contain 92 decl;twist_gate.h::TwistGate::accelCmdCallback(const autoware_msgs::AccelCmd::ConstPtr &,);; 103 decl;twist_gate.h::TwistGate::accelCmdCallback(const autoware_msgs::AccelCmd::ConstPtr &,)::input_msg;;
+7 contain 96 decl;twist_gate.h::TwistGate::modeCmdCallback(const tablet_socket_msgs::mode_cmd::ConstPtr &,);; 107 decl;twist_gate.h::TwistGate::modeCmdCallback(const tablet_socket_msgs::mode_cmd::ConstPtr &,)::input_msg;;
+7 contain 90 decl;twist_gate.h::TwistGate::lampCmdCallback(const autoware_msgs::LampCmd::ConstPtr &,);; 101 decl;twist_gate.h::TwistGate::lampCmdCallback(const autoware_msgs::LampCmd::ConstPtr &,)::input_msg;;
+7 contain 91 decl;twist_gate.h::TwistGate::TwistGate(const ros::NodeHandle &,const ros::NodeHandle &,);; 95 decl;twist_gate.h::TwistGate::TwistGate(const ros::NodeHandle &,const ros::NodeHandle &,)::nh;;
+7 contain 91 decl;twist_gate.h::TwistGate::TwistGate(const ros::NodeHandle &,const ros::NodeHandle &,);; 103 decl;twist_gate.h::TwistGate::TwistGate(const ros::NodeHandle &,const ros::NodeHandle &,)::private_nh;;
+7 contain 92 decl;twist_gate.h::TwistGate::steerCmdCallback(const autoware_msgs::SteerCmd::ConstPtr &,);; 103 decl;twist_gate.h::TwistGate::steerCmdCallback(const autoware_msgs::SteerCmd::ConstPtr &,)::input_msg;;
+7 contain 92 decl;twist_gate.h::TwistGate::brakeCmdCallback(const autoware_msgs::BrakeCmd::ConstPtr &,);; 103 decl;twist_gate.h::TwistGate::brakeCmdCallback(const autoware_msgs::BrakeCmd::ConstPtr &,)::input_msg;;
+7 contain 80 decl;twist_gate.h::TwistGate::stateCallback(const std_msgs::StringConstPtr &,);; 91 decl;twist_gate.h::TwistGate::stateCallback(const std_msgs::StringConstPtr &,)::input_msg;;
+7 contain 96 decl;twist_gate.h::TwistGate::gearCmdCallback(const tablet_socket_msgs::gear_cmd::ConstPtr &,);; 107 decl;twist_gate.h::TwistGate::gearCmdCallback(const tablet_socket_msgs::gear_cmd::ConstPtr &,)::input_msg;;
+7 contain 90 decl;twist_gate.h::TwistGate::emergencyCmdCallback(const vehicle_cmd_msg_t::ConstPtr &,);; 101 decl;twist_gate.h::TwistGate::emergencyCmdCallback(const vehicle_cmd_msg_t::ConstPtr &,)::input_msg;;
+7 contain 71 decl;twist_gate.h::TwistGate::timerCallback(const ros::TimerEvent &,);; 74 decl;twist_gate.h::TwistGate::timerCallback(const ros::TimerEvent &,)::e;;
+7 contain 104 decl;twist_gate.h::TwistGate::ctrlCmdCallback(const autoware_msgs::ControlCommandStamped::ConstPtr &,);; 115 decl;twist_gate.h::TwistGate::ctrlCmdCallback(const autoware_msgs::ControlCommandStamped::ConstPtr &,)::input_msg;;
+7 contain 96 decl;twist_gate.h::TwistGate::configCallback(const autoware_config_msgs::ConfigTwistFilter &,);; 101 decl;twist_gate.h::TwistGate::configCallback(const autoware_config_msgs::ConfigTwistFilter &,)::msg;;
+4 call 42 decl;twist_gate.h::TwistGate::spinOnce();; 30 decl;init.h::ros::spinOnce();;
+7 contain 46 decl;twist_gate_node.cpp::main(int,char **,);; 52 decl;twist_gate_node.cpp::main(int,char **,)::argc;;
+7 contain 46 decl;twist_gate_node.cpp::main(int,char **,);; 52 decl;twist_gate_node.cpp::main(int,char **,)::argv;;
+7 contain 46 decl;twist_gate_node.cpp::main(int,char **,);; 50 decl;twist_gate_node.cpp::main(int,char **,)::nh;;
+7 contain 46 decl;twist_gate_node.cpp::main(int,char **,);; 58 decl;twist_gate_node.cpp::main(int,char **,)::private_nh;;
+7 contain 46 decl;twist_gate_node.cpp::main(int,char **,);; 58 decl;twist_gate_node.cpp::main(int,char **,)::twist_gate;;
+5 write 46 decl;twist_gate_node.cpp::main(int,char **,);; 54 decl;twist_gate_node.cpp::main(int,char **,);;__ret!;;
+7 contain 30 decl;twist_gate.h::TwistGate;; 42 decl;twist_gate.h::TwistGate::spinOnce();;
+7 contain 30 decl;twist_gate.h::TwistGate;; 35 decl;twist_gate.h::TwistGate::nh_;;
+7 contain 30 decl;twist_gate.h::TwistGate;; 43 decl;twist_gate.h::TwistGate::private_nh_;;
+7 contain 30 decl;twist_gate.h::TwistGate;; 51 decl;twist_gate.h::TwistGate::health_checker_ptr_;;
+7 contain 30 decl;twist_gate.h::TwistGate;; 52 decl;twist_gate.h::TwistGate::control_command_pub_;;
+7 contain 30 decl;twist_gate.h::TwistGate;; 48 decl;twist_gate.h::TwistGate::vehicle_cmd_pub_;;
+7 contain 30 decl;twist_gate.h::TwistGate;; 47 decl;twist_gate.h::TwistGate::remote_cmd_sub_;;
+7 contain 30 decl;twist_gate.h::TwistGate;; 43 decl;twist_gate.h::TwistGate::config_sub_;;
+7 contain 30 decl;twist_gate.h::TwistGate;; 52 decl;twist_gate.h::TwistGate::auto_cmd_sub_stdmap_;;
+7 contain 30 decl;twist_gate.h::TwistGate;; 38 decl;twist_gate.h::TwistGate::timer_;;
+7 contain 30 decl;twist_gate.h::TwistGate;; 47 decl;twist_gate.h::TwistGate::twist_gate_msg_;;
+7 contain 30 decl;twist_gate.h::TwistGate;; 51 decl;twist_gate.h::TwistGate::emergency_stop_msg_;;
+7 contain 30 decl;twist_gate.h::TwistGate;; 48 decl;twist_gate.h::TwistGate::remote_cmd_time_;;
+7 contain 30 decl;twist_gate.h::TwistGate;; 56 decl;twist_gate.h::TwistGate::emergency_handling_time_;;
+7 contain 30 decl;twist_gate.h::TwistGate;; 43 decl;twist_gate.h::TwistGate::state_time_;;
+7 contain 30 decl;twist_gate.h::TwistGate;; 47 decl;twist_gate.h::TwistGate::timeout_period_;;
+7 contain 30 decl;twist_gate.h::TwistGate;; 42 decl;twist_gate.h::TwistGate::loop_rate_;;
+7 contain 30 decl;twist_gate.h::TwistGate;; 54 decl;twist_gate.h::TwistGate::watchdog_timer_thread_;;
+7 contain 30 decl;twist_gate.h::TwistGate;; 40 decl;twist_gate.h::TwistGate::is_alive;;
+7 contain 30 decl;twist_gate.h::TwistGate;; 43 decl;twist_gate.h::TwistGate::CommandMode;;
+7 contain 30 decl;twist_gate.h::TwistGate;; 45 decl;twist_gate.h::TwistGate::command_mode_;;
+7 contain 30 decl;twist_gate.h::TwistGate;; 54 decl;twist_gate.h::TwistGate::previous_command_mode_;;
+7 contain 30 decl;twist_gate.h::TwistGate;; 51 decl;twist_gate.h::TwistGate::command_mode_topic_;;
+7 contain 30 decl;twist_gate.h::TwistGate;; 47 decl;twist_gate.h::TwistGate::is_state_drive_;;
+7 contain 30 decl;twist_gate.h::TwistGate;; 51 decl;twist_gate.h::TwistGate::use_decision_maker_;;
+7 contain 30 decl;twist_gate.h::TwistGate;; 58 decl;twist_gate.h::TwistGate::emergency_handling_active_;;
+3 obj 58 decl;twist_gate_node.cpp::main(int,char **,)::twist_gate;; 30 decl;twist_gate.h::TwistGate;;
+43 decl;twist_gate.h::TwistGate::CommandMode;; 4 0 8 filename 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 15 filenameDeclare 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 13 isControlFlow 1 0 5 label 54 include/twist_gate/twist_gate.h:TwistGate::CommandMode 
+52 decl;twist_gate.h::TwistGate::auto_cmd_sub_stdmap_;; 4 0 8 filename 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 15 filenameDeclare 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 13 isControlFlow 1 0 5 label 63 include/twist_gate/twist_gate.h:TwistGate::auto_cmd_sub_stdmap_ 
+45 decl;twist_gate.h::TwistGate::command_mode_;; 4 0 8 filename 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 15 filenameDeclare 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 13 isControlFlow 1 0 5 label 56 include/twist_gate/twist_gate.h:TwistGate::command_mode_ 
+51 decl;twist_gate.h::TwistGate::command_mode_topic_;; 4 0 8 filename 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 15 filenameDeclare 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 13 isControlFlow 1 0 5 label 62 include/twist_gate/twist_gate.h:TwistGate::command_mode_topic_ 
+43 decl;twist_gate.h::TwistGate::config_sub_;; 4 0 8 filename 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 15 filenameDeclare 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 13 isControlFlow 1 0 5 label 54 include/twist_gate/twist_gate.h:TwistGate::config_sub_ 
+52 decl;twist_gate.h::TwistGate::control_command_pub_;; 4 0 8 filename 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 15 filenameDeclare 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 13 isControlFlow 1 0 5 label 63 include/twist_gate/twist_gate.h:TwistGate::control_command_pub_ 
+58 decl;twist_gate.h::TwistGate::emergency_handling_active_;; 4 0 8 filename 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 15 filenameDeclare 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 13 isControlFlow 1 0 5 label 69 include/twist_gate/twist_gate.h:TwistGate::emergency_handling_active_ 
+56 decl;twist_gate.h::TwistGate::emergency_handling_time_;; 4 0 8 filename 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 15 filenameDeclare 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 13 isControlFlow 1 0 5 label 67 include/twist_gate/twist_gate.h:TwistGate::emergency_handling_time_ 
+51 decl;twist_gate.h::TwistGate::emergency_stop_msg_;; 4 0 8 filename 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 15 filenameDeclare 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 13 isControlFlow 1 0 5 label 62 include/twist_gate/twist_gate.h:TwistGate::emergency_stop_msg_ 
+51 decl;twist_gate.h::TwistGate::health_checker_ptr_;; 4 0 8 filename 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 15 filenameDeclare 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 13 isControlFlow 1 0 5 label 62 include/twist_gate/twist_gate.h:TwistGate::health_checker_ptr_ 
+40 decl;twist_gate.h::TwistGate::is_alive;; 4 0 8 filename 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 15 filenameDeclare 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 13 isControlFlow 1 0 5 label 51 include/twist_gate/twist_gate.h:TwistGate::is_alive 
+47 decl;twist_gate.h::TwistGate::is_state_drive_;; 4 0 8 filename 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 15 filenameDeclare 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 13 isControlFlow 1 0 5 label 58 include/twist_gate/twist_gate.h:TwistGate::is_state_drive_ 
+42 decl;twist_gate.h::TwistGate::loop_rate_;; 4 0 8 filename 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 15 filenameDeclare 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 13 isControlFlow 1 0 5 label 53 include/twist_gate/twist_gate.h:TwistGate::loop_rate_ 
+35 decl;twist_gate.h::TwistGate::nh_;; 4 0 8 filename 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 15 filenameDeclare 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 13 isControlFlow 1 0 5 label 46 include/twist_gate/twist_gate.h:TwistGate::nh_ 
+54 decl;twist_gate.h::TwistGate::previous_command_mode_;; 4 0 8 filename 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 15 filenameDeclare 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 13 isControlFlow 1 0 5 label 65 include/twist_gate/twist_gate.h:TwistGate::previous_command_mode_ 
+43 decl;twist_gate.h::TwistGate::private_nh_;; 4 0 8 filename 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 15 filenameDeclare 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 13 isControlFlow 1 0 5 label 54 include/twist_gate/twist_gate.h:TwistGate::private_nh_ 
+47 decl;twist_gate.h::TwistGate::remote_cmd_sub_;; 4 0 8 filename 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 15 filenameDeclare 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 13 isControlFlow 1 0 5 label 58 include/twist_gate/twist_gate.h:TwistGate::remote_cmd_sub_ 
+48 decl;twist_gate.h::TwistGate::remote_cmd_time_;; 4 0 8 filename 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 15 filenameDeclare 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 13 isControlFlow 1 0 5 label 59 include/twist_gate/twist_gate.h:TwistGate::remote_cmd_time_ 
+42 decl;twist_gate.h::TwistGate::spinOnce();; 4 0 8 filename 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 15 filenameDeclare 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 14 isCallbackFunc 1 0 5 label 51 include/twist_gate/twist_gate.h:TwistGate::spinOnce 
+43 decl;twist_gate.h::TwistGate::state_time_;; 4 0 8 filename 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 15 filenameDeclare 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 13 isControlFlow 1 0 5 label 54 include/twist_gate/twist_gate.h:TwistGate::state_time_ 
+47 decl;twist_gate.h::TwistGate::timeout_period_;; 4 0 8 filename 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 15 filenameDeclare 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 13 isControlFlow 1 0 5 label 58 include/twist_gate/twist_gate.h:TwistGate::timeout_period_ 
+38 decl;twist_gate.h::TwistGate::timer_;; 4 0 8 filename 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 15 filenameDeclare 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 13 isControlFlow 1 0 5 label 49 include/twist_gate/twist_gate.h:TwistGate::timer_ 
+47 decl;twist_gate.h::TwistGate::twist_gate_msg_;; 4 0 8 filename 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 15 filenameDeclare 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 13 isControlFlow 1 0 5 label 58 include/twist_gate/twist_gate.h:TwistGate::twist_gate_msg_ 
+51 decl;twist_gate.h::TwistGate::use_decision_maker_;; 4 0 8 filename 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 15 filenameDeclare 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 13 isControlFlow 1 0 5 label 62 include/twist_gate/twist_gate.h:TwistGate::use_decision_maker_ 
+48 decl;twist_gate.h::TwistGate::vehicle_cmd_pub_;; 4 0 8 filename 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 15 filenameDeclare 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 13 isControlFlow 1 0 5 label 59 include/twist_gate/twist_gate.h:TwistGate::vehicle_cmd_pub_ 
+54 decl;twist_gate.h::TwistGate::watchdog_timer_thread_;; 4 0 8 filename 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 15 filenameDeclare 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 13 isControlFlow 1 0 5 label 65 include/twist_gate/twist_gate.h:TwistGate::watchdog_timer_thread_ 
+30 decl;twist_gate.h::TwistGate;; 3 0 8 filename 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 15 filenameDeclare 93 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/include/twist_gate/twist_gate.h 5 label 41 include/twist_gate/twist_gate.h:TwistGate 
+52 decl;twist_gate_node.cpp::main(int,char **,)::argc;; 2 0 8 filename 85 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/src/twist_gate_node.cpp 15 filenameDeclare 85 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/src/twist_gate_node.cpp 
+52 decl;twist_gate_node.cpp::main(int,char **,)::argv;; 2 0 8 filename 85 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/src/twist_gate_node.cpp 15 filenameDeclare 85 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/src/twist_gate_node.cpp 
+50 decl;twist_gate_node.cpp::main(int,char **,)::nh;; 5 0 8 filename 85 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/src/twist_gate_node.cpp 15 filenameDeclare 85 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/src/twist_gate_node.cpp 13 isControlFlow 1 0 7 isParam 1 0 5 label 43 twist_gate/src/twist_gate_node.cpp:main::nh 
+58 decl;twist_gate_node.cpp::main(int,char **,)::private_nh;; 5 0 8 filename 85 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/src/twist_gate_node.cpp 15 filenameDeclare 85 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/src/twist_gate_node.cpp 13 isControlFlow 1 0 7 isParam 1 0 5 label 51 twist_gate/src/twist_gate_node.cpp:main::private_nh 
+58 decl;twist_gate_node.cpp::main(int,char **,)::twist_gate;; 5 0 8 filename 85 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/src/twist_gate_node.cpp 15 filenameDeclare 85 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/src/twist_gate_node.cpp 13 isControlFlow 1 0 7 isParam 1 0 5 label 51 twist_gate/src/twist_gate_node.cpp:main::twist_gate 
+46 decl;twist_gate_node.cpp::main(int,char **,);; 4 0 8 filename 85 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/src/twist_gate_node.cpp 15 filenameDeclare 85 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/src/twist_gate_node.cpp 14 isCallbackFunc 1 0 5 label 39 twist_gate/src/twist_gate_node.cpp:main 
+54 decl;twist_gate_node.cpp::main(int,char **,);;__ret!;; 2 0 8 filename 85 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/src/twist_gate_node.cpp 15 filenameDeclare 85 /home/autoware/Autoware/src/autoware/core_planning/twist_gate/src/twist_gate_node.cpp 
+4 call 42 decl;twist_gate.h::TwistGate::spinOnce();; 30 decl;init.h::ros::spinOnce();; 0 0 
+4 call 46 decl;twist_gate_node.cpp::main(int,char **,);; 69 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,);; 0 0 
+4 call 46 decl;twist_gate_node.cpp::main(int,char **,);; 26 decl;init.h::ros::spin();; 0 0 
+7 contain 91 decl;twist_gate.h::TwistGate::TwistGate(const ros::NodeHandle &,const ros::NodeHandle &,);; 95 decl;twist_gate.h::TwistGate::TwistGate(const ros::NodeHandle &,const ros::NodeHandle &,)::nh;; 0 0 
+7 contain 91 decl;twist_gate.h::TwistGate::TwistGate(const ros::NodeHandle &,const ros::NodeHandle &,);; 103 decl;twist_gate.h::TwistGate::TwistGate(const ros::NodeHandle &,const ros::NodeHandle &,)::private_nh;; 0 0 
+7 contain 92 decl;twist_gate.h::TwistGate::accelCmdCallback(const autoware_msgs::AccelCmd::ConstPtr &,);; 103 decl;twist_gate.h::TwistGate::accelCmdCallback(const autoware_msgs::AccelCmd::ConstPtr &,)::input_msg;; 0 0 
+7 contain 103 decl;twist_gate.h::TwistGate::autoCmdTwistCmdCallback(const geometry_msgs::TwistStamped::ConstPtr &,);; 114 decl;twist_gate.h::TwistGate::autoCmdTwistCmdCallback(const geometry_msgs::TwistStamped::ConstPtr &,)::input_msg;; 0 0 
+7 contain 92 decl;twist_gate.h::TwistGate::brakeCmdCallback(const autoware_msgs::BrakeCmd::ConstPtr &,);; 103 decl;twist_gate.h::TwistGate::brakeCmdCallback(const autoware_msgs::BrakeCmd::ConstPtr &,)::input_msg;; 0 0 
+7 contain 96 decl;twist_gate.h::TwistGate::configCallback(const autoware_config_msgs::ConfigTwistFilter &,);; 101 decl;twist_gate.h::TwistGate::configCallback(const autoware_config_msgs::ConfigTwistFilter &,)::msg;; 0 0 
+7 contain 104 decl;twist_gate.h::TwistGate::ctrlCmdCallback(const autoware_msgs::ControlCommandStamped::ConstPtr &,);; 115 decl;twist_gate.h::TwistGate::ctrlCmdCallback(const autoware_msgs::ControlCommandStamped::ConstPtr &,)::input_msg;; 0 0 
+7 contain 90 decl;twist_gate.h::TwistGate::emergencyCmdCallback(const vehicle_cmd_msg_t::ConstPtr &,);; 101 decl;twist_gate.h::TwistGate::emergencyCmdCallback(const vehicle_cmd_msg_t::ConstPtr &,)::input_msg;; 0 0 
+7 contain 96 decl;twist_gate.h::TwistGate::gearCmdCallback(const tablet_socket_msgs::gear_cmd::ConstPtr &,);; 107 decl;twist_gate.h::TwistGate::gearCmdCallback(const tablet_socket_msgs::gear_cmd::ConstPtr &,)::input_msg;; 0 0 
+7 contain 90 decl;twist_gate.h::TwistGate::lampCmdCallback(const autoware_msgs::LampCmd::ConstPtr &,);; 101 decl;twist_gate.h::TwistGate::lampCmdCallback(const autoware_msgs::LampCmd::ConstPtr &,)::input_msg;; 0 0 
+7 contain 96 decl;twist_gate.h::TwistGate::modeCmdCallback(const tablet_socket_msgs::mode_cmd::ConstPtr &,);; 107 decl;twist_gate.h::TwistGate::modeCmdCallback(const tablet_socket_msgs::mode_cmd::ConstPtr &,)::input_msg;; 0 0 
+7 contain 83 decl;twist_gate.h::TwistGate::remoteCmdCallback(const remote_msgs_t::ConstPtr &,);; 94 decl;twist_gate.h::TwistGate::remoteCmdCallback(const remote_msgs_t::ConstPtr &,)::input_msg;; 0 0 
+7 contain 80 decl;twist_gate.h::TwistGate::stateCallback(const std_msgs::StringConstPtr &,);; 91 decl;twist_gate.h::TwistGate::stateCallback(const std_msgs::StringConstPtr &,)::input_msg;; 0 0 
+7 contain 92 decl;twist_gate.h::TwistGate::steerCmdCallback(const autoware_msgs::SteerCmd::ConstPtr &,);; 103 decl;twist_gate.h::TwistGate::steerCmdCallback(const autoware_msgs::SteerCmd::ConstPtr &,)::input_msg;; 0 0 
+7 contain 71 decl;twist_gate.h::TwistGate::timerCallback(const ros::TimerEvent &,);; 74 decl;twist_gate.h::TwistGate::timerCallback(const ros::TimerEvent &,)::e;; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 43 decl;twist_gate.h::TwistGate::CommandMode;; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 91 decl;twist_gate.h::TwistGate::TwistGate(const ros::NodeHandle &,const ros::NodeHandle &,);; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 92 decl;twist_gate.h::TwistGate::accelCmdCallback(const autoware_msgs::AccelCmd::ConstPtr &,);; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 103 decl;twist_gate.h::TwistGate::autoCmdTwistCmdCallback(const geometry_msgs::TwistStamped::ConstPtr &,);; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 52 decl;twist_gate.h::TwistGate::auto_cmd_sub_stdmap_;; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 92 decl;twist_gate.h::TwistGate::brakeCmdCallback(const autoware_msgs::BrakeCmd::ConstPtr &,);; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 44 decl;twist_gate.h::TwistGate::checkState();; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 45 decl;twist_gate.h::TwistGate::command_mode_;; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 51 decl;twist_gate.h::TwistGate::command_mode_topic_;; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 96 decl;twist_gate.h::TwistGate::configCallback(const autoware_config_msgs::ConfigTwistFilter &,);; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 43 decl;twist_gate.h::TwistGate::config_sub_;; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 52 decl;twist_gate.h::TwistGate::control_command_pub_;; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 104 decl;twist_gate.h::TwistGate::ctrlCmdCallback(const autoware_msgs::ControlCommandStamped::ConstPtr &,);; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 90 decl;twist_gate.h::TwistGate::emergencyCmdCallback(const vehicle_cmd_msg_t::ConstPtr &,);; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 58 decl;twist_gate.h::TwistGate::emergency_handling_active_;; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 56 decl;twist_gate.h::TwistGate::emergency_handling_time_;; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 51 decl;twist_gate.h::TwistGate::emergency_stop_msg_;; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 96 decl;twist_gate.h::TwistGate::gearCmdCallback(const tablet_socket_msgs::gear_cmd::ConstPtr &,);; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 51 decl;twist_gate.h::TwistGate::health_checker_ptr_;; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 40 decl;twist_gate.h::TwistGate::is_alive;; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 47 decl;twist_gate.h::TwistGate::is_state_drive_;; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 90 decl;twist_gate.h::TwistGate::lampCmdCallback(const autoware_msgs::LampCmd::ConstPtr &,);; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 42 decl;twist_gate.h::TwistGate::loop_rate_;; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 96 decl;twist_gate.h::TwistGate::modeCmdCallback(const tablet_socket_msgs::mode_cmd::ConstPtr &,);; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 35 decl;twist_gate.h::TwistGate::nh_;; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 54 decl;twist_gate.h::TwistGate::previous_command_mode_;; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 43 decl;twist_gate.h::TwistGate::private_nh_;; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 83 decl;twist_gate.h::TwistGate::remoteCmdCallback(const remote_msgs_t::ConstPtr &,);; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 47 decl;twist_gate.h::TwistGate::remote_cmd_sub_;; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 48 decl;twist_gate.h::TwistGate::remote_cmd_time_;; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 52 decl;twist_gate.h::TwistGate::resetVehicleCmdMsg();; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 42 decl;twist_gate.h::TwistGate::spinOnce();; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 80 decl;twist_gate.h::TwistGate::stateCallback(const std_msgs::StringConstPtr &,);; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 43 decl;twist_gate.h::TwistGate::state_time_;; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 92 decl;twist_gate.h::TwistGate::steerCmdCallback(const autoware_msgs::SteerCmd::ConstPtr &,);; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 47 decl;twist_gate.h::TwistGate::timeout_period_;; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 71 decl;twist_gate.h::TwistGate::timerCallback(const ros::TimerEvent &,);; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 38 decl;twist_gate.h::TwistGate::timer_;; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 47 decl;twist_gate.h::TwistGate::twist_gate_msg_;; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 51 decl;twist_gate.h::TwistGate::use_decision_maker_;; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 48 decl;twist_gate.h::TwistGate::vehicle_cmd_pub_;; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 47 decl;twist_gate.h::TwistGate::watchdogTimer();; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 54 decl;twist_gate.h::TwistGate::watchdog_timer_thread_;; 0 0 
+7 contain 30 decl;twist_gate.h::TwistGate;; 44 decl;twist_gate.h::TwistGate::~TwistGate();; 0 0 
+7 contain 46 decl;twist_gate_node.cpp::main(int,char **,);; 52 decl;twist_gate_node.cpp::main(int,char **,)::argc;; 0 0 
+7 contain 46 decl;twist_gate_node.cpp::main(int,char **,);; 52 decl;twist_gate_node.cpp::main(int,char **,)::argv;; 0 0 
+7 contain 46 decl;twist_gate_node.cpp::main(int,char **,);; 50 decl;twist_gate_node.cpp::main(int,char **,)::nh;; 0 0 
+7 contain 46 decl;twist_gate_node.cpp::main(int,char **,);; 58 decl;twist_gate_node.cpp::main(int,char **,)::private_nh;; 0 0 
+7 contain 46 decl;twist_gate_node.cpp::main(int,char **,);; 58 decl;twist_gate_node.cpp::main(int,char **,)::twist_gate;; 0 0 
+3 obj 50 decl;twist_gate_node.cpp::main(int,char **,)::nh;; 34 decl;forwards.h::ros::NodeHandle;; 0 0 
+3 obj 58 decl;twist_gate_node.cpp::main(int,char **,)::private_nh;; 34 decl;forwards.h::ros::NodeHandle;; 0 0 
+3 obj 58 decl;twist_gate_node.cpp::main(int,char **,)::twist_gate;; 30 decl;twist_gate.h::TwistGate;; 0 0 
+8 parWrite 52 decl;twist_gate_node.cpp::main(int,char **,)::argc;; 75 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,)::argc;; 0 0 
+8 parWrite 52 decl;twist_gate_node.cpp::main(int,char **,)::argv;; 75 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,)::argv;; 0 0 
+8 varWrite 50 decl;twist_gate_node.cpp::main(int,char **,)::nh;; 95 decl;twist_gate.h::TwistGate::TwistGate(const ros::NodeHandle &,const ros::NodeHandle &,)::nh;; 0 0 
+8 varWrite 50 decl;twist_gate_node.cpp::main(int,char **,)::nh;; 58 decl;twist_gate_node.cpp::main(int,char **,)::twist_gate;; 0 0 
+8 varWrite 58 decl;twist_gate_node.cpp::main(int,char **,)::private_nh;; 103 decl;twist_gate.h::TwistGate::TwistGate(const ros::NodeHandle &,const ros::NodeHandle &,)::private_nh;; 0 0 
+8 varWrite 58 decl;twist_gate_node.cpp::main(int,char **,)::private_nh;; 58 decl;twist_gate_node.cpp::main(int,char **,)::twist_gate;; 0 0 
+5 write 46 decl;twist_gate_node.cpp::main(int,char **,);; 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__a;; 0 0 
+5 write 46 decl;twist_gate_node.cpp::main(int,char **,);; 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__s;; 0 0 
+5 write 46 decl;twist_gate_node.cpp::main(int,char **,);; 97 decl;node_handle.h::ros::NodeHandle::NodeHandle(const std::string &,const ros::M_string &,)::ns;; 0 0 
+5 write 46 decl;twist_gate_node.cpp::main(int,char **,);; 105 decl;node_handle.h::ros::NodeHandle::NodeHandle(const std::string &,const ros::M_string &,)::remappings;; 0 0 
+5 write 46 decl;twist_gate_node.cpp::main(int,char **,);; 95 decl;twist_gate.h::TwistGate::TwistGate(const ros::NodeHandle &,const ros::NodeHandle &,)::nh;; 0 0 
+5 write 46 decl;twist_gate_node.cpp::main(int,char **,);; 103 decl;twist_gate.h::TwistGate::TwistGate(const ros::NodeHandle &,const ros::NodeHandle &,)::private_nh;; 0 0 
+5 write 46 decl;twist_gate_node.cpp::main(int,char **,);; 50 decl;twist_gate_node.cpp::main(int,char **,)::nh;; 0 0 
+5 write 46 decl;twist_gate_node.cpp::main(int,char **,);; 58 decl;twist_gate_node.cpp::main(int,char **,)::private_nh;; 0 0 
+5 write 46 decl;twist_gate_node.cpp::main(int,char **,);; 58 decl;twist_gate_node.cpp::main(int,char **,)::twist_gate;; 0 0 
+5 write 46 decl;twist_gate_node.cpp::main(int,char **,);; 54 decl;twist_gate_node.cpp::main(int,char **,);;__ret!;; 0 0 

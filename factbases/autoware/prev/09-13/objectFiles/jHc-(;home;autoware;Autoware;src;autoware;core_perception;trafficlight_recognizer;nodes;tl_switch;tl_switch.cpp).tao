@@ -1,0 +1,469 @@
+52 64 118 52 182
+127 decl;publisher.h::ros::Publisher::publish::publish(const struct autoware_msgs::TrafficLight_<class std::allocator<void> > &,);; 9 cFunction
+66 decl;shared_ptr.hpp::boost::shared_ptr::shared_ptr::operator->();; 9 cFunction
+103 decl;thread::std::this_thread::sleep_for::sleep_for(const chrono::duration<long, ratio<1, 1000> > &,);; 9 cFunction
+52 decl;tl_switch.cpp::main(int,char **,)::private_nh;; 13 rosNodeHandle
+48 decl;tl_switch.cpp::main(int,char **,);;__ret!;; 7 cReturn
+58 decl;tl_switch.cpp::TLSwitch::watchdog_timer()::now_time;; 9 cVariable
+60 decl;thread::std::thread::operator=(class std::thread &&,);; 9 cFunction
+23 topic;ams_light_color;; 8 rosTopic
+104 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 9 cFunction
+46 decl;tl_switch.cpp::TLSwitch::switch_color();; 9 cFunction
+59 decl;tl_switch.cpp::TLSwitch::ams_light_color_topic_name_;; 9 cVariable
+62 decl;tl_switch.cpp::TLSwitch::camera_light_color_topic_name_;; 9 cVariable
+30 decl;tl_switch.cpp::TLSwitch;; 6 cClass
+40 decl;tl_switch.cpp::main(int,char **,);; 9 cFunction
+90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 9 cFunction
+45 decl;tl_switch.cpp::TLSwitch::ams_msg_time_;; 9 cVariable
+76 decl;publisher.h::ros::Publisher::operator=(const class ros::Publisher &,);; 9 cFunction
+107 decl;tl_switch.cpp::TLSwitch::camera_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 9 cFunction
+59 decl;duration.h::ros::DurationBase::DurationBase::toSec();; 9 cFunction
+94 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,)::nh;; 9 cVariable
+35 decl;tl_switch.cpp::TLSwitch::nh_;; 13 rosNodeHandle
+44 decl;tl_switch.cpp::main(int,char **,)::nh;; 13 rosNodeHandle
+102 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,)::private_nh;; 9 cVariable
+54 decl;tl_switch.cpp::TLSwitch::watchdog_timer_thread_;; 9 cVariable
+55 decl;tl_switch.cpp::TLSwitch::light_color_topic_name_;; 9 cVariable
+115 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,)::input_msg;; 9 cVariable
+233 decl;node_handle.h::ros::NodeHandle::subscribe::subscribe(const std::string &,uint32_t,void (class TLSwitch::*)(const boost::shared_ptr<const TrafficLight_<allocator<void> > > &),class TLSwitch *,const class ros::TransportHints &,);; 9 cFunction
+48 decl;tl_switch.cpp::TLSwitch::watchdog_timer();; 9 cFunction
+43 decl;tl_switch.cpp::TLSwitch::camera_msg_;; 9 cVariable
+26 topic;camera_light_color;; 8 rosTopic
+46 decl;tl_switch.cpp::main(int,char **,)::argv;; 9 cVariable
+151 decl;tl_switch.cpp::ADVERTISE_LATCH;static;/home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp;; 9 cVariable
+109 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,)::msg;; 9 cVariable
+118 decl;tl_switch.cpp::TLSwitch::camera_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,)::input_msg;; 9 cVariable
+43 decl;tl_switch.cpp::TLSwitch::~TLSwitch();; 9 cFunction
+42 decl;tl_switch.cpp::TLSwitch::state_msg_;; 9 cVariable
+96 decl;node_handle.h::ros::NodeHandle::advertise::advertise(const std::string &,uint32_t,_Bool,);; 9 cFunction
+19 topic;light_color;; 8 rosTopic
+43 decl;tl_switch.cpp::TLSwitch::private_nh_;; 13 rosNodeHandle
+46 decl;tl_switch.cpp::main(int,char **,)::argc;; 9 cVariable
+43 decl;tl_switch.cpp::TLSwitch::camera_sub_;; 13 rosSubscriber
+50 decl;tl_switch.cpp::TLSwitch::traffic_light_pub_;; 12 rosPublisher
+60 decl;tl_switch.cpp::main(int,char **,)::light_color_switch;; 9 cVariable
+40 decl;tl_switch.cpp::TLSwitch::ams_msg_;; 9 cVariable
+47 decl;tl_switch.cpp::TLSwitch::is_ams_timeout_;; 9 cVariable
+49 decl;tl_switch.cpp::TLSwitch::reset_light_msg();; 9 cFunction
+40 decl;tl_switch.cpp::TLSwitch::ams_sub_;; 13 rosSubscriber
+51 decl;tl_switch.cpp::TLSwitch::ams_timeout_period_;; 9 cVariable
+161 decl;node_handle.h::ros::NodeHandle::param::param(const std::string &,class std::__cxx11::basic_string<char> &,const class std::__cxx11::basic_string<char> &,);; 9 cFunction
+56 decl;time.h::ros::Time::operator=(class ros::Time &&,);; 9 cFunction
+79 decl;subscriber.h::ros::Subscriber::operator=(const class ros::Subscriber &,);; 9 cFunction
+112 decl;tl_switch.cpp::TLSwitch::camera_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,)::msg;; 9 cVariable
+3 obj 52 decl;tl_switch.cpp::main(int,char **,)::private_nh;; 34 decl;forwards.h::ros::NodeHandle;;
+8 varWrite 52 decl;tl_switch.cpp::main(int,char **,)::private_nh;; 60 decl;tl_switch.cpp::main(int,char **,)::light_color_switch;;
+7 contain 36 decl;subscriber.h::ros::Subscriber;; 79 decl;subscriber.h::ros::Subscriber::operator=(const class ros::Subscriber &,);;
+7 contain 34 decl;publisher.h::ros::Publisher;; 76 decl;publisher.h::ros::Publisher::operator=(const class ros::Publisher &,);;
+7 contain 34 decl;publisher.h::ros::Publisher;; 127 decl;publisher.h::ros::Publisher::publish::publish(const struct autoware_msgs::TrafficLight_<class std::allocator<void> > &,);;
+8 parWrite 46 decl;tl_switch.cpp::main(int,char **,)::argv;; 75 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,)::argv;;
+8 parWrite 151 decl;tl_switch.cpp::ADVERTISE_LATCH;static;/home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp;; 103 decl;node_handle.h::ros::NodeHandle::advertise::advertise(const std::string &,uint32_t,_Bool,)::latch;;
+8 parWrite 55 decl;tl_switch.cpp::TLSwitch::light_color_topic_name_;; 172 decl;node_handle.h::ros::NodeHandle::param::param(const std::string &,class std::__cxx11::basic_string<char> &,const class std::__cxx11::basic_string<char> &,)::param_val;;
+8 parWrite 55 decl;tl_switch.cpp::TLSwitch::light_color_topic_name_;; 103 decl;node_handle.h::ros::NodeHandle::advertise::advertise(const std::string &,uint32_t,_Bool,)::topic;;
+7 contain 34 decl;forwards.h::ros::NodeHandle;; 161 decl;node_handle.h::ros::NodeHandle::param::param(const std::string &,class std::__cxx11::basic_string<char> &,const class std::__cxx11::basic_string<char> &,);;
+7 contain 34 decl;forwards.h::ros::NodeHandle;; 96 decl;node_handle.h::ros::NodeHandle::advertise::advertise(const std::string &,uint32_t,_Bool,);;
+7 contain 34 decl;forwards.h::ros::NodeHandle;; 233 decl;node_handle.h::ros::NodeHandle::subscribe::subscribe(const std::string &,uint32_t,void (class TLSwitch::*)(const boost::shared_ptr<const TrafficLight_<allocator<void> > > &),class TLSwitch *,const class ros::TransportHints &,);;
+8 parWrite 62 decl;tl_switch.cpp::TLSwitch::camera_light_color_topic_name_;; 172 decl;node_handle.h::ros::NodeHandle::param::param(const std::string &,class std::__cxx11::basic_string<char> &,const class std::__cxx11::basic_string<char> &,)::param_val;;
+8 parWrite 62 decl;tl_switch.cpp::TLSwitch::camera_light_color_topic_name_;; 240 decl;node_handle.h::ros::NodeHandle::subscribe::subscribe(const std::string &,uint32_t,void (class TLSwitch::*)(const boost::shared_ptr<const TrafficLight_<allocator<void> > > &),class TLSwitch *,const class ros::TransportHints &,)::topic;;
+8 parWrite 59 decl;tl_switch.cpp::TLSwitch::ams_light_color_topic_name_;; 172 decl;node_handle.h::ros::NodeHandle::param::param(const std::string &,class std::__cxx11::basic_string<char> &,const class std::__cxx11::basic_string<char> &,)::param_val;;
+8 parWrite 59 decl;tl_switch.cpp::TLSwitch::ams_light_color_topic_name_;; 240 decl;node_handle.h::ros::NodeHandle::subscribe::subscribe(const std::string &,uint32_t,void (class TLSwitch::*)(const boost::shared_ptr<const TrafficLight_<allocator<void> > > &),class TLSwitch *,const class ros::TransportHints &,)::topic;;
+4 call 40 decl;tl_switch.cpp::main(int,char **,);; 69 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,);;
+5 write 40 decl;tl_switch.cpp::main(int,char **,);; 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__s;;
+5 write 40 decl;tl_switch.cpp::main(int,char **,);; 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__a;;
+5 write 40 decl;tl_switch.cpp::main(int,char **,);; 44 decl;tl_switch.cpp::main(int,char **,)::nh;;
+5 write 40 decl;tl_switch.cpp::main(int,char **,);; 97 decl;node_handle.h::ros::NodeHandle::NodeHandle(const std::string &,const ros::M_string &,)::ns;;
+5 write 40 decl;tl_switch.cpp::main(int,char **,);; 105 decl;node_handle.h::ros::NodeHandle::NodeHandle(const std::string &,const ros::M_string &,)::remappings;;
+5 write 40 decl;tl_switch.cpp::main(int,char **,);; 52 decl;tl_switch.cpp::main(int,char **,)::private_nh;;
+5 write 40 decl;tl_switch.cpp::main(int,char **,);; 60 decl;tl_switch.cpp::main(int,char **,)::light_color_switch;;
+4 call 40 decl;tl_switch.cpp::main(int,char **,);; 26 decl;init.h::ros::spin();;
+5 write 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 86 decl;node_handle.h::ros::NodeHandle::NodeHandle(const class ros::NodeHandle &,)::rhs;;
+5 write 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 54 decl;duration.h::ros::Duration::Duration(double,)::t;;
+5 write 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__s;;
+5 write 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__a;;
+5 write 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 101 decl;thread::std::thread::thread::thread(void (class TLSwitch::*&&)(void),class TLSwitch *&&,)::__f;;
+5 write 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 104 decl;thread::std::thread::thread::thread(void (class TLSwitch::*&&)(void),class TLSwitch *&&,)::__args;;
+4 call 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 36 decl;thread::std::thread::detach();;
+10 varInfFunc 87 decl;tl_switch.cpp::TLSwitch::watchdog_timer()::__rosconsole_define_location__enabled;; 59 decl;duration.h::ros::DurationBase::DurationBase::toSec();;
+10 varInfFunc 87 decl;tl_switch.cpp::TLSwitch::watchdog_timer()::__rosconsole_define_location__enabled;; 75 decl;time.h::ros::TimeBase::TimeBase::operator-(const class ros::Time &,);;
+10 varInfFunc 45 decl;tl_switch.cpp::TLSwitch::ams_msg_time_;; 75 decl;time.h::ros::TimeBase::TimeBase::operator-(const class ros::Time &,);;
+3 obj 58 decl;tl_switch.cpp::TLSwitch::watchdog_timer()::now_time;; 24 decl;time.h::ros::Time;;
+10 varInfFunc 58 decl;tl_switch.cpp::TLSwitch::watchdog_timer()::now_time;; 75 decl;time.h::ros::TimeBase::TimeBase::operator-(const class ros::Time &,);;
+8 varWrite 48 decl;tl_switch.cpp::TLSwitch::watchdog_timer();; 101 decl;thread::std::thread::thread::thread(void (class TLSwitch::*&&)(void),class TLSwitch *&&,)::__f;;
+5 write 48 decl;tl_switch.cpp::TLSwitch::watchdog_timer();; 58 decl;tl_switch.cpp::TLSwitch::watchdog_timer()::now_time;;
+5 write 48 decl;tl_switch.cpp::TLSwitch::watchdog_timer();; 53 decl;time.h::ros::Time::Time(class ros::Time &&,)::;;
+4 call 48 decl;tl_switch.cpp::TLSwitch::watchdog_timer();; 31 decl;time.h::ros::Time::now();;
+4 call 48 decl;tl_switch.cpp::TLSwitch::watchdog_timer();; 91 decl;duration.h::ros::DurationBase::DurationBase::operator>(const class ros::Duration &,);;
+4 call 48 decl;tl_switch.cpp::TLSwitch::watchdog_timer();; 75 decl;time.h::ros::TimeBase::TimeBase::operator-(const class ros::Time &,);;
+5 write 48 decl;tl_switch.cpp::TLSwitch::watchdog_timer();; 87 decl;chrono::std::chrono::duration::duration::duration::duration(const int &,)::__rep;;
+7 contain 52 decl;shared_ptr.hpp::boost::shared_ptr::shared_ptr;; 66 decl;shared_ptr.hpp::boost::shared_ptr::shared_ptr::operator->();;
+10 varInfFunc 47 decl;tl_switch.cpp::TLSwitch::is_ams_timeout_;; 75 decl;time.h::ros::TimeBase::TimeBase::operator-(const class ros::Time &,);;
+8 parWrite 104 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 237 decl;node_handle.h::ros::NodeHandle::subscribe::subscribe(const std::string &,uint32_t,void (class TLSwitch::*)(const boost::shared_ptr<const TrafficLight_<allocator<void> > > &),class TLSwitch *,const class ros::TransportHints &,)::fp;;
+4 call 104 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 31 decl;time.h::ros::Time::now();;
+8 parWrite 107 decl;tl_switch.cpp::TLSwitch::camera_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 237 decl;node_handle.h::ros::NodeHandle::subscribe::subscribe(const std::string &,uint32_t,void (class TLSwitch::*)(const boost::shared_ptr<const TrafficLight_<allocator<void> > > &),class TLSwitch *,const class ros::TransportHints &,)::fp;;
+8 varWrite 94 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,)::nh;; 86 decl;node_handle.h::ros::NodeHandle::NodeHandle(const class ros::NodeHandle &,)::rhs;;
+3 obj 44 decl;tl_switch.cpp::main(int,char **,)::nh;; 34 decl;forwards.h::ros::NodeHandle;;
+8 varWrite 44 decl;tl_switch.cpp::main(int,char **,)::nh;; 60 decl;tl_switch.cpp::main(int,char **,)::light_color_switch;;
+8 varWrite 102 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,)::private_nh;; 86 decl;node_handle.h::ros::NodeHandle::NodeHandle(const class ros::NodeHandle &,)::rhs;;
+8 parWrite 46 decl;tl_switch.cpp::main(int,char **,)::argc;; 75 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,)::argc;;
+10 varInfFunc 51 decl;tl_switch.cpp::TLSwitch::ams_timeout_period_;; 75 decl;time.h::ros::TimeBase::TimeBase::operator-(const class ros::Time &,);;
+7 contain 26 decl;thread::std::thread;; 60 decl;thread::std::thread::operator=(class std::thread &&,);;
+7 contain 26 decl;thread::std::thread;; 36 decl;thread::std::thread::detach();;
+7 contain 24 decl;time.h::ros::Time;; 31 decl;time.h::ros::Time::now();;
+7 contain 24 decl;time.h::ros::Time;; 56 decl;time.h::ros::Time::operator=(class ros::Time &&,);;
+7 contain 50 decl;duration.h::ros::DurationBase::DurationBase;; 91 decl;duration.h::ros::DurationBase::DurationBase::operator>(const class ros::Duration &,);;
+7 contain 50 decl;duration.h::ros::DurationBase::DurationBase;; 59 decl;duration.h::ros::DurationBase::DurationBase::toSec();;
+7 contain 38 decl;time.h::ros::TimeBase::TimeBase;; 75 decl;time.h::ros::TimeBase::TimeBase::operator-(const class ros::Time &,);;
+6 pubVar 42 decl;tl_switch.cpp::TLSwitch::state_msg_;; 19 topic;light_color;;
+8 parWrite 42 decl;tl_switch.cpp::TLSwitch::state_msg_;; 136 decl;publisher.h::ros::Publisher::publish::publish(const struct autoware_msgs::TrafficLight_<class std::allocator<void> > &,)::message;;
+8 varWrite 52 decl;tl_switch.cpp::main(int,char **,)::private_nh;; 102 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,)::private_nh;;
+8 varWrite 35 decl;tl_switch.cpp::TLSwitch::nh_;; 50 decl;tl_switch.cpp::TLSwitch::traffic_light_pub_;;
+8 varWrite 35 decl;tl_switch.cpp::TLSwitch::nh_;; 43 decl;tl_switch.cpp::TLSwitch::camera_sub_;;
+8 varWrite 35 decl;tl_switch.cpp::TLSwitch::nh_;; 40 decl;tl_switch.cpp::TLSwitch::ams_sub_;;
+9 pubTarget 26 topic;camera_light_color;; 112 decl;tl_switch.cpp::TLSwitch::camera_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,)::msg;;
+9 pubTarget 26 topic;camera_light_color;; 118 decl;tl_switch.cpp::TLSwitch::camera_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,)::input_msg;;
+9 subscribe 26 topic;camera_light_color;; 43 decl;tl_switch.cpp::TLSwitch::camera_sub_;;
+8 varWrite 43 decl;tl_switch.cpp::TLSwitch::camera_msg_;; 42 decl;tl_switch.cpp::TLSwitch::state_msg_;;
+8 varWrite 151 decl;tl_switch.cpp::ADVERTISE_LATCH;static;/home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp;; 50 decl;tl_switch.cpp::TLSwitch::traffic_light_pub_;;
+8 varWrite 151 decl;tl_switch.cpp::ADVERTISE_LATCH;static;/home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp;; 35 decl;tl_switch.cpp::TLSwitch::nh_;;
+8 varWrite 55 decl;tl_switch.cpp::TLSwitch::light_color_topic_name_;; 43 decl;tl_switch.cpp::TLSwitch::private_nh_;;
+8 varWrite 55 decl;tl_switch.cpp::TLSwitch::light_color_topic_name_;; 50 decl;tl_switch.cpp::TLSwitch::traffic_light_pub_;;
+8 varWrite 55 decl;tl_switch.cpp::TLSwitch::light_color_topic_name_;; 35 decl;tl_switch.cpp::TLSwitch::nh_;;
+8 varWrite 62 decl;tl_switch.cpp::TLSwitch::camera_light_color_topic_name_;; 43 decl;tl_switch.cpp::TLSwitch::private_nh_;;
+8 varWrite 62 decl;tl_switch.cpp::TLSwitch::camera_light_color_topic_name_;; 43 decl;tl_switch.cpp::TLSwitch::camera_sub_;;
+8 varWrite 62 decl;tl_switch.cpp::TLSwitch::camera_light_color_topic_name_;; 35 decl;tl_switch.cpp::TLSwitch::nh_;;
+8 varWrite 59 decl;tl_switch.cpp::TLSwitch::ams_light_color_topic_name_;; 43 decl;tl_switch.cpp::TLSwitch::private_nh_;;
+8 varWrite 59 decl;tl_switch.cpp::TLSwitch::ams_light_color_topic_name_;; 40 decl;tl_switch.cpp::TLSwitch::ams_sub_;;
+8 varWrite 59 decl;tl_switch.cpp::TLSwitch::ams_light_color_topic_name_;; 35 decl;tl_switch.cpp::TLSwitch::nh_;;
+7 contain 40 decl;tl_switch.cpp::main(int,char **,);; 46 decl;tl_switch.cpp::main(int,char **,)::argc;;
+7 contain 40 decl;tl_switch.cpp::main(int,char **,);; 46 decl;tl_switch.cpp::main(int,char **,)::argv;;
+7 contain 40 decl;tl_switch.cpp::main(int,char **,);; 44 decl;tl_switch.cpp::main(int,char **,)::nh;;
+7 contain 40 decl;tl_switch.cpp::main(int,char **,);; 52 decl;tl_switch.cpp::main(int,char **,)::private_nh;;
+7 contain 40 decl;tl_switch.cpp::main(int,char **,);; 60 decl;tl_switch.cpp::main(int,char **,)::light_color_switch;;
+5 write 40 decl;tl_switch.cpp::main(int,char **,);; 94 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,)::nh;;
+5 write 40 decl;tl_switch.cpp::main(int,char **,);; 102 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,)::private_nh;;
+5 write 40 decl;tl_switch.cpp::main(int,char **,);; 48 decl;tl_switch.cpp::main(int,char **,);;__ret!;;
+7 contain 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 94 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,)::nh;;
+7 contain 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 102 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,)::private_nh;;
+4 call 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 161 decl;node_handle.h::ros::NodeHandle::param::param(const std::string &,class std::__cxx11::basic_string<char> &,const class std::__cxx11::basic_string<char> &,);;
+5 write 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 43 decl;tl_switch.cpp::TLSwitch::private_nh_;;
+4 call 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 50 decl;tl_switch.cpp::TLSwitch::traffic_light_pub_;;
+4 call 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 76 decl;publisher.h::ros::Publisher::operator=(const class ros::Publisher &,);;
+5 write 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 50 decl;tl_switch.cpp::TLSwitch::traffic_light_pub_;;
+4 call 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 96 decl;node_handle.h::ros::NodeHandle::advertise::advertise(const std::string &,uint32_t,_Bool,);;
+5 write 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 35 decl;tl_switch.cpp::TLSwitch::nh_;;
+4 call 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 43 decl;tl_switch.cpp::TLSwitch::camera_sub_;;
+4 call 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 79 decl;subscriber.h::ros::Subscriber::operator=(const class ros::Subscriber &,);;
+5 write 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 43 decl;tl_switch.cpp::TLSwitch::camera_sub_;;
+4 call 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 233 decl;node_handle.h::ros::NodeHandle::subscribe::subscribe(const std::string &,uint32_t,void (class TLSwitch::*)(const boost::shared_ptr<const TrafficLight_<allocator<void> > > &),class TLSwitch *,const class ros::TransportHints &,);;
+4 call 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 40 decl;tl_switch.cpp::TLSwitch::ams_sub_;;
+5 write 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 40 decl;tl_switch.cpp::TLSwitch::ams_sub_;;
+4 call 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 49 decl;tl_switch.cpp::TLSwitch::reset_light_msg();;
+4 call 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 60 decl;thread::std::thread::operator=(class std::thread &&,);;
+5 write 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 54 decl;tl_switch.cpp::TLSwitch::watchdog_timer_thread_;;
+10 varInfFunc 45 decl;tl_switch.cpp::TLSwitch::ams_msg_time_;; 59 decl;duration.h::ros::DurationBase::DurationBase::toSec();;
+10 varInfFunc 45 decl;tl_switch.cpp::TLSwitch::ams_msg_time_;; 46 decl;tl_switch.cpp::TLSwitch::switch_color();;
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);;
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 43 decl;tl_switch.cpp::TLSwitch::~TLSwitch();;
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 46 decl;tl_switch.cpp::TLSwitch::switch_color();;
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 49 decl;tl_switch.cpp::TLSwitch::reset_light_msg();;
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 48 decl;tl_switch.cpp::TLSwitch::watchdog_timer();;
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 107 decl;tl_switch.cpp::TLSwitch::camera_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);;
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 104 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);;
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 55 decl;tl_switch.cpp::TLSwitch::light_color_topic_name_;;
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 62 decl;tl_switch.cpp::TLSwitch::camera_light_color_topic_name_;;
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 59 decl;tl_switch.cpp::TLSwitch::ams_light_color_topic_name_;;
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 43 decl;tl_switch.cpp::TLSwitch::camera_msg_;;
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 40 decl;tl_switch.cpp::TLSwitch::ams_msg_;;
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 42 decl;tl_switch.cpp::TLSwitch::state_msg_;;
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 35 decl;tl_switch.cpp::TLSwitch::nh_;;
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 43 decl;tl_switch.cpp::TLSwitch::private_nh_;;
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 50 decl;tl_switch.cpp::TLSwitch::traffic_light_pub_;;
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 43 decl;tl_switch.cpp::TLSwitch::camera_sub_;;
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 40 decl;tl_switch.cpp::TLSwitch::ams_sub_;;
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 45 decl;tl_switch.cpp::TLSwitch::ams_msg_time_;;
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 47 decl;tl_switch.cpp::TLSwitch::is_ams_timeout_;;
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 51 decl;tl_switch.cpp::TLSwitch::ams_timeout_period_;;
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 54 decl;tl_switch.cpp::TLSwitch::watchdog_timer_thread_;;
+10 varInfFunc 58 decl;tl_switch.cpp::TLSwitch::watchdog_timer()::now_time;; 59 decl;duration.h::ros::DurationBase::DurationBase::toSec();;
+10 varInfFunc 58 decl;tl_switch.cpp::TLSwitch::watchdog_timer()::now_time;; 46 decl;tl_switch.cpp::TLSwitch::switch_color();;
+8 varWrite 48 decl;tl_switch.cpp::TLSwitch::watchdog_timer();; 54 decl;tl_switch.cpp::TLSwitch::watchdog_timer_thread_;;
+7 contain 48 decl;tl_switch.cpp::TLSwitch::watchdog_timer();; 58 decl;tl_switch.cpp::TLSwitch::watchdog_timer()::now_time;;
+4 call 48 decl;tl_switch.cpp::TLSwitch::watchdog_timer();; 59 decl;duration.h::ros::DurationBase::DurationBase::toSec();;
+5 write 48 decl;tl_switch.cpp::TLSwitch::watchdog_timer();; 47 decl;tl_switch.cpp::TLSwitch::is_ams_timeout_;;
+4 call 48 decl;tl_switch.cpp::TLSwitch::watchdog_timer();; 46 decl;tl_switch.cpp::TLSwitch::switch_color();;
+4 call 48 decl;tl_switch.cpp::TLSwitch::watchdog_timer();; 103 decl;thread::std::this_thread::sleep_for::sleep_for(const chrono::duration<long, ratio<1, 1000> > &,);;
+9 advertise 50 decl;tl_switch.cpp::TLSwitch::traffic_light_pub_;; 19 topic;light_color;;
+7 publish 50 decl;tl_switch.cpp::TLSwitch::traffic_light_pub_;; 19 topic;light_color;;
+3 obj 60 decl;tl_switch.cpp::main(int,char **,)::light_color_switch;; 30 decl;tl_switch.cpp::TLSwitch;;
+10 varInfFunc 47 decl;tl_switch.cpp::TLSwitch::is_ams_timeout_;; 59 decl;duration.h::ros::DurationBase::DurationBase::toSec();;
+10 varInfFunc 47 decl;tl_switch.cpp::TLSwitch::is_ams_timeout_;; 46 decl;tl_switch.cpp::TLSwitch::switch_color();;
+7 contain 104 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 115 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,)::input_msg;;
+8 varWrite 104 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 40 decl;tl_switch.cpp::TLSwitch::ams_sub_;;
+7 contain 104 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 109 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,)::msg;;
+8 varWrite 104 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 35 decl;tl_switch.cpp::TLSwitch::nh_;;
+4 call 104 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 56 decl;time.h::ros::Time::operator=(class ros::Time &&,);;
+5 write 104 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 45 decl;tl_switch.cpp::TLSwitch::ams_msg_time_;;
+5 write 104 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 47 decl;tl_switch.cpp::TLSwitch::is_ams_timeout_;;
+5 write 104 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 40 decl;tl_switch.cpp::TLSwitch::ams_msg_;;
+4 call 104 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 66 decl;shared_ptr.hpp::boost::shared_ptr::shared_ptr::operator->();;
+4 call 104 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 46 decl;tl_switch.cpp::TLSwitch::switch_color();;
+7 contain 107 decl;tl_switch.cpp::TLSwitch::camera_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 118 decl;tl_switch.cpp::TLSwitch::camera_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,)::input_msg;;
+8 varWrite 107 decl;tl_switch.cpp::TLSwitch::camera_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 43 decl;tl_switch.cpp::TLSwitch::camera_sub_;;
+7 contain 107 decl;tl_switch.cpp::TLSwitch::camera_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 112 decl;tl_switch.cpp::TLSwitch::camera_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,)::msg;;
+8 varWrite 107 decl;tl_switch.cpp::TLSwitch::camera_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 35 decl;tl_switch.cpp::TLSwitch::nh_;;
+5 write 107 decl;tl_switch.cpp::TLSwitch::camera_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 43 decl;tl_switch.cpp::TLSwitch::camera_msg_;;
+4 call 107 decl;tl_switch.cpp::TLSwitch::camera_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 66 decl;shared_ptr.hpp::boost::shared_ptr::shared_ptr::operator->();;
+4 call 107 decl;tl_switch.cpp::TLSwitch::camera_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 46 decl;tl_switch.cpp::TLSwitch::switch_color();;
+8 varWrite 44 decl;tl_switch.cpp::main(int,char **,)::nh;; 94 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,)::nh;;
+4 call 43 decl;tl_switch.cpp::TLSwitch::camera_sub_;; 107 decl;tl_switch.cpp::TLSwitch::camera_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);;
+9 pubTarget 23 topic;ams_light_color;; 109 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,)::msg;;
+9 pubTarget 23 topic;ams_light_color;; 115 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,)::input_msg;;
+9 subscribe 23 topic;ams_light_color;; 40 decl;tl_switch.cpp::TLSwitch::ams_sub_;;
+10 varInfFunc 51 decl;tl_switch.cpp::TLSwitch::ams_timeout_period_;; 59 decl;duration.h::ros::DurationBase::DurationBase::toSec();;
+10 varInfFunc 51 decl;tl_switch.cpp::TLSwitch::ams_timeout_period_;; 46 decl;tl_switch.cpp::TLSwitch::switch_color();;
+4 call 40 decl;tl_switch.cpp::TLSwitch::ams_sub_;; 104 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);;
+5 write 49 decl;tl_switch.cpp::TLSwitch::reset_light_msg();; 43 decl;tl_switch.cpp::TLSwitch::camera_msg_;;
+5 write 49 decl;tl_switch.cpp::TLSwitch::reset_light_msg();; 40 decl;tl_switch.cpp::TLSwitch::ams_msg_;;
+5 write 49 decl;tl_switch.cpp::TLSwitch::reset_light_msg();; 42 decl;tl_switch.cpp::TLSwitch::state_msg_;;
+5 write 49 decl;tl_switch.cpp::TLSwitch::reset_light_msg();; 47 decl;tl_switch.cpp::TLSwitch::is_ams_timeout_;;
+8 varWrite 109 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,)::msg;; 40 decl;tl_switch.cpp::TLSwitch::ams_msg_;;
+8 varWrite 112 decl;tl_switch.cpp::TLSwitch::camera_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,)::msg;; 43 decl;tl_switch.cpp::TLSwitch::camera_msg_;;
+5 write 46 decl;tl_switch.cpp::TLSwitch::switch_color();; 42 decl;tl_switch.cpp::TLSwitch::state_msg_;;
+4 call 46 decl;tl_switch.cpp::TLSwitch::switch_color();; 50 decl;tl_switch.cpp::TLSwitch::traffic_light_pub_;;
+4 call 46 decl;tl_switch.cpp::TLSwitch::switch_color();; 127 decl;publisher.h::ros::Publisher::publish::publish(const struct autoware_msgs::TrafficLight_<class std::allocator<void> > &,);;
+5 write 46 decl;tl_switch.cpp::TLSwitch::switch_color();; 50 decl;tl_switch.cpp::TLSwitch::traffic_light_pub_;;
+8 varWrite 42 decl;tl_switch.cpp::TLSwitch::state_msg_;; 50 decl;tl_switch.cpp::TLSwitch::traffic_light_pub_;;
+59 decl;duration.h::ros::DurationBase::DurationBase::toSec();; 4 0 8 filename 39 /opt/ros/melodic/include/ros/duration.h 15 filenameDeclare 39 /opt/ros/melodic/include/ros/duration.h 14 isCallbackFunc 1 0 5 label 61 include/ros/duration.h:ros::DurationBase::DurationBase::toSec 
+96 decl;node_handle.h::ros::NodeHandle::advertise::advertise(const std::string &,uint32_t,_Bool,);; 4 0 8 filename 42 /opt/ros/melodic/include/ros/node_handle.h 15 filenameDeclare 42 /opt/ros/melodic/include/ros/node_handle.h 14 isCallbackFunc 1 0 5 label 63 include/ros/node_handle.h:ros::NodeHandle::advertise::advertise 
+161 decl;node_handle.h::ros::NodeHandle::param::param(const std::string &,class std::__cxx11::basic_string<char> &,const class std::__cxx11::basic_string<char> &,);; 4 0 8 filename 42 /opt/ros/melodic/include/ros/node_handle.h 15 filenameDeclare 42 /opt/ros/melodic/include/ros/node_handle.h 14 isCallbackFunc 1 0 5 label 55 include/ros/node_handle.h:ros::NodeHandle::param::param 
+233 decl;node_handle.h::ros::NodeHandle::subscribe::subscribe(const std::string &,uint32_t,void (class TLSwitch::*)(const boost::shared_ptr<const TrafficLight_<allocator<void> > > &),class TLSwitch *,const class ros::TransportHints &,);; 4 0 8 filename 42 /opt/ros/melodic/include/ros/node_handle.h 15 filenameDeclare 42 /opt/ros/melodic/include/ros/node_handle.h 14 isCallbackFunc 1 0 5 label 63 include/ros/node_handle.h:ros::NodeHandle::subscribe::subscribe 
+76 decl;publisher.h::ros::Publisher::operator=(const class ros::Publisher &,);; 4 0 8 filename 40 /opt/ros/melodic/include/ros/publisher.h 15 filenameDeclare 40 /opt/ros/melodic/include/ros/publisher.h 14 isCallbackFunc 1 0 5 label 49 include/ros/publisher.h:ros::Publisher::operator= 
+127 decl;publisher.h::ros::Publisher::publish::publish(const struct autoware_msgs::TrafficLight_<class std::allocator<void> > &,);; 4 0 8 filename 40 /opt/ros/melodic/include/ros/publisher.h 15 filenameDeclare 40 /opt/ros/melodic/include/ros/publisher.h 14 isCallbackFunc 1 0 5 label 56 include/ros/publisher.h:ros::Publisher::publish::publish 
+66 decl;shared_ptr.hpp::boost::shared_ptr::shared_ptr::operator->();; 4 0 8 filename 43 /usr/include/boost/smart_ptr/shared_ptr.hpp 15 filenameDeclare 43 /usr/include/boost/smart_ptr/shared_ptr.hpp 14 isCallbackFunc 1 0 5 label 72 boost/smart_ptr/shared_ptr.hpp:boost::shared_ptr::shared_ptr::operator-> 
+79 decl;subscriber.h::ros::Subscriber::operator=(const class ros::Subscriber &,);; 4 0 8 filename 41 /opt/ros/melodic/include/ros/subscriber.h 15 filenameDeclare 41 /opt/ros/melodic/include/ros/subscriber.h 14 isCallbackFunc 1 0 5 label 51 include/ros/subscriber.h:ros::Subscriber::operator= 
+103 decl;thread::std::this_thread::sleep_for::sleep_for(const chrono::duration<long, ratio<1, 1000> > &,);; 4 0 8 filename 29 /usr/include/c++/7.5.0/thread 15 filenameDeclare 29 /usr/include/c++/7.5.0/thread 14 isCallbackFunc 1 0 5 label 55 c++/7.5.0/thread:std::this_thread::sleep_for::sleep_for 
+60 decl;thread::std::thread::operator=(class std::thread &&,);; 4 0 8 filename 29 /usr/include/c++/7.5.0/thread 15 filenameDeclare 29 /usr/include/c++/7.5.0/thread 14 isCallbackFunc 1 0 5 label 39 c++/7.5.0/thread:std::thread::operator= 
+56 decl;time.h::ros::Time::operator=(class ros::Time &&,);; 4 0 8 filename 35 /opt/ros/melodic/include/ros/time.h 15 filenameDeclare 35 /opt/ros/melodic/include/ros/time.h 14 isCallbackFunc 1 0 5 label 39 include/ros/time.h:ros::Time::operator= 
+151 decl;tl_switch.cpp::ADVERTISE_LATCH;static;/home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp;; 5 0 8 filename 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 15 filenameDeclare 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 13 isControlFlow 1 0 7 isParam 1 0 5 label 45 nodes/tl_switch/tl_switch.cpp:ADVERTISE_LATCH 
+94 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,)::nh;; 5 0 8 filename 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 15 filenameDeclare 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 13 isControlFlow 1 0 7 isParam 1 1 5 label 52 nodes/tl_switch/tl_switch.cpp:TLSwitch::TLSwitch::nh 
+102 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,)::private_nh;; 5 0 8 filename 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 15 filenameDeclare 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 13 isControlFlow 1 0 7 isParam 1 1 5 label 60 nodes/tl_switch/tl_switch.cpp:TLSwitch::TLSwitch::private_nh 
+90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 4 0 8 filename 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 15 filenameDeclare 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 14 isCallbackFunc 1 0 5 label 48 nodes/tl_switch/tl_switch.cpp:TLSwitch::TLSwitch 
+115 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,)::input_msg;; 5 0 8 filename 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 15 filenameDeclare 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 13 isControlFlow 1 0 7 isParam 1 1 5 label 75 nodes/tl_switch/tl_switch.cpp:TLSwitch::ams_light_color_callback::input_msg 
+109 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,)::msg;; 5 0 8 filename 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 15 filenameDeclare 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 13 isControlFlow 1 0 7 isParam 1 1 5 label 59 nodes/tl_switch/tl_switch.cpp:ams_light_color_callback::msg 
+104 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 4 0 8 filename 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 15 filenameDeclare 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 14 isCallbackFunc 1 1 5 label 64 nodes/tl_switch/tl_switch.cpp:TLSwitch::ams_light_color_callback 
+59 decl;tl_switch.cpp::TLSwitch::ams_light_color_topic_name_;; 4 0 8 filename 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 15 filenameDeclare 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 13 isControlFlow 1 0 5 label 67 nodes/tl_switch/tl_switch.cpp:TLSwitch::ams_light_color_topic_name_ 
+40 decl;tl_switch.cpp::TLSwitch::ams_msg_;; 4 0 8 filename 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 15 filenameDeclare 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 13 isControlFlow 1 1 5 label 48 nodes/tl_switch/tl_switch.cpp:TLSwitch::ams_msg_ 
+45 decl;tl_switch.cpp::TLSwitch::ams_msg_time_;; 4 0 8 filename 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 15 filenameDeclare 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 13 isControlFlow 1 1 5 label 53 nodes/tl_switch/tl_switch.cpp:TLSwitch::ams_msg_time_ 
+40 decl;tl_switch.cpp::TLSwitch::ams_sub_;; 6 0 12 callbackFunc 0  8 filename 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 15 filenameDeclare 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 13 isControlFlow 1 0 5 label 48 nodes/tl_switch/tl_switch.cpp:TLSwitch::ams_sub_ 13 numAttributes 1 5 
+51 decl;tl_switch.cpp::TLSwitch::ams_timeout_period_;; 4 0 8 filename 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 15 filenameDeclare 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 13 isControlFlow 1 1 5 label 59 nodes/tl_switch/tl_switch.cpp:TLSwitch::ams_timeout_period_ 
+118 decl;tl_switch.cpp::TLSwitch::camera_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,)::input_msg;; 5 0 8 filename 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 15 filenameDeclare 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 13 isControlFlow 1 0 7 isParam 1 1 5 label 78 nodes/tl_switch/tl_switch.cpp:TLSwitch::camera_light_color_callback::input_msg 
+112 decl;tl_switch.cpp::TLSwitch::camera_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,)::msg;; 5 0 8 filename 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 15 filenameDeclare 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 13 isControlFlow 1 0 7 isParam 1 1 5 label 62 nodes/tl_switch/tl_switch.cpp:camera_light_color_callback::msg 
+107 decl;tl_switch.cpp::TLSwitch::camera_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 4 0 8 filename 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 15 filenameDeclare 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 14 isCallbackFunc 1 1 5 label 67 nodes/tl_switch/tl_switch.cpp:TLSwitch::camera_light_color_callback 
+62 decl;tl_switch.cpp::TLSwitch::camera_light_color_topic_name_;; 4 0 8 filename 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 15 filenameDeclare 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 13 isControlFlow 1 0 5 label 70 nodes/tl_switch/tl_switch.cpp:TLSwitch::camera_light_color_topic_name_ 
+43 decl;tl_switch.cpp::TLSwitch::camera_msg_;; 4 0 8 filename 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 15 filenameDeclare 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 13 isControlFlow 1 1 5 label 51 nodes/tl_switch/tl_switch.cpp:TLSwitch::camera_msg_ 
+43 decl;tl_switch.cpp::TLSwitch::camera_sub_;; 6 0 12 callbackFunc 0  8 filename 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 15 filenameDeclare 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 13 isControlFlow 1 0 5 label 51 nodes/tl_switch/tl_switch.cpp:TLSwitch::camera_sub_ 13 numAttributes 1 5 
+47 decl;tl_switch.cpp::TLSwitch::is_ams_timeout_;; 4 0 8 filename 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 15 filenameDeclare 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 13 isControlFlow 1 1 5 label 55 nodes/tl_switch/tl_switch.cpp:TLSwitch::is_ams_timeout_ 
+55 decl;tl_switch.cpp::TLSwitch::light_color_topic_name_;; 4 0 8 filename 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 15 filenameDeclare 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 13 isControlFlow 1 0 5 label 63 nodes/tl_switch/tl_switch.cpp:TLSwitch::light_color_topic_name_ 
+35 decl;tl_switch.cpp::TLSwitch::nh_;; 4 0 8 filename 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 15 filenameDeclare 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 13 isControlFlow 1 0 5 label 43 nodes/tl_switch/tl_switch.cpp:TLSwitch::nh_ 
+43 decl;tl_switch.cpp::TLSwitch::private_nh_;; 4 0 8 filename 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 15 filenameDeclare 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 13 isControlFlow 1 0 5 label 51 nodes/tl_switch/tl_switch.cpp:TLSwitch::private_nh_ 
+49 decl;tl_switch.cpp::TLSwitch::reset_light_msg();; 4 0 8 filename 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 15 filenameDeclare 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 14 isCallbackFunc 1 0 5 label 55 nodes/tl_switch/tl_switch.cpp:TLSwitch::reset_light_msg 
+42 decl;tl_switch.cpp::TLSwitch::state_msg_;; 4 0 8 filename 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 15 filenameDeclare 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 13 isControlFlow 1 0 5 label 50 nodes/tl_switch/tl_switch.cpp:TLSwitch::state_msg_ 
+46 decl;tl_switch.cpp::TLSwitch::switch_color();; 4 0 8 filename 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 15 filenameDeclare 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 14 isCallbackFunc 1 0 5 label 52 nodes/tl_switch/tl_switch.cpp:TLSwitch::switch_color 
+50 decl;tl_switch.cpp::TLSwitch::traffic_light_pub_;; 6 0 8 filename 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 15 filenameDeclare 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 13 isControlFlow 1 0 5 label 58 nodes/tl_switch/tl_switch.cpp:TLSwitch::traffic_light_pub_ 13 numAttributes 1 3 13 publisherType 27 autoware_msgs::TrafficLight 
+58 decl;tl_switch.cpp::TLSwitch::watchdog_timer()::now_time;; 5 0 8 filename 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 15 filenameDeclare 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 13 isControlFlow 1 1 7 isParam 1 0 5 label 54 nodes/tl_switch/tl_switch.cpp:watchdog_timer::now_time 
+48 decl;tl_switch.cpp::TLSwitch::watchdog_timer();; 4 0 8 filename 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 15 filenameDeclare 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 14 isCallbackFunc 1 0 5 label 54 nodes/tl_switch/tl_switch.cpp:TLSwitch::watchdog_timer 
+54 decl;tl_switch.cpp::TLSwitch::watchdog_timer_thread_;; 4 0 8 filename 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 15 filenameDeclare 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 13 isControlFlow 1 0 5 label 62 nodes/tl_switch/tl_switch.cpp:TLSwitch::watchdog_timer_thread_ 
+43 decl;tl_switch.cpp::TLSwitch::~TLSwitch();; 4 0 8 filename 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 15 filenameDeclare 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 14 isCallbackFunc 1 0 5 label 49 nodes/tl_switch/tl_switch.cpp:TLSwitch::~TLSwitch 
+30 decl;tl_switch.cpp::TLSwitch;; 3 0 8 filename 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 15 filenameDeclare 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 5 label 38 nodes/tl_switch/tl_switch.cpp:TLSwitch 
+46 decl;tl_switch.cpp::main(int,char **,)::argc;; 2 0 8 filename 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 15 filenameDeclare 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 
+46 decl;tl_switch.cpp::main(int,char **,)::argv;; 2 0 8 filename 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 15 filenameDeclare 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 
+60 decl;tl_switch.cpp::main(int,char **,)::light_color_switch;; 5 0 8 filename 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 15 filenameDeclare 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 13 isControlFlow 1 0 7 isParam 1 0 5 label 54 nodes/tl_switch/tl_switch.cpp:main::light_color_switch 
+44 decl;tl_switch.cpp::main(int,char **,)::nh;; 5 0 8 filename 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 15 filenameDeclare 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 13 isControlFlow 1 0 7 isParam 1 0 5 label 38 nodes/tl_switch/tl_switch.cpp:main::nh 
+52 decl;tl_switch.cpp::main(int,char **,)::private_nh;; 5 0 8 filename 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 15 filenameDeclare 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 13 isControlFlow 1 0 7 isParam 1 0 5 label 46 nodes/tl_switch/tl_switch.cpp:main::private_nh 
+40 decl;tl_switch.cpp::main(int,char **,);; 4 0 8 filename 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 15 filenameDeclare 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 14 isCallbackFunc 1 0 5 label 34 nodes/tl_switch/tl_switch.cpp:main 
+48 decl;tl_switch.cpp::main(int,char **,);;__ret!;; 2 0 8 filename 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 15 filenameDeclare 106 /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp 
+23 topic;ams_light_color;; 1 0 5 label 66 nodes/tl_switch/tl_switch.cpp:TLSwitch::subscribe::ams_light_color 
+26 topic;camera_light_color;; 1 0 5 label 69 nodes/tl_switch/tl_switch.cpp:TLSwitch::subscribe::camera_light_color 
+19 topic;light_color;; 1 0 5 label 62 nodes/tl_switch/tl_switch.cpp:TLSwitch::advertise::light_color 
+9 advertise 50 decl;tl_switch.cpp::TLSwitch::traffic_light_pub_;; 19 topic;light_color;; 0 0 
+4 call 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 96 decl;node_handle.h::ros::NodeHandle::advertise::advertise(const std::string &,uint32_t,_Bool,);; 0 0 
+4 call 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 161 decl;node_handle.h::ros::NodeHandle::param::param(const std::string &,class std::__cxx11::basic_string<char> &,const class std::__cxx11::basic_string<char> &,);; 0 0 
+4 call 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 233 decl;node_handle.h::ros::NodeHandle::subscribe::subscribe(const std::string &,uint32_t,void (class TLSwitch::*)(const boost::shared_ptr<const TrafficLight_<allocator<void> > > &),class TLSwitch *,const class ros::TransportHints &,);; 0 0 
+4 call 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 76 decl;publisher.h::ros::Publisher::operator=(const class ros::Publisher &,);; 0 0 
+4 call 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 79 decl;subscriber.h::ros::Subscriber::operator=(const class ros::Subscriber &,);; 0 0 
+4 call 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 36 decl;thread::std::thread::detach();; 0 0 
+4 call 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 60 decl;thread::std::thread::operator=(class std::thread &&,);; 0 0 
+4 call 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 40 decl;tl_switch.cpp::TLSwitch::ams_sub_;; 0 0 
+4 call 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 43 decl;tl_switch.cpp::TLSwitch::camera_sub_;; 0 0 
+4 call 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 49 decl;tl_switch.cpp::TLSwitch::reset_light_msg();; 0 0 
+4 call 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 50 decl;tl_switch.cpp::TLSwitch::traffic_light_pub_;; 0 0 
+4 call 104 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 66 decl;shared_ptr.hpp::boost::shared_ptr::shared_ptr::operator->();; 0 0 
+4 call 104 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 31 decl;time.h::ros::Time::now();; 0 0 
+4 call 104 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 56 decl;time.h::ros::Time::operator=(class ros::Time &&,);; 0 0 
+4 call 104 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 46 decl;tl_switch.cpp::TLSwitch::switch_color();; 0 0 
+4 call 40 decl;tl_switch.cpp::TLSwitch::ams_sub_;; 104 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 0 0 
+4 call 107 decl;tl_switch.cpp::TLSwitch::camera_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 66 decl;shared_ptr.hpp::boost::shared_ptr::shared_ptr::operator->();; 0 0 
+4 call 107 decl;tl_switch.cpp::TLSwitch::camera_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 46 decl;tl_switch.cpp::TLSwitch::switch_color();; 0 0 
+4 call 43 decl;tl_switch.cpp::TLSwitch::camera_sub_;; 107 decl;tl_switch.cpp::TLSwitch::camera_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 0 0 
+4 call 46 decl;tl_switch.cpp::TLSwitch::switch_color();; 127 decl;publisher.h::ros::Publisher::publish::publish(const struct autoware_msgs::TrafficLight_<class std::allocator<void> > &,);; 0 0 
+4 call 46 decl;tl_switch.cpp::TLSwitch::switch_color();; 50 decl;tl_switch.cpp::TLSwitch::traffic_light_pub_;; 0 0 
+4 call 48 decl;tl_switch.cpp::TLSwitch::watchdog_timer();; 91 decl;duration.h::ros::DurationBase::DurationBase::operator>(const class ros::Duration &,);; 0 0 
+4 call 48 decl;tl_switch.cpp::TLSwitch::watchdog_timer();; 59 decl;duration.h::ros::DurationBase::DurationBase::toSec();; 0 0 
+4 call 48 decl;tl_switch.cpp::TLSwitch::watchdog_timer();; 103 decl;thread::std::this_thread::sleep_for::sleep_for(const chrono::duration<long, ratio<1, 1000> > &,);; 0 0 
+4 call 48 decl;tl_switch.cpp::TLSwitch::watchdog_timer();; 31 decl;time.h::ros::Time::now();; 0 0 
+4 call 48 decl;tl_switch.cpp::TLSwitch::watchdog_timer();; 75 decl;time.h::ros::TimeBase::TimeBase::operator-(const class ros::Time &,);; 0 0 
+4 call 48 decl;tl_switch.cpp::TLSwitch::watchdog_timer();; 46 decl;tl_switch.cpp::TLSwitch::switch_color();; 0 0 
+4 call 40 decl;tl_switch.cpp::main(int,char **,);; 69 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,);; 0 0 
+4 call 40 decl;tl_switch.cpp::main(int,char **,);; 26 decl;init.h::ros::spin();; 0 0 
+7 contain 50 decl;duration.h::ros::DurationBase::DurationBase;; 91 decl;duration.h::ros::DurationBase::DurationBase::operator>(const class ros::Duration &,);; 0 0 
+7 contain 50 decl;duration.h::ros::DurationBase::DurationBase;; 59 decl;duration.h::ros::DurationBase::DurationBase::toSec();; 0 0 
+7 contain 34 decl;forwards.h::ros::NodeHandle;; 96 decl;node_handle.h::ros::NodeHandle::advertise::advertise(const std::string &,uint32_t,_Bool,);; 0 0 
+7 contain 34 decl;forwards.h::ros::NodeHandle;; 161 decl;node_handle.h::ros::NodeHandle::param::param(const std::string &,class std::__cxx11::basic_string<char> &,const class std::__cxx11::basic_string<char> &,);; 0 0 
+7 contain 34 decl;forwards.h::ros::NodeHandle;; 233 decl;node_handle.h::ros::NodeHandle::subscribe::subscribe(const std::string &,uint32_t,void (class TLSwitch::*)(const boost::shared_ptr<const TrafficLight_<allocator<void> > > &),class TLSwitch *,const class ros::TransportHints &,);; 0 0 
+7 contain 34 decl;publisher.h::ros::Publisher;; 76 decl;publisher.h::ros::Publisher::operator=(const class ros::Publisher &,);; 0 0 
+7 contain 34 decl;publisher.h::ros::Publisher;; 127 decl;publisher.h::ros::Publisher::publish::publish(const struct autoware_msgs::TrafficLight_<class std::allocator<void> > &,);; 0 0 
+7 contain 52 decl;shared_ptr.hpp::boost::shared_ptr::shared_ptr;; 66 decl;shared_ptr.hpp::boost::shared_ptr::shared_ptr::operator->();; 0 0 
+7 contain 36 decl;subscriber.h::ros::Subscriber;; 79 decl;subscriber.h::ros::Subscriber::operator=(const class ros::Subscriber &,);; 0 0 
+7 contain 26 decl;thread::std::thread;; 36 decl;thread::std::thread::detach();; 0 0 
+7 contain 26 decl;thread::std::thread;; 60 decl;thread::std::thread::operator=(class std::thread &&,);; 0 0 
+7 contain 24 decl;time.h::ros::Time;; 31 decl;time.h::ros::Time::now();; 0 0 
+7 contain 24 decl;time.h::ros::Time;; 56 decl;time.h::ros::Time::operator=(class ros::Time &&,);; 0 0 
+7 contain 38 decl;time.h::ros::TimeBase::TimeBase;; 75 decl;time.h::ros::TimeBase::TimeBase::operator-(const class ros::Time &,);; 0 0 
+7 contain 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 94 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,)::nh;; 0 0 
+7 contain 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 102 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,)::private_nh;; 0 0 
+7 contain 104 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 115 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,)::input_msg;; 0 0 
+7 contain 104 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 109 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,)::msg;; 0 0 
+7 contain 107 decl;tl_switch.cpp::TLSwitch::camera_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 118 decl;tl_switch.cpp::TLSwitch::camera_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,)::input_msg;; 0 0 
+7 contain 107 decl;tl_switch.cpp::TLSwitch::camera_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 112 decl;tl_switch.cpp::TLSwitch::camera_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,)::msg;; 0 0 
+7 contain 48 decl;tl_switch.cpp::TLSwitch::watchdog_timer();; 58 decl;tl_switch.cpp::TLSwitch::watchdog_timer()::now_time;; 0 0 
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 0 0 
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 104 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 0 0 
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 59 decl;tl_switch.cpp::TLSwitch::ams_light_color_topic_name_;; 0 0 
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 40 decl;tl_switch.cpp::TLSwitch::ams_msg_;; 0 0 
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 45 decl;tl_switch.cpp::TLSwitch::ams_msg_time_;; 0 0 
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 40 decl;tl_switch.cpp::TLSwitch::ams_sub_;; 0 0 
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 51 decl;tl_switch.cpp::TLSwitch::ams_timeout_period_;; 0 0 
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 107 decl;tl_switch.cpp::TLSwitch::camera_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 0 0 
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 62 decl;tl_switch.cpp::TLSwitch::camera_light_color_topic_name_;; 0 0 
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 43 decl;tl_switch.cpp::TLSwitch::camera_msg_;; 0 0 
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 43 decl;tl_switch.cpp::TLSwitch::camera_sub_;; 0 0 
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 47 decl;tl_switch.cpp::TLSwitch::is_ams_timeout_;; 0 0 
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 55 decl;tl_switch.cpp::TLSwitch::light_color_topic_name_;; 0 0 
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 35 decl;tl_switch.cpp::TLSwitch::nh_;; 0 0 
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 43 decl;tl_switch.cpp::TLSwitch::private_nh_;; 0 0 
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 49 decl;tl_switch.cpp::TLSwitch::reset_light_msg();; 0 0 
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 42 decl;tl_switch.cpp::TLSwitch::state_msg_;; 0 0 
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 46 decl;tl_switch.cpp::TLSwitch::switch_color();; 0 0 
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 50 decl;tl_switch.cpp::TLSwitch::traffic_light_pub_;; 0 0 
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 48 decl;tl_switch.cpp::TLSwitch::watchdog_timer();; 0 0 
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 54 decl;tl_switch.cpp::TLSwitch::watchdog_timer_thread_;; 0 0 
+7 contain 30 decl;tl_switch.cpp::TLSwitch;; 43 decl;tl_switch.cpp::TLSwitch::~TLSwitch();; 0 0 
+7 contain 40 decl;tl_switch.cpp::main(int,char **,);; 46 decl;tl_switch.cpp::main(int,char **,)::argc;; 0 0 
+7 contain 40 decl;tl_switch.cpp::main(int,char **,);; 46 decl;tl_switch.cpp::main(int,char **,)::argv;; 0 0 
+7 contain 40 decl;tl_switch.cpp::main(int,char **,);; 60 decl;tl_switch.cpp::main(int,char **,)::light_color_switch;; 0 0 
+7 contain 40 decl;tl_switch.cpp::main(int,char **,);; 44 decl;tl_switch.cpp::main(int,char **,)::nh;; 0 0 
+7 contain 40 decl;tl_switch.cpp::main(int,char **,);; 52 decl;tl_switch.cpp::main(int,char **,)::private_nh;; 0 0 
+3 obj 58 decl;tl_switch.cpp::TLSwitch::watchdog_timer()::now_time;; 24 decl;time.h::ros::Time;; 0 0 
+3 obj 60 decl;tl_switch.cpp::main(int,char **,)::light_color_switch;; 30 decl;tl_switch.cpp::TLSwitch;; 0 0 
+3 obj 44 decl;tl_switch.cpp::main(int,char **,)::nh;; 34 decl;forwards.h::ros::NodeHandle;; 0 0 
+3 obj 52 decl;tl_switch.cpp::main(int,char **,)::private_nh;; 34 decl;forwards.h::ros::NodeHandle;; 0 0 
+8 parWrite 151 decl;tl_switch.cpp::ADVERTISE_LATCH;static;/home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp;; 103 decl;node_handle.h::ros::NodeHandle::advertise::advertise(const std::string &,uint32_t,_Bool,)::latch;; 0 0 
+8 parWrite 104 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 237 decl;node_handle.h::ros::NodeHandle::subscribe::subscribe(const std::string &,uint32_t,void (class TLSwitch::*)(const boost::shared_ptr<const TrafficLight_<allocator<void> > > &),class TLSwitch *,const class ros::TransportHints &,)::fp;; 0 0 
+8 parWrite 59 decl;tl_switch.cpp::TLSwitch::ams_light_color_topic_name_;; 172 decl;node_handle.h::ros::NodeHandle::param::param(const std::string &,class std::__cxx11::basic_string<char> &,const class std::__cxx11::basic_string<char> &,)::param_val;; 0 0 
+8 parWrite 59 decl;tl_switch.cpp::TLSwitch::ams_light_color_topic_name_;; 240 decl;node_handle.h::ros::NodeHandle::subscribe::subscribe(const std::string &,uint32_t,void (class TLSwitch::*)(const boost::shared_ptr<const TrafficLight_<allocator<void> > > &),class TLSwitch *,const class ros::TransportHints &,)::topic;; 0 0 
+8 parWrite 107 decl;tl_switch.cpp::TLSwitch::camera_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 237 decl;node_handle.h::ros::NodeHandle::subscribe::subscribe(const std::string &,uint32_t,void (class TLSwitch::*)(const boost::shared_ptr<const TrafficLight_<allocator<void> > > &),class TLSwitch *,const class ros::TransportHints &,)::fp;; 0 0 
+8 parWrite 62 decl;tl_switch.cpp::TLSwitch::camera_light_color_topic_name_;; 172 decl;node_handle.h::ros::NodeHandle::param::param(const std::string &,class std::__cxx11::basic_string<char> &,const class std::__cxx11::basic_string<char> &,)::param_val;; 0 0 
+8 parWrite 62 decl;tl_switch.cpp::TLSwitch::camera_light_color_topic_name_;; 240 decl;node_handle.h::ros::NodeHandle::subscribe::subscribe(const std::string &,uint32_t,void (class TLSwitch::*)(const boost::shared_ptr<const TrafficLight_<allocator<void> > > &),class TLSwitch *,const class ros::TransportHints &,)::topic;; 0 0 
+8 parWrite 55 decl;tl_switch.cpp::TLSwitch::light_color_topic_name_;; 103 decl;node_handle.h::ros::NodeHandle::advertise::advertise(const std::string &,uint32_t,_Bool,)::topic;; 0 0 
+8 parWrite 55 decl;tl_switch.cpp::TLSwitch::light_color_topic_name_;; 172 decl;node_handle.h::ros::NodeHandle::param::param(const std::string &,class std::__cxx11::basic_string<char> &,const class std::__cxx11::basic_string<char> &,)::param_val;; 0 0 
+8 parWrite 42 decl;tl_switch.cpp::TLSwitch::state_msg_;; 136 decl;publisher.h::ros::Publisher::publish::publish(const struct autoware_msgs::TrafficLight_<class std::allocator<void> > &,)::message;; 0 0 
+8 parWrite 46 decl;tl_switch.cpp::main(int,char **,)::argc;; 75 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,)::argc;; 0 0 
+8 parWrite 46 decl;tl_switch.cpp::main(int,char **,)::argv;; 75 decl;init.h::ros::init(int &,char **,const std::string &,uint32_t,)::argv;; 0 0 
+9 pubTarget 23 topic;ams_light_color;; 115 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,)::input_msg;; 0 0 
+9 pubTarget 23 topic;ams_light_color;; 109 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,)::msg;; 0 0 
+9 pubTarget 26 topic;camera_light_color;; 118 decl;tl_switch.cpp::TLSwitch::camera_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,)::input_msg;; 0 0 
+9 pubTarget 26 topic;camera_light_color;; 112 decl;tl_switch.cpp::TLSwitch::camera_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,)::msg;; 0 0 
+6 pubVar 42 decl;tl_switch.cpp::TLSwitch::state_msg_;; 19 topic;light_color;; 0 0 
+7 publish 50 decl;tl_switch.cpp::TLSwitch::traffic_light_pub_;; 19 topic;light_color;; 1 0 7 pubData 16 this->state_msg_ 
+9 subscribe 23 topic;ams_light_color;; 40 decl;tl_switch.cpp::TLSwitch::ams_sub_;; 0 0 
+9 subscribe 26 topic;camera_light_color;; 43 decl;tl_switch.cpp::TLSwitch::camera_sub_;; 0 0 
+10 varInfFunc 45 decl;tl_switch.cpp::TLSwitch::ams_msg_time_;; 59 decl;duration.h::ros::DurationBase::DurationBase::toSec();; 0 0 
+10 varInfFunc 45 decl;tl_switch.cpp::TLSwitch::ams_msg_time_;; 75 decl;time.h::ros::TimeBase::TimeBase::operator-(const class ros::Time &,);; 0 0 
+10 varInfFunc 45 decl;tl_switch.cpp::TLSwitch::ams_msg_time_;; 46 decl;tl_switch.cpp::TLSwitch::switch_color();; 0 0 
+10 varInfFunc 51 decl;tl_switch.cpp::TLSwitch::ams_timeout_period_;; 59 decl;duration.h::ros::DurationBase::DurationBase::toSec();; 0 0 
+10 varInfFunc 51 decl;tl_switch.cpp::TLSwitch::ams_timeout_period_;; 75 decl;time.h::ros::TimeBase::TimeBase::operator-(const class ros::Time &,);; 0 0 
+10 varInfFunc 51 decl;tl_switch.cpp::TLSwitch::ams_timeout_period_;; 46 decl;tl_switch.cpp::TLSwitch::switch_color();; 0 0 
+10 varInfFunc 47 decl;tl_switch.cpp::TLSwitch::is_ams_timeout_;; 59 decl;duration.h::ros::DurationBase::DurationBase::toSec();; 0 0 
+10 varInfFunc 47 decl;tl_switch.cpp::TLSwitch::is_ams_timeout_;; 75 decl;time.h::ros::TimeBase::TimeBase::operator-(const class ros::Time &,);; 0 0 
+10 varInfFunc 47 decl;tl_switch.cpp::TLSwitch::is_ams_timeout_;; 46 decl;tl_switch.cpp::TLSwitch::switch_color();; 0 0 
+10 varInfFunc 87 decl;tl_switch.cpp::TLSwitch::watchdog_timer()::__rosconsole_define_location__enabled;; 59 decl;duration.h::ros::DurationBase::DurationBase::toSec();; 0 0 
+10 varInfFunc 87 decl;tl_switch.cpp::TLSwitch::watchdog_timer()::__rosconsole_define_location__enabled;; 75 decl;time.h::ros::TimeBase::TimeBase::operator-(const class ros::Time &,);; 0 0 
+10 varInfFunc 58 decl;tl_switch.cpp::TLSwitch::watchdog_timer()::now_time;; 59 decl;duration.h::ros::DurationBase::DurationBase::toSec();; 0 0 
+10 varInfFunc 58 decl;tl_switch.cpp::TLSwitch::watchdog_timer()::now_time;; 75 decl;time.h::ros::TimeBase::TimeBase::operator-(const class ros::Time &,);; 0 0 
+10 varInfFunc 58 decl;tl_switch.cpp::TLSwitch::watchdog_timer()::now_time;; 46 decl;tl_switch.cpp::TLSwitch::switch_color();; 0 0 
+8 varWrite 151 decl;tl_switch.cpp::ADVERTISE_LATCH;static;/home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp;; 35 decl;tl_switch.cpp::TLSwitch::nh_;; 0 0 
+8 varWrite 151 decl;tl_switch.cpp::ADVERTISE_LATCH;static;/home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp;; 50 decl;tl_switch.cpp::TLSwitch::traffic_light_pub_;; 0 0 
+8 varWrite 94 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,)::nh;; 86 decl;node_handle.h::ros::NodeHandle::NodeHandle(const class ros::NodeHandle &,)::rhs;; 0 0 
+8 varWrite 102 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,)::private_nh;; 86 decl;node_handle.h::ros::NodeHandle::NodeHandle(const class ros::NodeHandle &,)::rhs;; 0 0 
+8 varWrite 109 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,)::msg;; 40 decl;tl_switch.cpp::TLSwitch::ams_msg_;; 0 0 
+8 varWrite 104 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 40 decl;tl_switch.cpp::TLSwitch::ams_sub_;; 0 0 
+8 varWrite 104 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 35 decl;tl_switch.cpp::TLSwitch::nh_;; 0 0 
+8 varWrite 59 decl;tl_switch.cpp::TLSwitch::ams_light_color_topic_name_;; 40 decl;tl_switch.cpp::TLSwitch::ams_sub_;; 0 0 
+8 varWrite 59 decl;tl_switch.cpp::TLSwitch::ams_light_color_topic_name_;; 35 decl;tl_switch.cpp::TLSwitch::nh_;; 0 0 
+8 varWrite 59 decl;tl_switch.cpp::TLSwitch::ams_light_color_topic_name_;; 43 decl;tl_switch.cpp::TLSwitch::private_nh_;; 0 0 
+8 varWrite 112 decl;tl_switch.cpp::TLSwitch::camera_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,)::msg;; 43 decl;tl_switch.cpp::TLSwitch::camera_msg_;; 0 0 
+8 varWrite 107 decl;tl_switch.cpp::TLSwitch::camera_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 43 decl;tl_switch.cpp::TLSwitch::camera_sub_;; 0 0 
+8 varWrite 107 decl;tl_switch.cpp::TLSwitch::camera_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 35 decl;tl_switch.cpp::TLSwitch::nh_;; 0 0 
+8 varWrite 62 decl;tl_switch.cpp::TLSwitch::camera_light_color_topic_name_;; 43 decl;tl_switch.cpp::TLSwitch::camera_sub_;; 0 0 
+8 varWrite 62 decl;tl_switch.cpp::TLSwitch::camera_light_color_topic_name_;; 35 decl;tl_switch.cpp::TLSwitch::nh_;; 0 0 
+8 varWrite 62 decl;tl_switch.cpp::TLSwitch::camera_light_color_topic_name_;; 43 decl;tl_switch.cpp::TLSwitch::private_nh_;; 0 0 
+8 varWrite 43 decl;tl_switch.cpp::TLSwitch::camera_msg_;; 42 decl;tl_switch.cpp::TLSwitch::state_msg_;; 0 0 
+8 varWrite 55 decl;tl_switch.cpp::TLSwitch::light_color_topic_name_;; 35 decl;tl_switch.cpp::TLSwitch::nh_;; 0 0 
+8 varWrite 55 decl;tl_switch.cpp::TLSwitch::light_color_topic_name_;; 43 decl;tl_switch.cpp::TLSwitch::private_nh_;; 0 0 
+8 varWrite 55 decl;tl_switch.cpp::TLSwitch::light_color_topic_name_;; 50 decl;tl_switch.cpp::TLSwitch::traffic_light_pub_;; 0 0 
+8 varWrite 35 decl;tl_switch.cpp::TLSwitch::nh_;; 40 decl;tl_switch.cpp::TLSwitch::ams_sub_;; 0 0 
+8 varWrite 35 decl;tl_switch.cpp::TLSwitch::nh_;; 43 decl;tl_switch.cpp::TLSwitch::camera_sub_;; 0 0 
+8 varWrite 35 decl;tl_switch.cpp::TLSwitch::nh_;; 50 decl;tl_switch.cpp::TLSwitch::traffic_light_pub_;; 0 0 
+8 varWrite 42 decl;tl_switch.cpp::TLSwitch::state_msg_;; 50 decl;tl_switch.cpp::TLSwitch::traffic_light_pub_;; 0 0 
+8 varWrite 48 decl;tl_switch.cpp::TLSwitch::watchdog_timer();; 101 decl;thread::std::thread::thread::thread(void (class TLSwitch::*&&)(void),class TLSwitch *&&,)::__f;; 0 0 
+8 varWrite 48 decl;tl_switch.cpp::TLSwitch::watchdog_timer();; 54 decl;tl_switch.cpp::TLSwitch::watchdog_timer_thread_;; 0 0 
+8 varWrite 44 decl;tl_switch.cpp::main(int,char **,)::nh;; 94 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,)::nh;; 0 0 
+8 varWrite 44 decl;tl_switch.cpp::main(int,char **,)::nh;; 60 decl;tl_switch.cpp::main(int,char **,)::light_color_switch;; 0 0 
+8 varWrite 52 decl;tl_switch.cpp::main(int,char **,)::private_nh;; 102 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,)::private_nh;; 0 0 
+8 varWrite 52 decl;tl_switch.cpp::main(int,char **,)::private_nh;; 60 decl;tl_switch.cpp::main(int,char **,)::light_color_switch;; 0 0 
+5 write 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__a;; 0 0 
+5 write 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__s;; 0 0 
+5 write 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 54 decl;duration.h::ros::Duration::Duration(double,)::t;; 0 0 
+5 write 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 86 decl;node_handle.h::ros::NodeHandle::NodeHandle(const class ros::NodeHandle &,)::rhs;; 0 0 
+5 write 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 104 decl;thread::std::thread::thread::thread(void (class TLSwitch::*&&)(void),class TLSwitch *&&,)::__args;; 0 0 
+5 write 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 101 decl;thread::std::thread::thread::thread(void (class TLSwitch::*&&)(void),class TLSwitch *&&,)::__f;; 0 0 
+5 write 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 40 decl;tl_switch.cpp::TLSwitch::ams_sub_;; 0 0 
+5 write 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 43 decl;tl_switch.cpp::TLSwitch::camera_sub_;; 0 0 
+5 write 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 35 decl;tl_switch.cpp::TLSwitch::nh_;; 0 0 
+5 write 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 43 decl;tl_switch.cpp::TLSwitch::private_nh_;; 0 0 
+5 write 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 50 decl;tl_switch.cpp::TLSwitch::traffic_light_pub_;; 0 0 
+5 write 90 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,);; 54 decl;tl_switch.cpp::TLSwitch::watchdog_timer_thread_;; 0 0 
+5 write 104 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 40 decl;tl_switch.cpp::TLSwitch::ams_msg_;; 0 0 
+5 write 104 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 45 decl;tl_switch.cpp::TLSwitch::ams_msg_time_;; 0 0 
+5 write 104 decl;tl_switch.cpp::TLSwitch::ams_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 47 decl;tl_switch.cpp::TLSwitch::is_ams_timeout_;; 0 0 
+5 write 107 decl;tl_switch.cpp::TLSwitch::camera_light_color_callback(const autoware_msgs::TrafficLight::ConstPtr &,);; 43 decl;tl_switch.cpp::TLSwitch::camera_msg_;; 0 0 
+5 write 49 decl;tl_switch.cpp::TLSwitch::reset_light_msg();; 40 decl;tl_switch.cpp::TLSwitch::ams_msg_;; 0 0 
+5 write 49 decl;tl_switch.cpp::TLSwitch::reset_light_msg();; 43 decl;tl_switch.cpp::TLSwitch::camera_msg_;; 0 0 
+5 write 49 decl;tl_switch.cpp::TLSwitch::reset_light_msg();; 47 decl;tl_switch.cpp::TLSwitch::is_ams_timeout_;; 0 0 
+5 write 49 decl;tl_switch.cpp::TLSwitch::reset_light_msg();; 42 decl;tl_switch.cpp::TLSwitch::state_msg_;; 0 0 
+5 write 46 decl;tl_switch.cpp::TLSwitch::switch_color();; 42 decl;tl_switch.cpp::TLSwitch::state_msg_;; 0 0 
+5 write 46 decl;tl_switch.cpp::TLSwitch::switch_color();; 50 decl;tl_switch.cpp::TLSwitch::traffic_light_pub_;; 0 0 
+5 write 48 decl;tl_switch.cpp::TLSwitch::watchdog_timer();; 87 decl;chrono::std::chrono::duration::duration::duration::duration(const int &,)::__rep;; 0 0 
+5 write 48 decl;tl_switch.cpp::TLSwitch::watchdog_timer();; 53 decl;time.h::ros::Time::Time(class ros::Time &&,)::;; 0 0 
+5 write 48 decl;tl_switch.cpp::TLSwitch::watchdog_timer();; 47 decl;tl_switch.cpp::TLSwitch::is_ams_timeout_;; 0 0 
+5 write 48 decl;tl_switch.cpp::TLSwitch::watchdog_timer();; 58 decl;tl_switch.cpp::TLSwitch::watchdog_timer()::now_time;; 0 0 
+5 write 40 decl;tl_switch.cpp::main(int,char **,);; 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__a;; 0 0 
+5 write 40 decl;tl_switch.cpp::main(int,char **,);; 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__s;; 0 0 
+5 write 40 decl;tl_switch.cpp::main(int,char **,);; 97 decl;node_handle.h::ros::NodeHandle::NodeHandle(const std::string &,const ros::M_string &,)::ns;; 0 0 
+5 write 40 decl;tl_switch.cpp::main(int,char **,);; 105 decl;node_handle.h::ros::NodeHandle::NodeHandle(const std::string &,const ros::M_string &,)::remappings;; 0 0 
+5 write 40 decl;tl_switch.cpp::main(int,char **,);; 94 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,)::nh;; 0 0 
+5 write 40 decl;tl_switch.cpp::main(int,char **,);; 102 decl;tl_switch.cpp::TLSwitch::TLSwitch(const ros::NodeHandle &,const ros::NodeHandle &,)::private_nh;; 0 0 
+5 write 40 decl;tl_switch.cpp::main(int,char **,);; 60 decl;tl_switch.cpp::main(int,char **,)::light_color_switch;; 0 0 
+5 write 40 decl;tl_switch.cpp::main(int,char **,);; 44 decl;tl_switch.cpp::main(int,char **,)::nh;; 0 0 
+5 write 40 decl;tl_switch.cpp::main(int,char **,);; 52 decl;tl_switch.cpp::main(int,char **,)::private_nh;; 0 0 
+5 write 40 decl;tl_switch.cpp::main(int,char **,);; 48 decl;tl_switch.cpp::main(int,char **,);;__ret!;; 0 0 

@@ -1,0 +1,111 @@
+13 29 13 13 42
+54 decl;util.cpp::make_header(int32_t,int32_t,)::header;; 9 cVariable
+53 decl;util.cpp::make_header(int32_t,int32_t,)::minor;; 9 cVariable
+53 decl;util.cpp::make_header(int32_t,int32_t,)::major;; 9 cVariable
+54 decl;obj_db.h::make_header(int32_t,int32_t,);;__ret!;; 7 cReturn
+109 decl;util.cpp::MAGIC;static;/home/autoware/Autoware/src/autoware/core_perception/obj_db/lib/obj_db/util.cpp;; 9 cVariable
+25 decl;obj_db.h::SendData;; 6 cClass
+55 decl;obj_db.h::make_header(int32_t,int32_t,)::sql_num;; 9 cVariable
+32 decl;obj_db.h::SendData::port_;; 9 cVariable
+37 decl;obj_db.h::SendData::host_name_;; 9 cVariable
+46 decl;obj_db.h::make_header(int32_t,int32_t,);; 9 cFunction
+56 decl;obj_db.h::make_header(int32_t,int32_t,)::sql_inst;; 9 cVariable
+117 decl;util.cpp::MAJOR_VERSION;static;/home/autoware/Autoware/src/autoware/core_perception/obj_db/lib/obj_db/util.cpp;; 9 cVariable
+117 decl;util.cpp::MINOR_VERSION;static;/home/autoware/Autoware/src/autoware/core_perception/obj_db/lib/obj_db/util.cpp;; 9 cVariable
+8 parWrite 53 decl;util.cpp::make_header(int32_t,int32_t,)::minor;; 79 decl;string.h::memcpy(void *__restrict,const void *__restrict,size_t,)::__src;;
+8 parWrite 109 decl;util.cpp::MAGIC;static;/home/autoware/Autoware/src/autoware/core_perception/obj_db/lib/obj_db/util.cpp;; 79 decl;string.h::memcpy(void *__restrict,const void *__restrict,size_t,)::__src;;
+8 parWrite 55 decl;obj_db.h::make_header(int32_t,int32_t,)::sql_num;; 41 decl;in.h::htonl(uint32_t,)::__hostlong;;
+8 parWrite 55 decl;obj_db.h::make_header(int32_t,int32_t,)::sql_num;; 79 decl;string.h::memcpy(void *__restrict,const void *__restrict,size_t,)::__src;;
+8 parWrite 56 decl;obj_db.h::make_header(int32_t,int32_t,)::sql_inst;; 41 decl;in.h::htonl(uint32_t,)::__hostlong;;
+8 parWrite 56 decl;obj_db.h::make_header(int32_t,int32_t,)::sql_inst;; 79 decl;string.h::memcpy(void *__restrict,const void *__restrict,size_t,)::__src;;
+7 contain 61 decl;obj_db.h::SendData::SendData(const std::string &,int,);; 72 decl;obj_db.h::SendData::SendData(const std::string &,int,)::host_name;;
+7 contain 61 decl;obj_db.h::SendData::SendData(const std::string &,int,);; 67 decl;obj_db.h::SendData::SendData(const std::string &,int,)::port;;
+7 contain 25 decl;obj_db.h::SendData;; 37 decl;obj_db.h::SendData::SendData();;
+7 contain 25 decl;obj_db.h::SendData;; 61 decl;obj_db.h::SendData::SendData(const std::string &,int,);;
+7 contain 25 decl;obj_db.h::SendData;; 69 decl;obj_db.h::SendData::Sender(const std::string &,std::string &,);;
+7 contain 69 decl;obj_db.h::SendData::Sender(const std::string &,std::string &,);; 76 decl;obj_db.h::SendData::Sender(const std::string &,std::string &,)::value;;
+7 contain 69 decl;obj_db.h::SendData::Sender(const std::string &,std::string &,);; 74 decl;obj_db.h::SendData::Sender(const std::string &,std::string &,)::res;;
+8 varWrite 117 decl;util.cpp::MINOR_VERSION;static;/home/autoware/Autoware/src/autoware/core_perception/obj_db/lib/obj_db/util.cpp;; 53 decl;util.cpp::make_header(int32_t,int32_t,)::minor;;
+8 parWrite 117 decl;util.cpp::MINOR_VERSION;static;/home/autoware/Autoware/src/autoware/core_perception/obj_db/lib/obj_db/util.cpp;; 42 decl;in.h::htons(uint16_t,)::__hostshort;;
+8 parWrite 54 decl;util.cpp::make_header(int32_t,int32_t,)::header;; 80 decl;string.h::memcpy(void *__restrict,const void *__restrict,size_t,)::__dest;;
+8 varWrite 54 decl;util.cpp::make_header(int32_t,int32_t,)::header;; 105 decl;basic_string.h::std::basic_string::basic_string(class std::__cxx11::basic_string<char> &&,)::__str;;
+8 varWrite 54 decl;util.cpp::make_header(int32_t,int32_t,)::header;; 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__s;;
+5 write 46 decl;obj_db.h::make_header(int32_t,int32_t,);; 53 decl;util.cpp::make_header(int32_t,int32_t,)::major;;
+4 call 46 decl;obj_db.h::make_header(int32_t,int32_t,);; 29 decl;in.h::htons(uint16_t,);;
+5 write 46 decl;obj_db.h::make_header(int32_t,int32_t,);; 53 decl;util.cpp::make_header(int32_t,int32_t,)::minor;;
+4 call 46 decl;obj_db.h::make_header(int32_t,int32_t,);; 29 decl;in.h::htonl(uint32_t,);;
+4 call 46 decl;obj_db.h::make_header(int32_t,int32_t,);; 72 decl;string.h::memcpy(void *__restrict,const void *__restrict,size_t,);;
+5 write 46 decl;obj_db.h::make_header(int32_t,int32_t,);; 105 decl;basic_string.h::std::basic_string::basic_string(class std::__cxx11::basic_string<char> &&,)::__str;;
+5 write 46 decl;obj_db.h::make_header(int32_t,int32_t,);; 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__s;;
+5 write 46 decl;obj_db.h::make_header(int32_t,int32_t,);; 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__a;;
+8 parWrite 53 decl;util.cpp::make_header(int32_t,int32_t,)::major;; 79 decl;string.h::memcpy(void *__restrict,const void *__restrict,size_t,)::__src;;
+8 varWrite 117 decl;util.cpp::MAJOR_VERSION;static;/home/autoware/Autoware/src/autoware/core_perception/obj_db/lib/obj_db/util.cpp;; 53 decl;util.cpp::make_header(int32_t,int32_t,)::major;;
+8 parWrite 117 decl;util.cpp::MAJOR_VERSION;static;/home/autoware/Autoware/src/autoware/core_perception/obj_db/lib/obj_db/util.cpp;; 42 decl;in.h::htons(uint16_t,)::__hostshort;;
+8 varWrite 55 decl;obj_db.h::make_header(int32_t,int32_t,)::sql_num;; 55 decl;obj_db.h::make_header(int32_t,int32_t,)::sql_num;;
+8 varWrite 56 decl;obj_db.h::make_header(int32_t,int32_t,)::sql_inst;; 56 decl;obj_db.h::make_header(int32_t,int32_t,)::sql_inst;;
+7 contain 25 decl;obj_db.h::SendData;; 37 decl;obj_db.h::SendData::host_name_;;
+7 contain 25 decl;obj_db.h::SendData;; 32 decl;obj_db.h::SendData::port_;;
+8 varWrite 54 decl;util.cpp::make_header(int32_t,int32_t,)::header;; 54 decl;obj_db.h::make_header(int32_t,int32_t,);;__ret!;;
+7 contain 46 decl;obj_db.h::make_header(int32_t,int32_t,);; 56 decl;obj_db.h::make_header(int32_t,int32_t,)::sql_inst;;
+7 contain 46 decl;obj_db.h::make_header(int32_t,int32_t,);; 55 decl;obj_db.h::make_header(int32_t,int32_t,)::sql_num;;
+7 contain 46 decl;obj_db.h::make_header(int32_t,int32_t,);; 53 decl;util.cpp::make_header(int32_t,int32_t,)::major;;
+7 contain 46 decl;obj_db.h::make_header(int32_t,int32_t,);; 53 decl;util.cpp::make_header(int32_t,int32_t,)::minor;;
+5 write 46 decl;obj_db.h::make_header(int32_t,int32_t,);; 56 decl;obj_db.h::make_header(int32_t,int32_t,)::sql_inst;;
+5 write 46 decl;obj_db.h::make_header(int32_t,int32_t,);; 55 decl;obj_db.h::make_header(int32_t,int32_t,)::sql_num;;
+7 contain 46 decl;obj_db.h::make_header(int32_t,int32_t,);; 54 decl;util.cpp::make_header(int32_t,int32_t,)::header;;
+5 write 46 decl;obj_db.h::make_header(int32_t,int32_t,);; 54 decl;obj_db.h::make_header(int32_t,int32_t,);;__ret!;;
+37 decl;obj_db.h::SendData::host_name_;; 4 0 8 filename 76 /home/autoware/Autoware/src/autoware/core_perception/obj_db/include/obj_db.h 15 filenameDeclare 76 /home/autoware/Autoware/src/autoware/core_perception/obj_db/include/obj_db.h 13 isControlFlow 1 0 5 label 44 obj_db/include/obj_db.h:SendData::host_name_ 
+32 decl;obj_db.h::SendData::port_;; 4 0 8 filename 76 /home/autoware/Autoware/src/autoware/core_perception/obj_db/include/obj_db.h 15 filenameDeclare 76 /home/autoware/Autoware/src/autoware/core_perception/obj_db/include/obj_db.h 13 isControlFlow 1 0 5 label 39 obj_db/include/obj_db.h:SendData::port_ 
+25 decl;obj_db.h::SendData;; 3 0 8 filename 76 /home/autoware/Autoware/src/autoware/core_perception/obj_db/include/obj_db.h 15 filenameDeclare 76 /home/autoware/Autoware/src/autoware/core_perception/obj_db/include/obj_db.h 5 label 32 obj_db/include/obj_db.h:SendData 
+56 decl;obj_db.h::make_header(int32_t,int32_t,)::sql_inst;; 5 0 8 filename 79 /home/autoware/Autoware/src/autoware/core_perception/obj_db/lib/obj_db/util.cpp 15 filenameDeclare 76 /home/autoware/Autoware/src/autoware/core_perception/obj_db/include/obj_db.h 13 isControlFlow 1 0 7 isParam 1 1 5 label 45 obj_db/include/obj_db.h:make_header::sql_inst 
+55 decl;obj_db.h::make_header(int32_t,int32_t,)::sql_num;; 5 0 8 filename 79 /home/autoware/Autoware/src/autoware/core_perception/obj_db/lib/obj_db/util.cpp 15 filenameDeclare 76 /home/autoware/Autoware/src/autoware/core_perception/obj_db/include/obj_db.h 13 isControlFlow 1 0 7 isParam 1 1 5 label 44 obj_db/include/obj_db.h:make_header::sql_num 
+46 decl;obj_db.h::make_header(int32_t,int32_t,);; 4 0 8 filename 79 /home/autoware/Autoware/src/autoware/core_perception/obj_db/lib/obj_db/util.cpp 15 filenameDeclare 76 /home/autoware/Autoware/src/autoware/core_perception/obj_db/include/obj_db.h 14 isCallbackFunc 1 0 5 label 35 obj_db/include/obj_db.h:make_header 
+54 decl;obj_db.h::make_header(int32_t,int32_t,);;__ret!;; 2 0 8 filename 79 /home/autoware/Autoware/src/autoware/core_perception/obj_db/lib/obj_db/util.cpp 15 filenameDeclare 76 /home/autoware/Autoware/src/autoware/core_perception/obj_db/include/obj_db.h 
+109 decl;util.cpp::MAGIC;static;/home/autoware/Autoware/src/autoware/core_perception/obj_db/lib/obj_db/util.cpp;; 5 0 8 filename 79 /home/autoware/Autoware/src/autoware/core_perception/obj_db/lib/obj_db/util.cpp 15 filenameDeclare 79 /home/autoware/Autoware/src/autoware/core_perception/obj_db/lib/obj_db/util.cpp 13 isControlFlow 1 0 7 isParam 1 0 5 label 25 lib/obj_db/util.cpp:MAGIC 
+117 decl;util.cpp::MAJOR_VERSION;static;/home/autoware/Autoware/src/autoware/core_perception/obj_db/lib/obj_db/util.cpp;; 5 0 8 filename 79 /home/autoware/Autoware/src/autoware/core_perception/obj_db/lib/obj_db/util.cpp 15 filenameDeclare 79 /home/autoware/Autoware/src/autoware/core_perception/obj_db/lib/obj_db/util.cpp 13 isControlFlow 1 0 7 isParam 1 0 5 label 33 lib/obj_db/util.cpp:MAJOR_VERSION 
+117 decl;util.cpp::MINOR_VERSION;static;/home/autoware/Autoware/src/autoware/core_perception/obj_db/lib/obj_db/util.cpp;; 5 0 8 filename 79 /home/autoware/Autoware/src/autoware/core_perception/obj_db/lib/obj_db/util.cpp 15 filenameDeclare 79 /home/autoware/Autoware/src/autoware/core_perception/obj_db/lib/obj_db/util.cpp 13 isControlFlow 1 0 7 isParam 1 0 5 label 33 lib/obj_db/util.cpp:MINOR_VERSION 
+54 decl;util.cpp::make_header(int32_t,int32_t,)::header;; 5 0 8 filename 79 /home/autoware/Autoware/src/autoware/core_perception/obj_db/lib/obj_db/util.cpp 15 filenameDeclare 79 /home/autoware/Autoware/src/autoware/core_perception/obj_db/lib/obj_db/util.cpp 13 isControlFlow 1 0 7 isParam 1 0 5 label 39 lib/obj_db/util.cpp:make_header::header 
+53 decl;util.cpp::make_header(int32_t,int32_t,)::major;; 5 0 8 filename 79 /home/autoware/Autoware/src/autoware/core_perception/obj_db/lib/obj_db/util.cpp 15 filenameDeclare 79 /home/autoware/Autoware/src/autoware/core_perception/obj_db/lib/obj_db/util.cpp 13 isControlFlow 1 0 7 isParam 1 0 5 label 38 lib/obj_db/util.cpp:make_header::major 
+53 decl;util.cpp::make_header(int32_t,int32_t,)::minor;; 5 0 8 filename 79 /home/autoware/Autoware/src/autoware/core_perception/obj_db/lib/obj_db/util.cpp 15 filenameDeclare 79 /home/autoware/Autoware/src/autoware/core_perception/obj_db/lib/obj_db/util.cpp 13 isControlFlow 1 0 7 isParam 1 0 5 label 38 lib/obj_db/util.cpp:make_header::minor 
+4 call 46 decl;obj_db.h::make_header(int32_t,int32_t,);; 29 decl;in.h::htonl(uint32_t,);; 0 0 
+4 call 46 decl;obj_db.h::make_header(int32_t,int32_t,);; 29 decl;in.h::htons(uint16_t,);; 0 0 
+4 call 46 decl;obj_db.h::make_header(int32_t,int32_t,);; 72 decl;string.h::memcpy(void *__restrict,const void *__restrict,size_t,);; 0 0 
+7 contain 61 decl;obj_db.h::SendData::SendData(const std::string &,int,);; 72 decl;obj_db.h::SendData::SendData(const std::string &,int,)::host_name;; 0 0 
+7 contain 61 decl;obj_db.h::SendData::SendData(const std::string &,int,);; 67 decl;obj_db.h::SendData::SendData(const std::string &,int,)::port;; 0 0 
+7 contain 69 decl;obj_db.h::SendData::Sender(const std::string &,std::string &,);; 74 decl;obj_db.h::SendData::Sender(const std::string &,std::string &,)::res;; 0 0 
+7 contain 69 decl;obj_db.h::SendData::Sender(const std::string &,std::string &,);; 76 decl;obj_db.h::SendData::Sender(const std::string &,std::string &,)::value;; 0 0 
+7 contain 25 decl;obj_db.h::SendData;; 37 decl;obj_db.h::SendData::SendData();; 0 0 
+7 contain 25 decl;obj_db.h::SendData;; 61 decl;obj_db.h::SendData::SendData(const std::string &,int,);; 0 0 
+7 contain 25 decl;obj_db.h::SendData;; 69 decl;obj_db.h::SendData::Sender(const std::string &,std::string &,);; 0 0 
+7 contain 25 decl;obj_db.h::SendData;; 37 decl;obj_db.h::SendData::host_name_;; 0 0 
+7 contain 25 decl;obj_db.h::SendData;; 32 decl;obj_db.h::SendData::port_;; 0 0 
+7 contain 46 decl;obj_db.h::make_header(int32_t,int32_t,);; 56 decl;obj_db.h::make_header(int32_t,int32_t,)::sql_inst;; 0 0 
+7 contain 46 decl;obj_db.h::make_header(int32_t,int32_t,);; 55 decl;obj_db.h::make_header(int32_t,int32_t,)::sql_num;; 0 0 
+7 contain 46 decl;obj_db.h::make_header(int32_t,int32_t,);; 54 decl;util.cpp::make_header(int32_t,int32_t,)::header;; 0 0 
+7 contain 46 decl;obj_db.h::make_header(int32_t,int32_t,);; 53 decl;util.cpp::make_header(int32_t,int32_t,)::major;; 0 0 
+7 contain 46 decl;obj_db.h::make_header(int32_t,int32_t,);; 53 decl;util.cpp::make_header(int32_t,int32_t,)::minor;; 0 0 
+8 parWrite 56 decl;obj_db.h::make_header(int32_t,int32_t,)::sql_inst;; 41 decl;in.h::htonl(uint32_t,)::__hostlong;; 0 0 
+8 parWrite 56 decl;obj_db.h::make_header(int32_t,int32_t,)::sql_inst;; 79 decl;string.h::memcpy(void *__restrict,const void *__restrict,size_t,)::__src;; 0 0 
+8 parWrite 55 decl;obj_db.h::make_header(int32_t,int32_t,)::sql_num;; 41 decl;in.h::htonl(uint32_t,)::__hostlong;; 0 0 
+8 parWrite 55 decl;obj_db.h::make_header(int32_t,int32_t,)::sql_num;; 79 decl;string.h::memcpy(void *__restrict,const void *__restrict,size_t,)::__src;; 0 0 
+8 parWrite 109 decl;util.cpp::MAGIC;static;/home/autoware/Autoware/src/autoware/core_perception/obj_db/lib/obj_db/util.cpp;; 79 decl;string.h::memcpy(void *__restrict,const void *__restrict,size_t,)::__src;; 0 0 
+8 parWrite 117 decl;util.cpp::MAJOR_VERSION;static;/home/autoware/Autoware/src/autoware/core_perception/obj_db/lib/obj_db/util.cpp;; 42 decl;in.h::htons(uint16_t,)::__hostshort;; 0 0 
+8 parWrite 117 decl;util.cpp::MINOR_VERSION;static;/home/autoware/Autoware/src/autoware/core_perception/obj_db/lib/obj_db/util.cpp;; 42 decl;in.h::htons(uint16_t,)::__hostshort;; 0 0 
+8 parWrite 54 decl;util.cpp::make_header(int32_t,int32_t,)::header;; 80 decl;string.h::memcpy(void *__restrict,const void *__restrict,size_t,)::__dest;; 0 0 
+8 parWrite 53 decl;util.cpp::make_header(int32_t,int32_t,)::major;; 79 decl;string.h::memcpy(void *__restrict,const void *__restrict,size_t,)::__src;; 0 0 
+8 parWrite 53 decl;util.cpp::make_header(int32_t,int32_t,)::minor;; 79 decl;string.h::memcpy(void *__restrict,const void *__restrict,size_t,)::__src;; 0 0 
+8 varWrite 56 decl;obj_db.h::make_header(int32_t,int32_t,)::sql_inst;; 56 decl;obj_db.h::make_header(int32_t,int32_t,)::sql_inst;; 0 0 
+8 varWrite 55 decl;obj_db.h::make_header(int32_t,int32_t,)::sql_num;; 55 decl;obj_db.h::make_header(int32_t,int32_t,)::sql_num;; 0 0 
+8 varWrite 117 decl;util.cpp::MAJOR_VERSION;static;/home/autoware/Autoware/src/autoware/core_perception/obj_db/lib/obj_db/util.cpp;; 53 decl;util.cpp::make_header(int32_t,int32_t,)::major;; 0 0 
+8 varWrite 117 decl;util.cpp::MINOR_VERSION;static;/home/autoware/Autoware/src/autoware/core_perception/obj_db/lib/obj_db/util.cpp;; 53 decl;util.cpp::make_header(int32_t,int32_t,)::minor;; 0 0 
+8 varWrite 54 decl;util.cpp::make_header(int32_t,int32_t,)::header;; 105 decl;basic_string.h::std::basic_string::basic_string(class std::__cxx11::basic_string<char> &&,)::__str;; 0 0 
+8 varWrite 54 decl;util.cpp::make_header(int32_t,int32_t,)::header;; 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__s;; 0 0 
+8 varWrite 54 decl;util.cpp::make_header(int32_t,int32_t,)::header;; 54 decl;obj_db.h::make_header(int32_t,int32_t,);;__ret!;; 0 0 
+5 write 46 decl;obj_db.h::make_header(int32_t,int32_t,);; 105 decl;basic_string.h::std::basic_string::basic_string(class std::__cxx11::basic_string<char> &&,)::__str;; 0 0 
+5 write 46 decl;obj_db.h::make_header(int32_t,int32_t,);; 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__a;; 0 0 
+5 write 46 decl;obj_db.h::make_header(int32_t,int32_t,);; 109 decl;basic_string.h::std::basic_string::basic_string(const char *,const class std::allocator<char> &,)::__s;; 0 0 
+5 write 46 decl;obj_db.h::make_header(int32_t,int32_t,);; 56 decl;obj_db.h::make_header(int32_t,int32_t,)::sql_inst;; 0 0 
+5 write 46 decl;obj_db.h::make_header(int32_t,int32_t,);; 55 decl;obj_db.h::make_header(int32_t,int32_t,)::sql_num;; 0 0 
+5 write 46 decl;obj_db.h::make_header(int32_t,int32_t,);; 54 decl;obj_db.h::make_header(int32_t,int32_t,);;__ret!;; 0 0 
+5 write 46 decl;obj_db.h::make_header(int32_t,int32_t,);; 53 decl;util.cpp::make_header(int32_t,int32_t,)::major;; 0 0 
+5 write 46 decl;obj_db.h::make_header(int32_t,int32_t,);; 53 decl;util.cpp::make_header(int32_t,int32_t,)::minor;; 0 0 

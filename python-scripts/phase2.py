@@ -147,8 +147,11 @@ if __name__=='__main__':
     date = input("Enter date (default: today): ")
     multiple = input("Are there multiple paths? (y/n) ") == "y"
     check_line = input("Check line queries? (y/n) ") == "y"
+    p_cfg = input("Check cfg? (y/n) ") == "y"
+    p_ncfg = input("No cfg queries? (y/n) ") == "y"
     phase_n = input("Enter phase number: ")
     is_ros = input("Is this a ROS program? ") == "y"
+    
 
     if (phase_n == ""):
         phase_n = 2
@@ -159,26 +162,31 @@ if __name__=='__main__':
         date = datetime.today().strftime('%m-%d')
 
     # Get output path
-    output_cfg_path, _ = create_output_folder(check_cfg="cfg", cypher_name=cypher_name, 
+    if p_cfg:
+        output_cfg_path, general_path = create_output_folder(check_cfg="cfg", cypher_name=cypher_name, 
                             output_folder_path=output_folder_path, phase_n=phase_n, is_remove=True,
                             date=date, min_interm=min_interm, classification=cypher_type)
     if check_line:
-        output_lcfg_path, _ = create_output_folder(check_cfg="lcfg", cypher_name=cypher_name, 
+        output_lcfg_path, general_path = create_output_folder(check_cfg="lcfg", cypher_name=cypher_name, 
                                 output_folder_path=output_folder_path, phase_n=phase_n, is_remove=False, date=date, min_interm=min_interm, classification=cypher_type)
-    output_ncfg_path, general_path = create_output_folder(check_cfg="ncfg",
+    
+    if p_ncfg:
+        output_ncfg_path, general_path = create_output_folder(check_cfg="ncfg",
                             cypher_name=cypher_name, output_folder_path=output_folder_path, phase_n=phase_n, is_remove=False, 
                             date=date, min_interm=min_interm, classification=cypher_type)
 
     # Get input path
-    try: 
-        input_cfg_path, _ = create_output_folder(check_cfg="cfg", cypher_name=cypher_name, 
+    try:
+        if p_cfg:
+            input_cfg_path, _ = create_output_folder(check_cfg="cfg", cypher_name=cypher_name, 
                                 output_folder_path=output_folder_path, phase_n=phase_n-1, 
                                 is_remove=False, date=date, classification=cypher_type)
         if (check_line):
             input_lcfg_path, _ = create_output_folder(check_cfg="lcfg", cypher_name=cypher_name, 
                                     output_folder_path=output_folder_path, phase_n=phase_n-1, 
                                     is_remove=False, date=date, classification=cypher_type)
-        input_ncfg_path, _ = create_output_folder(check_cfg="ncfg", cypher_name=cypher_name, 
+        if p_ncfg:
+            input_ncfg_path, _ = create_output_folder(check_cfg="ncfg", cypher_name=cypher_name, 
                                 output_folder_path=output_folder_path, phase_n=phase_n-1, 
                                 is_remove=False, date=date, classification=cypher_type)
     except:
@@ -201,17 +209,18 @@ if __name__=='__main__':
     cmd_log = open(general_path + "cmd.log", "a")
 
     # CFG phase2 analysis
-    df_cfg_file = open(input_cfg_path + "dataflow_cfg_edges.csv", "r")
-    otf_output = open(output_cfg_path + "otfOutput.txt", "a")
+    if p_cfg:
+        df_cfg_file = open(input_cfg_path + "dataflow_cfg_edges.csv", "r")
+        otf_output = open(output_cfg_path + "otfOutput.txt", "a")
 
-    df_cfg_time, df_cfg_size = run_analyses(output_path=otf_output, neo4j_path=neo4j_path,
-        fact_folder_path=fact_folder_path, cmd_log=cmd_log, query_log=query_log, check_cfg="cfg",
-        df_csv=df_cfg_file, cypher_path=cypher_cfg_path, min_interm=min_interm,is_ros=is_ros,
-        multiple=multiple)
+        df_cfg_time, df_cfg_size = run_analyses(output_path=otf_output, neo4j_path=neo4j_path,
+            fact_folder_path=fact_folder_path, cmd_log=cmd_log, query_log=query_log, check_cfg="cfg",
+            df_csv=df_cfg_file, cypher_path=cypher_cfg_path, min_interm=min_interm,is_ros=is_ros,
+            multiple=multiple)
 
     
-    df_cfg_file.close()
-    otf_output.close()
+        df_cfg_file.close()
+        otf_output.close()
 
     # CFG phase2 analysis
     if (check_line):
@@ -228,18 +237,20 @@ if __name__=='__main__':
         lotf_output.close()
 
     # NCFG phase2 analysis
-    df_ncfg_file = open(input_ncfg_path + "dataflow_ncfg_edges.csv", "r")
-    ncfg_output = open(output_ncfg_path + "ncfgOutput.txt", "a")
+    if (p_ncfg):
+        df_ncfg_file = open(input_ncfg_path + "dataflow_ncfg_edges.csv", "r")
+        ncfg_output = open(output_ncfg_path + "ncfgOutput.txt", "a")
 
-    df_ncfg_time, df_ncfg_size = run_analyses(output_path=ncfg_output, neo4j_path=neo4j_path,
-        fact_folder_path=fact_folder_path, cmd_log=cmd_log, query_log=query_log, check_cfg="ncfg",
-        df_csv=df_ncfg_file, cypher_path=cypher_ncfg_path, min_interm=min_interm, is_ros=is_ros,
-        multiple=multiple)
+        df_ncfg_time, df_ncfg_size = run_analyses(output_path=ncfg_output, neo4j_path=neo4j_path,
+            fact_folder_path=fact_folder_path, cmd_log=cmd_log, query_log=query_log, check_cfg="ncfg",
+            df_csv=df_ncfg_file, cypher_path=cypher_ncfg_path, min_interm=min_interm, is_ros=is_ros,
+            multiple=multiple)
     
+    
+        df_ncfg_file.close()
+        ncfg_output.close()
+
     stop_neo4j(neo4j_path=neo4j_path, cmd_log_file=cmd_log)
-    
-    df_ncfg_file.close()
-    ncfg_output.close()
     
     query_log.close()
     cmd_log.close()

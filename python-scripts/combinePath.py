@@ -160,6 +160,8 @@ if __name__=='__main__':
     date = input("Enter date (default: today): ")
     keep_result = input("Do you want to keep the output paths? (y/n) ") == "y"
     check_line = input("Check line queries? (y/n) ") == "y"
+    p_cfg = input("CFG queries? (y/n) ") == "y"
+    p_ncfg = input("NCFG queries? (y/n) ") == "y"
 
     if (date == ""):
         date = datetime.today().strftime('%m-%d')
@@ -168,104 +170,112 @@ if __name__=='__main__':
 
     # get phase1
     try:
-        phase1_cfg_path, _ = create_output_folder(check_cfg="cfg", cypher_name=cypher_name, 
-                                output_folder_path=output_folder_path, phase_n=1, is_remove=False, 
-                                date=date, classification=cypher_type)
+        if (p_cfg):
+            phase1_cfg_path, _ = create_output_folder(check_cfg="cfg", cypher_name=cypher_name, 
+                                    output_folder_path=output_folder_path, phase_n=1, is_remove=False, 
+                                    date=date, classification=cypher_type)
         if (check_line):
             phase1_lcfg_path, _ = create_output_folder(check_cfg="lcfg", cypher_name=cypher_name, 
                                     output_folder_path=output_folder_path, phase_n=1, is_remove=False, 
                                     date=date, classification=cypher_type)
-        phase1_ncfg_path, _ = create_output_folder(check_cfg="ncfg", cypher_name=cypher_name, 
-                                output_folder_path=output_folder_path, phase_n=1, is_remove=False, 
-                                date=date,classification=cypher_type)
+        if (p_ncfg):
+            phase1_ncfg_path, _ = create_output_folder(check_cfg="ncfg", cypher_name=cypher_name, 
+                                    output_folder_path=output_folder_path, phase_n=1, is_remove=False, 
+                                    date=date,classification=cypher_type)
     except:
         print("Unable to locate results from phase 1. Please check input date.")
         exit(0)
 
     # get phase2
     try:
-        phase2_cfg_path, _ = create_output_folder(check_cfg="cfg", cypher_name=cypher_name, 
-                                output_folder_path=output_folder_path, phase_n=2, is_remove=False, 
-                                date=date, min_interm=min_cross, classification=cypher_type)
+        if (p_cfg):
+            phase2_cfg_path, _ = create_output_folder(check_cfg="cfg", cypher_name=cypher_name, 
+                                    output_folder_path=output_folder_path, phase_n=2, is_remove=False, 
+                                    date=date, min_interm=min_cross, classification=cypher_type)
         if (check_line):
             phase2_lcfg_path, _ = create_output_folder(check_cfg="lcfg", cypher_name=cypher_name, 
                                     output_folder_path=output_folder_path, phase_n=2, is_remove=False, 
                                     date=date, min_interm=min_cross, classification=cypher_type)
-        phase2_ncfg_path, _ = create_output_folder(check_cfg="ncfg", cypher_name=cypher_name, 
-                                output_folder_path=output_folder_path, phase_n=2, is_remove=False, 
-                                date=date, min_interm=min_cross, classification=cypher_type)
+        if (p_ncfg):
+            phase2_ncfg_path, _ = create_output_folder(check_cfg="ncfg", cypher_name=cypher_name, 
+                                    output_folder_path=output_folder_path, phase_n=2, is_remove=False, 
+                                    date=date, min_interm=min_cross, classification=cypher_type)
     except:
         print("Unable to locate results from previoous phase. Please check input date.")
         exit(0)
 
     # get phase 3
-    phase3_cfg_path, _ = create_output_folder(check_cfg="cfg", cypher_name=cypher_name, 
+    if (p_cfg):
+        phase3_cfg_path, general_path = create_output_folder(check_cfg="cfg", cypher_name=cypher_name, 
                             output_folder_path=output_folder_path, phase_n=3, is_remove=True, 
                             date=date, min_interm=min_cross, classification=cypher_type)
     if (check_line):
-        phase3_lcfg_path, _ = create_output_folder(check_cfg="lcfg", 
+        phase3_lcfg_path, general_path = create_output_folder(check_cfg="lcfg", 
                 cypher_name=cypher_name, output_folder_path=output_folder_path, phase_n=3, 
                 is_remove=False, date=date, min_interm=min_cross, classification=cypher_type)
-    phase3_ncfg_path, general_path = create_output_folder(check_cfg="ncfg", 
-            cypher_name=cypher_name, output_folder_path=output_folder_path, phase_n=3, 
-            is_remove=False, date=date, min_interm=min_cross, classification=cypher_type)
+    if (p_ncfg):
+        phase3_ncfg_path, general_path = create_output_folder(check_cfg="ncfg", 
+                cypher_name=cypher_name, output_folder_path=output_folder_path, phase_n=3, 
+                is_remove=False, date=date, min_interm=min_cross, classification=cypher_type)
     
     # log file
     cmd_log = open(general_path + "cmd.log", "a")
     
     # Open file for ncfg
-    combine_time = datetime.now()
-    print("[{}] Start NCFG combine path: ".format(datetime.now()), file=cmd_log)
-    print("[{}] Start NCFG combine path: ".format(datetime.now()))
-    try:
-        prefix_ncfg = open(phase1_ncfg_path + "prefix_ncfg.txt", "r")
-        suffix_ncfg = open(phase1_ncfg_path + "suffix_ncfg.txt", "r")
-        dfs_ncfg = open(phase2_ncfg_path + "ncfgOutput.txt", "r")
-    except:
-        print("Unable to locate results from previoous phase. Please check input date.")
-        exit(0)
-    #ncfg_output_path = open(phase3_ncfg_path + "NCFG.txt", "a")
-    combined_ncfg_df = open(phase3_ncfg_path + "validatedDF.txt", "a")
-    combine(suffix_ncfg, prefix_ncfg, dfs_ncfg, phase3_ncfg_path + "NCFG.txt", 
-        combined_ncfg_df, cmd_log, keep_result)
-    print("[{}] Finish NCFG combine path.".format(datetime.now()), file=cmd_log)
-    print("[{}] Finish NCFG combine path.".format(datetime.now()))
-    combine_time = (datetime.now() - combine_time).total_seconds() * 1000
-    print("[{}] Time: {:,}ms".format(datetime.now(), combine_time), file=cmd_log)
-    print("[{}] Time: {:,}ms".format(datetime.now(), combine_time))
-    print()
+    if (p_ncfg):
+        combine_time = datetime.now()
+        print("[{}] Start NCFG combine path: ".format(datetime.now()), file=cmd_log)
+        print("[{}] Start NCFG combine path: ".format(datetime.now()))
+        try:
+            prefix_ncfg = open(phase1_ncfg_path + "prefix_ncfg.txt", "r")
+            suffix_ncfg = open(phase1_ncfg_path + "suffix_ncfg.txt", "r")
+            dfs_ncfg = open(phase2_ncfg_path + "ncfgOutput.txt", "r")
+        except:
+            print("Unable to locate results from previoous phase. Please check input date.")
+            exit(0)
+        #ncfg_output_path = open(phase3_ncfg_path + "NCFG.txt", "a")
+        combined_ncfg_df = open(phase3_ncfg_path + "validatedDF.txt", "a")
+        combine(suffix_ncfg, prefix_ncfg, dfs_ncfg, phase3_ncfg_path + "NCFG.txt", 
+            combined_ncfg_df, cmd_log, keep_result)
+        print("[{}] Finish NCFG combine path.".format(datetime.now()), file=cmd_log)
+        print("[{}] Finish NCFG combine path.".format(datetime.now()))
+        combine_time = (datetime.now() - combine_time).total_seconds() * 1000
+        print("[{}] Time: {:,}ms".format(datetime.now(), combine_time), file=cmd_log)
+        print("[{}] Time: {:,}ms".format(datetime.now(), combine_time))
+        print()
 
-    # close ncfg files
-    prefix_ncfg.close()
-    suffix_ncfg.close()
-    dfs_ncfg.close()
-    #ncfg_output.close()
-    combined_ncfg_df.close()
+        # close ncfg files
+        prefix_ncfg.close()
+        suffix_ncfg.close()
+        dfs_ncfg.close()
+        #ncfg_output.close()
+        combined_ncfg_df.close()
 
     # Open file for cfg
-    combine_time = datetime.now()
-    print("[{}] Start CFG combine path: ".format(datetime.now()), file=cmd_log)
-    print("[{}] Start CFG combine path: ".format(datetime.now()))
-    prefix_cfg = open(phase1_cfg_path + "prefix_cfg.txt", "r")
-    suffix_cfg = open(phase1_cfg_path + "suffix_cfg.txt", "r")
-    dfs_cfg = open(phase2_cfg_path + "otfOutput.txt", "r")
-    #cfg_output = open(phase3_cfg_path + "CFG.txt", "a")
-    combined_cfg_df = open(phase3_cfg_path + "validatedDF.txt", "a")
-    combine(suffix_cfg, prefix_cfg, dfs_cfg, phase3_cfg_path + "CFG.txt", combined_cfg_df, 
-            cmd_log, True)
-    print("[{}] Finish CFG combine path.".format(datetime.now()), file=cmd_log)
-    print("[{}] Finish CFG combine path.".format(datetime.now()))
-    combine_time = (datetime.now() - combine_time).total_seconds() * 1000
-    print("[{}] Time: {:,}ms".format(datetime.now(), combine_time), file=cmd_log)
-    print("[{}] Time: {:,}ms".format(datetime.now(), combine_time))
-    print()
+    if (p_cfg):
+        combine_time = datetime.now()
+        print("[{}] Start CFG combine path: ".format(datetime.now()), file=cmd_log)
+        print("[{}] Start CFG combine path: ".format(datetime.now()))
+        prefix_cfg = open(phase1_cfg_path + "prefix_cfg.txt", "r")
+        suffix_cfg = open(phase1_cfg_path + "suffix_cfg.txt", "r")
+        dfs_cfg = open(phase2_cfg_path + "otfOutput.txt", "r")
+        #cfg_output = open(phase3_cfg_path + "CFG.txt", "a")
+        combined_cfg_df = open(phase3_cfg_path + "validatedDF.txt", "a")
+        combine(suffix_cfg, prefix_cfg, dfs_cfg, phase3_cfg_path + "CFG.txt", combined_cfg_df, 
+                cmd_log, True)
+        print("[{}] Finish CFG combine path.".format(datetime.now()), file=cmd_log)
+        print("[{}] Finish CFG combine path.".format(datetime.now()))
+        combine_time = (datetime.now() - combine_time).total_seconds() * 1000
+        print("[{}] Time: {:,}ms".format(datetime.now(), combine_time), file=cmd_log)
+        print("[{}] Time: {:,}ms".format(datetime.now(), combine_time))
+        print()
 
-    # close cfg files
-    prefix_cfg.close()
-    suffix_cfg.close()
-    dfs_cfg.close()
-    #cfg_output.close()
-    combined_cfg_df.close()
+        # close cfg files
+        prefix_cfg.close()
+        suffix_cfg.close()
+        dfs_cfg.close()
+        #cfg_output.close()
+        combined_cfg_df.close()
 
      # Open file for cfg
     if (check_line):

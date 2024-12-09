@@ -270,7 +270,7 @@ def run_query_write_results(session, cypher_file_path, path_file,
 
 def create_output_folder(check_cfg, cypher_name, output_folder_path, classification,
                          phase_n = None, is_remove = False, date = datetime.today().strftime('%m-%d'), 
-                         min_interm = ""):
+                         min_interm = "", n_instance=""):
     """
     ------------------------------------------------------------------------
     Create output directory and related files
@@ -313,6 +313,14 @@ def create_output_folder(check_cfg, cypher_name, output_folder_path, classificat
         shutil.rmtree(actual_folder)
     if (not os.path.exists(actual_folder)):
         os.mkdir(actual_folder)
+
+    instance_path = actual_folder + "/" + n_instance + "/"
+    if (n_instance != ""):
+        if (os.path.exists(instance_path)):
+            shutil.rmtree(instance_path)
+        os.mkdir(instance_path)
+        actual_folder = instance_path
+
 
     #print(actual_folder, output_folder_cypher_path)
 

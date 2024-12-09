@@ -1,0 +1,761 @@
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/autoware_connector/nodes/can_odometry/can_odometry_core.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/autoware_connector/nodes/can_odometry/can_odometry_node.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/autoware_connector/nodes/can_status_translator/can_status_translator_node.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/autoware_connector/nodes/can_status_translator/can_status_translator_core.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/ekf_localizer/src/ekf_localizer_node.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/ekf_localizer/src/ekf_localizer.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/ekf_localizer/test/src/test_ekf_localizer.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/amathutils_lib/src/butterworth_filter.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/amathutils_lib/src/kalman_filter.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/amathutils_lib/src/time_delay_kalman_filter.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/amathutils_lib/test/src/test_kalman_filter.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/amathutils_lib/src/Amathutils.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/amathutils_lib/test/src/test_amathutils_lib.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/amathutils_lib/test/src/test_butterworth_filter.cpp'
+Rex Warning: could not determine callback for call to createTimer. /home/autoware/Autoware/src/autoware/core_perception/ekf_localizer/test/src/test_ekf_localizer.cpp:34:14
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/gnss_localizer/nodes/nmea2tfpose/nmea2tfpose_node.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/gnss_localizer/nodes/nmea2tfpose/nmea2tfpose_core.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/gnss_localizer/nodes/fix2tfpose/fix2tfpose.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/gnss_localizer/test/nmea_test.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/image_processor/nodes/image_rectifier/image_rectifier_node.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/image_processor/nodes/image_rotator/image_rotator_node.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/imm_ukf_pda_track/nodes/imm_ukf_pda_lanelet2/imm_ukf_pda_main_lanelet2.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/imm_ukf_pda_track/nodes/imm_ukf_pda/imm_ukf_pda.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/imm_ukf_pda_track/nodes/imm_ukf_pda_lanelet2/imm_ukf_pda_lanelet2.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/imm_ukf_pda_track/nodes/imm_ukf_pda/ukf.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/imm_ukf_pda_track/nodes/imm_ukf_pda/imm_ukf_pda_main.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/lanelet2_extension/src/validation.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/vector_map/lib/vector_map/vector_map.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/lanelet2_extension/src/sample_code.cpp'
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:248:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:283:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:248:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:283:3
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/lanelet2_extension/lib/message_conversion.cpp'
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:248:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:283:3
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/lanelet2_extension/lib/autoware_osm_parser.cpp'
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:248:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:283:3
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/lanelet2_extension/lib/mgrs_projector.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/lanelet2_extension/lib/visualization.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/lanelet2_extension/lib/query.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/lanelet2_extension/lib/autoware_traffic_light.cpp'
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:248:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:283:3
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/lanelet2_extension/lib/utilities.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/lanelet2_extension/test/src/test_query.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/lanelet2_extension/test/src/test_projector.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/lanelet2_extension/test/src/test_utilities.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/lanelet2_extension/test/src/test_regulatory_elements.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/lanelet2_extension/test/src/test_message_conversion.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/lidar_apollo_cnn_seg_detect/nodes/cnn_segmentation.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/lidar_apollo_cnn_seg_detect/nodes/cluster2d.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/lidar_apollo_cnn_seg_detect/nodes/lidar_apollo_cnn_seg_detect_node.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/lidar_apollo_cnn_seg_detect/nodes/feature_generator.cpp'
+Rex Warning: Could not find a mapping from statement to CFG block for varInfFunc src facts. /home/autoware/Autoware/src/autoware/core_perception/lidar_apollo_cnn_seg_detect/nodes/feature_generator.cpp:63:3 <Spelling=/usr/include/glog/logging.h:743:33>
+Rex Warning: Could not find a mapping from statement to CFG block for varInfFunc src facts. /home/autoware/Autoware/src/autoware/core_perception/lidar_apollo_cnn_seg_detect/nodes/feature_generator.cpp:63:3 <Spelling=/usr/include/glog/logging.h:743:33>
+Rex Warning: Could not find a mapping from statement to CFG block for varInfFunc src facts. /home/autoware/Autoware/src/autoware/core_perception/lidar_apollo_cnn_seg_detect/nodes/cluster2d.cpp:79:5 <Spelling=/usr/include/glog/logging.h:743:33>
+Rex Warning: Could not find a mapping from statement to CFG block for varInfFunc src facts. /home/autoware/Autoware/src/autoware/core_perception/lidar_apollo_cnn_seg_detect/nodes/cluster2d.cpp:183:5 <Spelling=/usr/include/glog/logging.h:743:33>
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/lidar_euclidean_cluster_detect/include/gencolors.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/lidar_euclidean_cluster_detect/nodes/lidar_euclidean_cluster_detect/lidar_euclidean_cluster_detect.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/lidar_euclidean_cluster_detect/nodes/lidar_euclidean_cluster_detect/cluster.cpp'
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:248:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:283:3
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/lidar_fake_perception/nodes/lidar_fake_perception_node.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/lidar_fake_perception/nodes/lidar_fake_perception.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/lidar_kf_contour_track/nodes/lidar_kf_contour_track/lidar_kf_contour_track_core.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/lidar_kf_contour_track/nodes/lidar_kf_contour_track/PolygonGenerator.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/lidar_kf_contour_track/nodes/lidar_kf_contour_track/lidar_kf_contour_track.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/op_planner/src/LocalPlannerH.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/lidar_kf_contour_track/nodes/lidar_kf_contour_track/SimpleTracker.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/op_planner/src/DecisionMaker.cpp'
+Rex Warning: Unable to find package name for file: 'Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/op_planner/src/PlanningHelpers.cpp'/home/autoware/Autoware/src/autoware/common/op_planner/src/SimuDecisionMaker.cpp
+'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/op_planner/src/BehaviorStateMachine.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/op_planner/src/TrajectoryCosts.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/op_planner/src/TrajectoryDynamicCosts.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/op_planner/src/BehaviorPrediction.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/op_planner/src/PlannerH.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/op_planner/src/MatrixOperations.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/op_planner/src/MappingHelpers.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/op_planner/src/PassiveDecisionMaker.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/op_planner/test/src/test_BuildPlanningSearchTreeV2.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/op_utility/src/DataRW.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/op_utility/src/UtilityH.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/op_utility/test/src/test_op_utility.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/op_ros_helpers/src/op_ROSHelpers.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/op_ros_helpers/src/PolygonGenerator.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/libwaypoint_follower/src/libwaypoint_follower.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/libwaypoint_follower/src/pure_pursuit.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/libwaypoint_follower/test/src/test_pure_pursuit.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/libwaypoint_follower/test/src/test_libwaypoint_follower.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/lidar_localizer/nodes/approximate_ndt_mapping/approximate_ndt_mapping.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/ndt_cpu/src/Registration.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/lidar_localizer/nodes/ndt_matching/ndt_matching.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/ndt_cpu/src/VoxelGrid.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/ndt_cpu/src/NormalDistributionsTransform.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/ndt_tku/src/newton.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/ndt_tku/src/manage_ND.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/ndt_cpu/src/Octree.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/ndt_tku/src/algebra.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/system_status_subscriber/system_status_subscriber.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_analyzer/health_analyzer.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_analyzer/health_analyzer_node.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_checker/value_manager.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_checker/rate_checker.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_checker/diag_buffer.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp'
+Rex Warning: Unable to determine variable passed to publish. /home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_analyzer/health_analyzer.cpp:187:3
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_checker/param_manager.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_aggregator/status_monitor.cpp'
+/home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp:198:32: error: 'thresh_type' cannot be captured because it does not have automatic storage duration
+  auto identify = [key, value, thresh_type, this](ErrorLevel level)
+                               ^
+/home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp:195:26: note: 'thresh_type' declared here
+ static const ThreshType thresh_type = "min";
+                         ^
+/home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp:220:10: error: unknown type name 'onst'; did you mean 'const'?
+  static onst ThreshType thresh_type = "max";
+         ^~~~
+         const
+/home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp:223:32: error: 'thresh_type' cannot be captured because it does not have automatic storage duration
+  auto identify = [key, value, thresh_type, this](ErrorLevel level)
+                               ^
+/home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp:220:26: note: 'thresh_type' declared here
+  static onst ThreshType thresh_type = "max";
+                         ^
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_aggregator/health_aggregator_node.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_aggregator/health_aggregator.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/autoware_health_checker/test/src/test_autoware_health_checker.cpp'
+3 errors generated.
+Error while processing /home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp.
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/ros_observer/src/ros_observer.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/ros_observer/lib/lib_ros_observer.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/ros_observer/test/src/test_ros_observer.cpp'
+Rex Warning: topic names that are not string literals are not supported. /home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_aggregator/health_aggregator.cpp:71:24
+Rex Warning: Ignoring call to publish/home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_aggregator/health_aggregator.cpp:131:5
+Rex Warning: Could not find a mapping from statement to CFG block for varInfFunc facts. /home/autoware/Autoware/src/autoware/common/ros_observer/test/src/test_ros_observer.cpp:65:5 <Spelling=/home/autoware/Autoware/src/autoware/common/ros_observer/test/src/test_ros_observer.cpp:65:15>
+Rex Warning: Could not find a mapping from statement to CFG block for varInfFunc facts. /home/autoware/Autoware/src/autoware/common/ros_observer/test/src/test_ros_observer.cpp:65:5 <Spelling=/home/autoware/Autoware/src/autoware/common/ros_observer/test/src/test_ros_observer.cpp:65:15>
+Rex Warning: Could not find a mapping from call expression to CFG block. /home/autoware/Autoware/src/autoware/common/ros_observer/test/src/test_ros_observer.cpp:65:5 <Spelling=/home/autoware/Autoware/src/autoware/common/ros_observer/test/src/test_ros_observer.cpp:65:15>
+Rex Warning: Could not find a mapping from statement to CFG block for varInfFunc facts. /home/autoware/Autoware/src/autoware/common/ros_observer/test/src/test_ros_observer.cpp:67:5 <Spelling=/home/autoware/Autoware/src/autoware/common/ros_observer/test/src/test_ros_observer.cpp:67:15>
+Rex Warning: Could not find a mapping from statement to CFG block for varInfFunc facts. /home/autoware/Autoware/src/autoware/common/ros_observer/test/src/test_ros_observer.cpp:67:5 <Spelling=/home/autoware/Autoware/src/autoware/common/ros_observer/test/src/test_ros_observer.cpp:67:15>
+Rex Warning: Could not find a mapping from call expression to CFG block. /home/autoware/Autoware/src/autoware/common/ros_observer/test/src/test_ros_observer.cpp:67:5 <Spelling=/home/autoware/Autoware/src/autoware/common/ros_observer/test/src/test_ros_observer.cpp:67:15>
+Rex Warning: Could not find a mapping from statement to CFG block for varInfFunc facts. /home/autoware/Autoware/src/autoware/common/ros_observer/test/src/test_ros_observer.cpp:72:5 <Spelling=/home/autoware/Autoware/src/autoware/common/ros_observer/test/src/test_ros_observer.cpp:72:15>
+Rex Warning: Could not find a mapping from statement to CFG block for varInfFunc facts. /home/autoware/Autoware/src/autoware/common/ros_observer/test/src/test_ros_observer.cpp:72:5 <Spelling=/home/autoware/Autoware/src/autoware/common/ros_observer/test/src/test_ros_observer.cpp:72:15>
+Rex Warning: Could not find a mapping from call expression to CFG block. /home/autoware/Autoware/src/autoware/common/ros_observer/test/src/test_ros_observer.cpp:72:5 <Spelling=/home/autoware/Autoware/src/autoware/common/ros_observer/test/src/test_ros_observer.cpp:72:15>
+Rex Warning: Could not find a mapping from statement to CFG block for varInfFunc facts. /home/autoware/Autoware/src/autoware/common/ros_observer/test/src/test_ros_observer.cpp:72:5 <Spelling=/home/autoware/Autoware/src/autoware/common/ros_observer/test/src/test_ros_observer.cpp:72:15>
+Rex Warning: Could not find a mapping from statement to CFG block for varInfFunc facts. /home/autoware/Autoware/src/autoware/common/ros_observer/test/src/test_ros_observer.cpp:72:5 <Spelling=/home/autoware/Autoware/src/autoware/common/ros_observer/test/src/test_ros_observer.cpp:72:15>
+Rex Warning: Could not find a mapping from call expression to CFG block. /home/autoware/Autoware/src/autoware/common/ros_observer/test/src/test_ros_observer.cpp:72:5 <Spelling=/home/autoware/Autoware/src/autoware/common/ros_observer/test/src/test_ros_observer.cpp:72:15>
+Rex Warning: Could not find a mapping from statement to CFG block for varInfFunc facts. /home/autoware/Autoware/src/autoware/common/ros_observer/test/src/test_ros_observer.cpp:73:5 <Spelling=/home/autoware/Autoware/src/autoware/common/ros_observer/test/src/test_ros_observer.cpp:73:15>
+Rex Warning: Could not find a mapping from statement to CFG block for varInfFunc facts. /home/autoware/Autoware/src/autoware/common/ros_observer/test/src/test_ros_observer.cpp:73:5 <Spelling=/home/autoware/Autoware/src/autoware/common/ros_observer/test/src/test_ros_observer.cpp:73:15>
+Rex Warning: Could not find a mapping from call expression to CFG block. /home/autoware/Autoware/src/autoware/common/ros_observer/test/src/test_ros_observer.cpp:73:5 <Spelling=/home/autoware/Autoware/src/autoware/common/ros_observer/test/src/test_ros_observer.cpp:73:15>
+Rex Warning: Could not find a mapping from statement to CFG block for varInfFunc facts. /home/autoware/Autoware/src/autoware/common/ros_observer/test/src/test_ros_observer.cpp:73:5 <Spelling=/home/autoware/Autoware/src/autoware/common/ros_observer/test/src/test_ros_observer.cpp:73:15>
+Rex Warning: Could not find a mapping from statement to CFG block for varInfFunc facts. /home/autoware/Autoware/src/autoware/common/ros_observer/test/src/test_ros_observer.cpp:73:5 <Spelling=/home/autoware/Autoware/src/autoware/common/ros_observer/test/src/test_ros_observer.cpp:73:15>
+Rex Warning: Could not find a mapping from call expression to CFG block. /home/autoware/Autoware/src/autoware/common/ros_observer/test/src/test_ros_observer.cpp:73:5 <Spelling=/home/autoware/Autoware/src/autoware/common/ros_observer/test/src/test_ros_observer.cpp:73:15>
+Rex Warning: topic names that are not string literals are not supported. /home/autoware/Autoware/src/autoware/core_perception/lidar_localizer/nodes/approximate_ndt_mapping/approximate_ndt_mapping.cpp:939:29
+Rex Warning: topic names that are not string literals are not supported. /home/autoware/Autoware/src/autoware/core_perception/lidar_localizer/nodes/ndt_matching/ndt_matching.cpp:1698:29
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/lidar_localizer/nodes/icp_matching/icp_matching.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/lidar_localizer/nodes/ndt_mapping/ndt_mapping.cpp'
+Rex Warning: topic names that are not string literals are not supported. /home/autoware/Autoware/src/autoware/core_perception/lidar_localizer/nodes/ndt_mapping/ndt_mapping.cpp:1081:29
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/lidar_localizer/nodes/ndt_mapping_tku/mapping.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/lidar_localizer/nodes/ndt_mapping_tku/ndt_mapping_tku.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/lidar_localizer/nodes/ndt_matching_tku/ndt_matching_tku.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/lidar_localizer/nodes/ndt_matching_monitor/ndt_matching_monitor.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/lidar_localizer/nodes/ndt_matching_monitor/ndt_matching_monitor_node.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/lidar_localizer/nodes/queue_counter/queue_counter.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/lidar_naive_l_shape_detect/nodes/lidar_naive_l_shape_detect/lidar_naive_l_shape_detect.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/lidar_naive_l_shape_detect/nodes/lidar_naive_l_shape_detect/lidar_naive_l_shape_detect_node.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/nodes/point_pillars_ros.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/nodes/preprocess_points.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/nodes/pfe_tvm_pipeline.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/nodes/rpn_tvm_pipeline.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/test/src/test_point_pillars.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/nodes/lidar_point_pillars_node.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/nodes/point_pillars.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/tvm_utility/test/yolo_v2_tiny/main.cpp'
+/home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/nodes/preprocess_points.cpp:82:25: error: variable-sized object may not be initialized
+  float x_coors_for_sub[MAX_NUM_PILLARS_] = { 0 };
+                        ^~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/nodes/preprocess_points.cpp:83:25: error: variable-sized object may not be initialized
+  float y_coors_for_sub[MAX_NUM_PILLARS_] = { 0 };
+                        ^~~~~~~~~~~~~~~~
+2 errors generated.
+Error while processing /home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/nodes/preprocess_points.cpp.
+In file included from /home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/nodes/point_pillars.cpp:22:
+/home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/include/lidar_point_pillars/point_pillars.h:64:10: error: exception specification of overriding function is more lax than base version
+    void log(Severity severity, const char* msg) override
+         ^
+/Rex/TensorRT/include/NvInferRuntimeBase.h:538:18: note: overridden virtual function is here
+    virtual void log(Severity severity, AsciiChar const* msg) noexcept = 0;
+                 ^
+/home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/nodes/point_pillars.cpp:327:24: error: variable-sized object may not be initialized
+  float anchor_x_count[NUM_ANCHOR_X_INDS_] = { 0 };
+                       ^~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/nodes/point_pillars.cpp:332:24: error: variable-sized object may not be initialized
+  float anchor_y_count[NUM_ANCHOR_Y_INDS_] = { 0 };
+                       ^~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/nodes/point_pillars.cpp:338:24: error: variable-sized object may not be initialized
+  float anchor_r_count[NUM_ANCHOR_R_INDS_] = { 0, M_PI / 2 };
+                       ^~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/nodes/point_pillars.cpp:383:28: error: variable-sized object may not be initialized
+  float flipped_anchors_dx[NUM_ANCHOR_] = { 0 };
+                           ^~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/nodes/point_pillars.cpp:384:28: error: variable-sized object may not be initialized
+  float flipped_anchors_dy[NUM_ANCHOR_] = { 0 };
+                           ^~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/nodes/point_pillars.cpp:505:52: error: no member named 'createNetwork' in 'nvinfer1::IBuilder'
+  nvinfer1::INetworkDefinition* network = builder->createNetwork();
+                                          ~~~~~~~  ^
+/home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/nodes/point_pillars.cpp:518:12: error: no member named 'setMaxWorkspaceSize' in 'nvinfer1::IBuilder'
+  builder->setMaxWorkspaceSize(1 << 20);
+  ~~~~~~~  ^
+/home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/nodes/point_pillars.cpp:520:44: error: no member named 'buildCudaEngine' in 'nvinfer1::IBuilder'
+  nvinfer1::ICudaEngine* engine = builder->buildCudaEngine(*network);
+                                  ~~~~~~~  ^
+/home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/nodes/point_pillars.cpp:534:15: error: variable-sized object may not be initialized
+  int x_coors[MAX_NUM_PILLARS_] = { 0 };
+              ^~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/nodes/point_pillars.cpp:535:15: error: variable-sized object may not be initialized
+  int y_coors[MAX_NUM_PILLARS_] = { 0 };
+              ^~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/nodes/point_pillars.cpp:536:31: error: variable-sized object may not be initialized
+  float num_points_per_pillar[MAX_NUM_PILLARS_] = { 0 };
+                              ^~~~~~~~~~~~~~~~
+12 errors generated.
+Error while processing /home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/nodes/point_pillars.cpp.
+In file included from /home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/nodes/lidar_point_pillars_node.cpp:21:
+In file included from /home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/include/lidar_point_pillars/point_pillars_ros.h:40:
+/home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/include/lidar_point_pillars/point_pillars.h:64:10: error: exception specification of overriding function is more lax than base version
+    void log(Severity severity, const char* msg) override
+         ^
+/Rex/TensorRT/include/NvInferRuntimeBase.h:538:18: note: overridden virtual function is here
+    virtual void log(Severity severity, AsciiChar const* msg) noexcept = 0;
+                 ^
+In file included from /home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/test/src/test_point_pillars.cpp:36:
+In file included from /home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/include/lidar_point_pillars/point_pillars_ros.h:40:
+/home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/include/lidar_point_pillars/point_pillars.h:64:10: error: exception specification of overriding function is more lax than base version
+    void log(Severity severity, const char* msg) override
+         ^
+/Rex/TensorRT/include/NvInferRuntimeBase.h:538:18: note: overridden virtual function is here
+    virtual void log(Severity severity, AsciiChar const* msg) noexcept = 0;
+                 ^
+/home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/test/src/test_point_pillars.cpp:246:15: error: variable-sized object may not be initialized
+  int x_coors[test_obj.MAX_NUM_PILLARS_] = { 0 };
+              ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/test/src/test_point_pillars.cpp:247:15: error: variable-sized object may not be initialized
+  int y_coors[test_obj.MAX_NUM_PILLARS_] = { 0 };
+              ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/test/src/test_point_pillars.cpp:248:31: error: variable-sized object may not be initialized
+  float num_points_per_pillar[test_obj.MAX_NUM_PILLARS_] = { 0 };
+                              ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/nodes/point_pillars_ros.cpp:32:
+In file included from /home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/include/lidar_point_pillars/point_pillars_ros.h:40:
+/home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/include/lidar_point_pillars/point_pillars.h:64:10: error: exception specification of overriding function is more lax than base version
+    void log(Severity severity, const char* msg) override
+         ^
+/Rex/TensorRT/include/NvInferRuntimeBase.h:538:18: note: overridden virtual function is here
+    virtual void log(Severity severity, AsciiChar const* msg) noexcept = 0;
+                 ^
+/home/autoware/Autoware/src/autoware/common/tvm_utility/test/yolo_v2_tiny/main.cpp:28:10: fatal error: 'inference_engine_tvm_config.hpp' file not found
+#include "inference_engine_tvm_config.hpp"
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+Error while processing /home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/nodes/lidar_point_pillars_node.cpp.
+1 error generated.
+Error while processing /home/autoware/Autoware/src/autoware/common/tvm_utility/test/yolo_v2_tiny/main.cpp.
+4 errors generated.
+Error while processing /home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/test/src/test_point_pillars.cpp.
+1 error generated.
+Error while processing /home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/nodes/point_pillars_ros.cpp.
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/lidar_shape_estimation/src/shape_estimator.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/lidar_shape_estimation/src/main.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/lidar_shape_estimation/src/node.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/lidar_shape_estimation/src/model/convex_hull.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/lidar_shape_estimation/src/model/bounding_box.cpp'Rex Warning: Unable to find package name for file: '
+/home/autoware/Autoware/src/autoware/core_perception/lidar_shape_estimation/test/src/test_lidar_shape_estimation.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/lidar_shape_estimation/src/model/cylinder.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/naive_motion_predict/nodes/naive_motion_predict/naive_motion_predict.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/naive_motion_predict/nodes/naive_motion_predict/naive_motion_predict_node.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/obj_db/lib/obj_db/SendData.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/obj_db/lib/obj_db/util.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/obj_db/nodes/can_uploader/can_uploader.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/obj_db/nodes/obj_uploader/obj_uploader.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/obj_db/nodes/obj_downloader/obj_downloader.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/pixel_cloud_fusion/src/pixel_cloud_fusion_node.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/pixel_cloud_fusion/src/pixel_cloud_fusion.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/points_downsampler/nodes/distance_filter/distance_filter.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/points_downsampler/nodes/random_filter/random_filter.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/points_downsampler/nodes/voxel_grid_filter/voxel_grid_filter.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/points_downsampler/nodes/ring_filter/ring_filter.cpp'
+Rex Warning: topic names that are not string literals are not supported. /home/autoware/Autoware/src/autoware/core_perception/points_downsampler/nodes/random_filter/random_filter.cpp:149:30
+Rex Warning: topic names that are not string literals are not supported. /home/autoware/Autoware/src/autoware/core_perception/points_downsampler/nodes/voxel_grid_filter/voxel_grid_filter.cpp:154:30
+Rex Warning: topic names that are not string literals are not supported. /home/autoware/Autoware/src/autoware/core_perception/points_downsampler/nodes/distance_filter/distance_filter.cpp:163:30
+Rex Warning: topic names that are not string literals are not supported. /home/autoware/Autoware/src/autoware/core_perception/points_downsampler/nodes/ring_filter/ring_filter.cpp:181:30
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/points_preprocessor/nodes/ring_ground_filter/ring_ground_filter.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/points_preprocessor/include/gencolors.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/points_preprocessor/nodes/space_filter/space_filter.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/points_preprocessor/nodes/compare_map_filter/compare_map_filter.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/points_preprocessor/nodes/ray_ground_filter/ray_ground_filter.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/points_preprocessor/nodes/cloud_transformer/cloud_transformer_node.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/points_preprocessor/nodes/ray_ground_filter/ray_ground_filter_main.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/points_preprocessor/nodes/points_concat_filter/points_concat_filter.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/points_preprocessor/test/src/test_points_preprocessor.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/pos_db/lib/pos_db/SendData.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/pos_db/lib/pos_db/util.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/pos_db/nodes/pos_downloader/pos_downloader.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/pos_db/nodes/pos_uploader/pos_uploader.cpp'
+Rex Warning: Unable to find package name for file: 'Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/range_vision_fusion/src/range_vision_fusion_node.cpp'
+/home/autoware/Autoware/src/autoware/core_perception/range_vision_fusion/src/range_vision_fusion.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/road_occupancy_processor/src/road_occupancy_processor.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/road_occupancy_processor/src/road_occupancy_processor_node.cpp'
+In file included from /home/autoware/Autoware/src/autoware/core_perception/road_occupancy_processor/src/road_occupancy_processor_node.cpp:23:
+In file included from /home/autoware/Autoware/src/autoware/core_perception/road_occupancy_processor/include/road_occupancy_processor/road_occupancy_processor.h:44:
+In file included from /opt/ros/melodic/include/grid_map_cv/grid_map_cv.hpp:12:
+/opt/ros/melodic/include/grid_map_cv/GridMapCvConverter.hpp:178:47: error: no member named 'minCoeffOfFinites' in 'Eigen::Matrix<float, -1, -1, 0, -1, -1>'
+    const float minValue = gridMap.get(layer).minCoeffOfFinites();
+                           ~~~~~~~~~~~~~~~~~~ ^
+/opt/ros/melodic/include/grid_map_cv/GridMapCvConverter.hpp:179:47: error: no member named 'maxCoeffOfFinites' in 'Eigen::Matrix<float, -1, -1, 0, -1, -1>'
+    const float maxValue = gridMap.get(layer).maxCoeffOfFinites();
+                           ~~~~~~~~~~~~~~~~~~ ^
+In file included from /home/autoware/Autoware/src/autoware/core_perception/road_occupancy_processor/src/road_occupancy_processor.cpp:23:
+In file included from /home/autoware/Autoware/src/autoware/core_perception/road_occupancy_processor/include/road_occupancy_processor/road_occupancy_processor.h:44:
+In file included from /opt/ros/melodic/include/grid_map_cv/grid_map_cv.hpp:12:
+/opt/ros/melodic/include/grid_map_cv/GridMapCvConverter.hpp:178:47: error: no member named 'minCoeffOfFinites' in 'Eigen::Matrix<float, -1, -1, 0, -1, -1>'
+    const float minValue = gridMap.get(layer).minCoeffOfFinites();
+                           ~~~~~~~~~~~~~~~~~~ ^
+/opt/ros/melodic/include/grid_map_cv/GridMapCvConverter.hpp:179:47: error: no member named 'maxCoeffOfFinites' in 'Eigen::Matrix<float, -1, -1, 0, -1, -1>'
+    const float maxValue = gridMap.get(layer).maxCoeffOfFinites();
+                           ~~~~~~~~~~~~~~~~~~ ^
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:248:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:283:3
+2 errors generated.
+Error while processing /home/autoware/Autoware/src/autoware/core_perception/road_occupancy_processor/src/road_occupancy_processor_node.cpp.
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:248:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:283:3
+2 errors generated.
+Error while processing /home/autoware/Autoware/src/autoware/core_perception/road_occupancy_processor/src/road_occupancy_processor.cpp.
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/roi_object_filter/test/src/test_roi_object_filter.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/roi_object_filter/src/roi_object_filter.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/roi_object_filter/src/roi_object_filter_node.cpp'
+In file included from /home/autoware/Autoware/src/autoware/core_perception/roi_object_filter/src/roi_object_filter.cpp:23:
+In file included from /home/autoware/Autoware/src/autoware/core_perception/roi_object_filter/include/roi_object_filter/roi_object_filter.h:43:
+In file included from /opt/ros/melodic/include/grid_map_cv/grid_map_cv.hpp:12:
+/opt/ros/melodic/include/grid_map_cv/GridMapCvConverter.hpp:178:47: error: no member named 'minCoeffOfFinites' in 'Eigen::Matrix<float, -1, -1, 0, -1, -1>'
+    const float minValue = gridMap.get(layer).minCoeffOfFinites();
+                           ~~~~~~~~~~~~~~~~~~ ^
+/opt/ros/melodic/include/grid_map_cv/GridMapCvConverter.hpp:179:47: error: no member named 'maxCoeffOfFinites' in 'Eigen::Matrix<float, -1, -1, 0, -1, -1>'
+    const float maxValue = gridMap.get(layer).maxCoeffOfFinites();
+                           ~~~~~~~~~~~~~~~~~~ ^
+In file included from /home/autoware/Autoware/src/autoware/core_perception/roi_object_filter/src/roi_object_filter_node.cpp:23:
+In file included from /home/autoware/Autoware/src/autoware/core_perception/roi_object_filter/include/roi_object_filter/roi_object_filter.h:43:
+In file included from /opt/ros/melodic/include/grid_map_cv/grid_map_cv.hpp:12:
+/opt/ros/melodic/include/grid_map_cv/GridMapCvConverter.hpp:178:47: error: no member named 'minCoeffOfFinites' in 'Eigen::Matrix<float, -1, -1, 0, -1, -1>'
+    const float minValue = gridMap.get(layer).minCoeffOfFinites();
+                           ~~~~~~~~~~~~~~~~~~ ^
+/opt/ros/melodic/include/grid_map_cv/GridMapCvConverter.hpp:179:47: error: no member named 'maxCoeffOfFinites' in 'Eigen::Matrix<float, -1, -1, 0, -1, -1>'
+    const float maxValue = gridMap.get(layer).maxCoeffOfFinites();
+                           ~~~~~~~~~~~~~~~~~~ ^
+In file included from /home/autoware/Autoware/src/autoware/core_perception/roi_object_filter/test/src/test_roi_object_filter.cpp:20:
+In file included from /home/autoware/Autoware/src/autoware/core_perception/roi_object_filter/include/roi_object_filter/roi_object_filter.h:43:
+In file included from /opt/ros/melodic/include/grid_map_cv/grid_map_cv.hpp:12:
+/opt/ros/melodic/include/grid_map_cv/GridMapCvConverter.hpp:178:47: error: no member named 'minCoeffOfFinites' in 'Eigen::Matrix<float, -1, -1, 0, -1, -1>'
+    const float minValue = gridMap.get(layer).minCoeffOfFinites();
+                           ~~~~~~~~~~~~~~~~~~ ^
+/opt/ros/melodic/include/grid_map_cv/GridMapCvConverter.hpp:179:47: error: no member named 'maxCoeffOfFinites' in 'Eigen::Matrix<float, -1, -1, 0, -1, -1>'
+    const float maxValue = gridMap.get(layer).maxCoeffOfFinites();
+                           ~~~~~~~~~~~~~~~~~~ ^
+2 errors generated.
+Error while processing /home/autoware/Autoware/src/autoware/core_perception/roi_object_filter/src/roi_object_filter_node.cpp.
+2 errors generated.
+Error while processing /home/autoware/Autoware/src/autoware/core_perception/roi_object_filter/test/src/test_roi_object_filter.cpp.
+Rex Warning: topic names that are not string literals are not supported. /home/autoware/Autoware/src/autoware/core_perception/roi_object_filter/src/roi_object_filter.cpp:227:36
+Rex Warning: topic names that are not string literals are not supported. /home/autoware/Autoware/src/autoware/core_perception/roi_object_filter/src/roi_object_filter.cpp:252:28
+2 errors generated.
+Error while processing /home/autoware/Autoware/src/autoware/core_perception/roi_object_filter/src/roi_object_filter.cpp.
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/feat_proj/feat_proj.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/common/libvectormap/src/vector_map.cpp'
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:248:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:283:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:248:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:283:3
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/feat_proj_lanelet2/feat_proj_lanelet2_node.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/feat_proj_lanelet2/feat_proj_lanelet2_core.cpp'
+Rex Warning: Unable to determine variable passed to publish. /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/feat_proj_lanelet2/feat_proj_lanelet2_core.cpp:548:11
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/label_maker/label_maker_gui.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/label_maker/label_maker.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/label_maker/custom_graphics_view.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/label_maker/file_system_operator.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr/traffic_light_detector.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr/region_tlr.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_mxnet/mxnet_traffic_light_recognizer.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_mxnet/region_tlr_mxnet.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/traffic_light_recognizer.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/region_tlr_ssd.cpp'
+Rex Warning: Could not find a mapping from statement to CFG block for varInfFunc src facts. /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/traffic_light_recognizer.cpp:59:3 <Spelling=/usr/include/glog/logging.h:743:33>
+Rex Warning: Could not find a mapping from statement to CFG block for varInfFunc src facts. /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/traffic_light_recognizer.cpp:59:3 <Spelling=/usr/include/glog/logging.h:743:33>
+Rex Warning: Could not find a mapping from statement to CFG block for varInfFunc src facts. /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/traffic_light_recognizer.cpp:60:3 <Spelling=/usr/include/glog/logging.h:743:33>
+Rex Warning: Could not find a mapping from statement to CFG block for varInfFunc src facts. /home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/region_tlr_ssd/traffic_light_recognizer.cpp:60:3 <Spelling=/usr/include/glog/logging.h:743:33>
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/roi_extractor/roi_extractor.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tl_switch/tl_switch.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tlr_tuner/tlr_tuner.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tlr_tuner/tuner_body.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/nodes/tlr_tuner/mainwindow.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/twist_generator/test/src/test_vehicle_status_converter.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/twist_generator/src/vehicle_status_converter_node.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/twist_generator/src/vehicle_status_converter.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vel_pose_diff_checker/src/vel_pose_diff_checker_node.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vel_pose_diff_checker/src/value_time_queue.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vel_pose_diff_checker/src/vel_pose_diff_checker_core.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vel_pose_diff_checker/test/src/test_vel_pose_diff_checker.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_beyond_track/src/vision_beyond_track_node.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_beyond_track/src/gencolors.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_beyond_track/src/vision_beyond_track.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_beyond_track/lib/hungarian.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_beyond_track/lib/clipper.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/src/vision_darknet_detect.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/src/gencolors.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/demo.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/matrix.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/utils.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/src/vision_darknet_detect_node.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/blas.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/lstm_layer.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/data.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/l2norm_layer.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/region_layer.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/reorg_layer.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/box.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/col2im.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/cuda.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/activation_layer.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/yolo_layer.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/rnn_layer.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/detection_layer.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/layer.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/local_layer.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/gemm.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/list.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/upsample_layer.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/softmax_layer.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/route_layer.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/connected_layer.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/crnn_layer.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/network.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/im2col.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/gru_layer.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/deconvolutional_layer.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/crop_layer.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/avgpool_layer.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/batchnorm_layer.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/shortcut_layer.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/maxpool_layer.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/tree.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/option_list.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/normalization_layer.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/logistic_layer.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/image.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/cost_layer.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/dropout_layer.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/convolutional_layer.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/activations.c'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_lane_detect/nodes/vision_lane_detect/vision_lane_detect.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_segment_enet_detect/nodes/vision_segment_enet_detect/vision_segment_enet_detect_node.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_segment_enet_detect/nodes/vision_segment_enet_detect/vision_segment_enet_detect.cpp'
+Rex Warning: Could not find a mapping from statement to CFG block for varInfFunc src facts. /home/autoware/Autoware/src/autoware/core_perception/vision_segment_enet_detect/nodes/vision_segment_enet_detect/vision_segment_enet_detect.cpp:21:3 <Spelling=/usr/include/glog/logging.h:743:33>
+Rex Warning: Could not find a mapping from statement to CFG block for varInfFunc src facts. /home/autoware/Autoware/src/autoware/core_perception/vision_segment_enet_detect/nodes/vision_segment_enet_detect/vision_segment_enet_detect.cpp:21:3 <Spelling=/usr/include/glog/logging.h:743:33>
+Rex Warning: Could not find a mapping from statement to CFG block for varInfFunc src facts. /home/autoware/Autoware/src/autoware/core_perception/vision_segment_enet_detect/nodes/vision_segment_enet_detect/vision_segment_enet_detect.cpp:22:3 <Spelling=/usr/include/glog/logging.h:743:33>
+Rex Warning: Could not find a mapping from statement to CFG block for varInfFunc src facts. /home/autoware/Autoware/src/autoware/core_perception/vision_segment_enet_detect/nodes/vision_segment_enet_detect/vision_segment_enet_detect.cpp:22:3 <Spelling=/usr/include/glog/logging.h:743:33>
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_ssd_detect/src/vision_ssd_detect_node.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_ssd_detect/src/vision_ssd_detect.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/vision_ssd_detect/include/gencolors.cpp'
+Rex Warning: Could not find a mapping from statement to CFG block for varInfFunc src facts. /home/autoware/Autoware/src/autoware/core_perception/vision_ssd_detect/src/vision_ssd_detect.cpp:35:3 <Spelling=/usr/include/glog/logging.h:743:33>
+Rex Warning: Could not find a mapping from statement to CFG block for varInfFunc src facts. /home/autoware/Autoware/src/autoware/core_perception/vision_ssd_detect/src/vision_ssd_detect.cpp:35:3 <Spelling=/usr/include/glog/logging.h:743:33>
+Rex Warning: Could not find a mapping from statement to CFG block for varInfFunc src facts. /home/autoware/Autoware/src/autoware/core_perception/vision_ssd_detect/src/vision_ssd_detect.cpp:36:3 <Spelling=/usr/include/glog/logging.h:743:33>
+Rex Warning: Could not find a mapping from statement to CFG block for varInfFunc src facts. /home/autoware/Autoware/src/autoware/core_perception/vision_ssd_detect/src/vision_ssd_detect.cpp:36:3 <Spelling=/usr/include/glog/logging.h:743:33>
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/costmap_generator/nodes/costmap_generator/objects_to_costmap.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/costmap_generator/nodes/costmap_generator/costmap_generator.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/costmap_generator/nodes/costmap_generator/costmap_generator_lanelet2_node.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/costmap_generator/nodes/costmap_generator/points_to_costmap.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/costmap_generator/nodes/costmap_generator/costmap_generator_node.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/costmap_generator/nodes/costmap_generator/costmap_generator_lanelet2.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/costmap_generator/test/src/test_costmap_generator.cpp'
+/home/autoware/Autoware/src/autoware/core_planning/costmap_generator/nodes/costmap_generator/objects_to_costmap.cpp:174:28: error: no member named 'meanOfFinites' in 'Eigen::Matrix<float, -1, -1, 0, -1, -1>'
+        iterator.getData().meanOfFinites();  // Blurring.
+        ~~~~~~~~~~~~~~~~~~ ^
+In file included from /home/autoware/Autoware/src/autoware/core_planning/costmap_generator/nodes/costmap_generator/costmap_generator.cpp:32:
+In file included from /home/autoware/Autoware/install/object_map/include/object_map/object_map_utils.hpp:30:
+In file included from /opt/ros/melodic/include/grid_map_cv/grid_map_cv.hpp:12:
+/opt/ros/melodic/include/grid_map_cv/GridMapCvConverter.hpp:178:47: error: no member named 'minCoeffOfFinites' in 'Eigen::Matrix<float, -1, -1, 0, -1, -1>'
+    const float minValue = gridMap.get(layer).minCoeffOfFinites();
+                           ~~~~~~~~~~~~~~~~~~ ^
+/opt/ros/melodic/include/grid_map_cv/GridMapCvConverter.hpp:179:47: error: no member named 'maxCoeffOfFinites' in 'Eigen::Matrix<float, -1, -1, 0, -1, -1>'
+    const float maxValue = gridMap.get(layer).maxCoeffOfFinites();
+                           ~~~~~~~~~~~~~~~~~~ ^
+In file included from /home/autoware/Autoware/src/autoware/core_planning/costmap_generator/nodes/costmap_generator/costmap_generator_lanelet2.cpp:32:
+In file included from /home/autoware/Autoware/install/object_map/include/object_map/object_map_utils.hpp:30:
+In file included from /opt/ros/melodic/include/grid_map_cv/grid_map_cv.hpp:12:
+/opt/ros/melodic/include/grid_map_cv/GridMapCvConverter.hpp:178:47: error: no member named 'minCoeffOfFinites' in 'Eigen::Matrix<float, -1, -1, 0, -1, -1>'
+    const float minValue = gridMap.get(layer).minCoeffOfFinites();
+                           ~~~~~~~~~~~~~~~~~~ ^
+/opt/ros/melodic/include/grid_map_cv/GridMapCvConverter.hpp:179:47: error: no member named 'maxCoeffOfFinites' in 'Eigen::Matrix<float, -1, -1, 0, -1, -1>'
+    const float maxValue = gridMap.get(layer).maxCoeffOfFinites();
+                           ~~~~~~~~~~~~~~~~~~ ^
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:248:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:283:3
+1 error generated.
+Error while processing /home/autoware/Autoware/src/autoware/core_planning/costmap_generator/nodes/costmap_generator/objects_to_costmap.cpp.
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:248:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:283:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:248:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:283:3
+2 errors generated.
+Error while processing /home/autoware/Autoware/src/autoware/core_planning/costmap_generator/nodes/costmap_generator/costmap_generator.cpp.
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:248:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:283:3
+2 errors generated.
+Error while processing /home/autoware/Autoware/src/autoware/core_planning/costmap_generator/nodes/costmap_generator/costmap_generator_lanelet2.cpp.
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/decision_maker/nodes/decision_maker/decision_maker_node_state_motion.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/decision_maker/nodes/decision_maker/decision_maker_node_state_mission.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/decision_maker/nodes/decision_maker/decision_maker_node_init.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/decision_maker/nodes/decision_maker/decision_maker_node_state_behavior.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/decision_maker/nodes/decision_maker/decision_maker_node_callback.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/decision_maker/nodes/decision_maker/decision_maker_node_core.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/decision_maker/nodes/decision_maker/decision_maker_node_publish.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/decision_maker/nodes/decision_maker/decision_maker_node_state_vehicle.cpp'
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:248:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:283:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:248:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:283:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:248:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:283:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:248:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:248:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:283:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:283:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:248:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:283:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:248:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:248:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:283:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:283:3
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/decision_maker/nodes/decision_maker/cross_road_area.cpp'
+Rex Warning: Ignoring call to advertise/home/autoware/Autoware/src/autoware/core_planning/decision_maker/nodes/decision_maker/decision_maker_node_init.cpp:208:34
+Rex Warning: Ignoring call to advertise/home/autoware/Autoware/src/autoware/core_planning/decision_maker/nodes/decision_maker/decision_maker_node_init.cpp:211:34
+Rex Warning: Ignoring call to advertise/home/autoware/Autoware/src/autoware/core_planning/decision_maker/nodes/decision_maker/decision_maker_node_init.cpp:212:25
+Rex Warning: Ignoring call to advertise/home/autoware/Autoware/src/autoware/core_planning/decision_maker/nodes/decision_maker/decision_maker_node_init.cpp:215:22
+Rex Warning: Ignoring call to advertise/home/autoware/Autoware/src/autoware/core_planning/decision_maker/nodes/decision_maker/decision_maker_node_init.cpp:218:19
+Rex Warning: Ignoring call to advertise/home/autoware/Autoware/src/autoware/core_planning/decision_maker/nodes/decision_maker/decision_maker_node_init.cpp:219:23
+Rex Warning: Ignoring call to advertise/home/autoware/Autoware/src/autoware/core_planning/decision_maker/nodes/decision_maker/decision_maker_node_init.cpp:220:27
+Rex Warning: Ignoring call to advertise/home/autoware/Autoware/src/autoware/core_planning/decision_maker/nodes/decision_maker/decision_maker_node_init.cpp:221:34
+Rex Warning: Ignoring call to advertise/home/autoware/Autoware/src/autoware/core_planning/decision_maker/nodes/decision_maker/decision_maker_node_init.cpp:222:31
+Rex Warning: Ignoring call to advertise/home/autoware/Autoware/src/autoware/core_planning/decision_maker/nodes/decision_maker/decision_maker_node_init.cpp:225:35
+Rex Warning: Ignoring call to advertise/home/autoware/Autoware/src/autoware/core_planning/decision_maker/nodes/decision_maker/decision_maker_node_init.cpp:226:32
+Rex Warning: could not determine callback for call to createTimer. /home/autoware/Autoware/src/autoware/core_planning/decision_maker/nodes/decision_maker/decision_maker_node_state_motion.cpp:211:22
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/decision_maker/nodes/decision_maker/decision_maker_node_decision.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/decision_maker/nodes/decision_maker/decision_maker_node.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/decision_maker/test/src/test_node_lanelet2_functions.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/decision_maker/test/src/test_node_decision.cpp'
+Rex Warning: Ignoring call to publish/home/autoware/Autoware/src/autoware/core_planning/decision_maker/nodes/decision_maker/decision_maker_node_state_mission.cpp:91:3
+Rex Warning: Ignoring call to publish/home/autoware/Autoware/src/autoware/core_planning/decision_maker/nodes/decision_maker/decision_maker_node_publish.cpp:30:3
+Rex Warning: Ignoring call to publish/home/autoware/Autoware/src/autoware/core_planning/decision_maker/nodes/decision_maker/decision_maker_node_publish.cpp:77:3
+Rex Warning: Ignoring call to publish/home/autoware/Autoware/src/autoware/core_planning/decision_maker/nodes/decision_maker/decision_maker_node_publish.cpp:93:5
+Rex Warning: Ignoring call to publish/home/autoware/Autoware/src/autoware/core_planning/decision_maker/nodes/decision_maker/decision_maker_node_publish.cpp:100:5
+Rex Warning: Ignoring call to publish/home/autoware/Autoware/src/autoware/core_planning/decision_maker/nodes/decision_maker/decision_maker_node_publish.cpp:108:5
+Rex Warning: Ignoring call to publish/home/autoware/Autoware/src/autoware/core_planning/decision_maker/nodes/decision_maker/decision_maker_node_publish.cpp:114:5
+Rex Warning: Ignoring call to publish/home/autoware/Autoware/src/autoware/core_planning/decision_maker/nodes/decision_maker/decision_maker_node_publish.cpp:127:3
+Rex Warning: Ignoring call to publish/home/autoware/Autoware/src/autoware/core_planning/decision_maker/nodes/decision_maker/decision_maker_node_publish.cpp:134:3
+Rex Warning: Ignoring call to publish/home/autoware/Autoware/src/autoware/core_planning/decision_maker/nodes/decision_maker/decision_maker_node_publish.cpp:148:3
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/decision_maker/test/src/test_main.cpp'
+Rex Warning: Ignoring call to publish/home/autoware/Autoware/src/autoware/core_planning/decision_maker/nodes/decision_maker/decision_maker_node_callback.cpp:434:5
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/decision_maker/test/src/test_node_state_drive.cpp'
+Rex Warning: Ignoring call to publish/home/autoware/Autoware/src/autoware/core_planning/decision_maker/nodes/decision_maker/decision_maker_node_callback.cpp:504:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:248:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:283:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:248:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:283:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:248:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:283:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:248:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:283:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:248:3
+Rex Warning: Could not build CFG for function. /home/autoware/Autoware/src/autoware/common/vector_map/include/vector_map/vector_map.h:283:3
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/dp_planner/nodes/ROSHelpers.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/dp_planner/nodes/PolygonGenerator.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/dp_planner/nodes/dp_planner.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/dp_planner/nodes/dp_planner_core.cpp'
+Rex Warning: topic names that are not string literals are not supported. /home/autoware/Autoware/src/autoware/core_planning/dp_planner/nodes/dp_planner_core.cpp:96:19
+Rex Warning: topic names that are not string literals are not supported. /home/autoware/Autoware/src/autoware/core_planning/dp_planner/nodes/dp_planner_core.cpp:97:23
+Rex Warning: topic names that are not string literals are not supported. /home/autoware/Autoware/src/autoware/core_planning/dp_planner/nodes/dp_planner_core.cpp:98:22
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/ff_waypoint_follower/nodes/ff_waypoint_follower_core.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/ff_waypoint_follower/nodes/ff_waypoint_follower.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/ff_waypoint_follower/nodes/HevComm.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/ff_waypoint_follower/nodes/HevCnt.cpp'
+In file included from /home/autoware/Autoware/src/autoware/core_planning/ff_waypoint_follower/nodes/HevCnt.cpp:1:
+/home/autoware/Autoware/src/autoware/core_planning/ff_waypoint_follower/include/HevCnt.h:1:10: fatal error: 'HevControl.h' file not found
+#include "HevControl.h"
+         ^~~~~~~~~~~~~~
+1 error generated.
+Error while processing /home/autoware/Autoware/src/autoware/core_planning/ff_waypoint_follower/nodes/HevCnt.cpp.
+In file included from /home/autoware/Autoware/src/autoware/core_planning/ff_waypoint_follower/nodes/HevComm.cpp:8:
+In file included from /home/autoware/Autoware/src/autoware/core_planning/ff_waypoint_follower/include/HevComm.h:13:
+/home/autoware/Autoware/src/autoware/core_planning/ff_waypoint_follower/include/HevCnt.h:1:10: fatal error: 'HevControl.h' file not found
+#include "HevControl.h"
+         ^~~~~~~~~~~~~~
+1 error generated.
+Error while processing /home/autoware/Autoware/src/autoware/core_planning/ff_waypoint_follower/nodes/HevComm.cpp.
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/freespace_planner/src/astar_navi/astar_navi.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/freespace_planner/src/astar_navi/astar_navi_node.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/astar_search/test/src/test_main.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/astar_search/src/astar_search.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/astar_search/src/astar_util.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/astar_search/test/src/test_class.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/astar_search/test/src/test_astar_util.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/astar_search/test/src/test_astar_search.cpp'
+Rex Ignoring: "/home/autoware/Autoware/src/autoware/core_planning/lane_planner/libs/" (unsupported file extension)
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/lane_planner/nodes/lane_navi/lane_navi.cpp'
+Rex Ignoring: "/home/autoware/Autoware/src/autoware/core_planning/lane_planner/libs/" (unsupported file extension)
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/lane_planner/nodes/lane_rule/lane_rule.cpp'
+Rex Ignoring: "/home/autoware/Autoware/src/autoware/core_planning/lane_planner/libs/" (unsupported file extension)
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/lane_planner/nodes/lane_rule_lanelet2/lane_rule_lanelet2.cpp'
+Rex Ignoring: "/home/autoware/Autoware/src/autoware/core_planning/lane_planner/libs/" (unsupported file extension)
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/lane_planner/nodes/lane_select/lane_select_node.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/lane_planner/nodes/lane_select/lane_select_core.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/lane_planner/nodes/lane_select/hermite_curve.cpp'
+Rex Warning: could not determine callback for call to createTimer. /home/autoware/Autoware/src/autoware/core_planning/lane_planner/nodes/lane_select/lane_select_core.cpp:81:12
+Rex Ignoring: "/home/autoware/Autoware/src/autoware/core_planning/lane_planner/libs/" (unsupported file extension)
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/lane_planner/nodes/lane_stop/lane_stop.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/lattice_planner/nodes/lattice_trajectory_gen/lattice_trajectory_gen.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/lattice_planner/lib/libtraj_gen.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/lattice_planner/nodes/path_select/path_select.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/lattice_planner/nodes/lattice_trajectory_gen/lattice_trajectory_gen.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/lattice_planner/nodes/lattice_velocity_set/lattice_velocity_set.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/lattice_planner/nodes/lattice_velocity_set/libvelocity_set.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/lattice_planner/nodes/lattice_twist_convert/lattice_twist_convert.cpp'
+terminate called after throwing an instance of 'std::domain_error'
+  what():  Unknown node type: decl;lattice_trajectory_gen.cpp::main(int,char **,);;__ret!;;
+generateFactsCFG.sh: line 751: 26254 Aborted                 (core dumped) /Rex/Autoware-Rex/Rex -j 8 /home/autoware/Autoware/src/autoware/core_planning/lattice_planner/nodes/lattice_trajectory_gen /home/autoware/Autoware/src/autoware/core_planning/lattice_planner/ -H /home/autoware/Autoware/src/autoware/core_planning/lattice_planner/include/ /home/autoware/Autoware/install/autoware_can_msgs/include/ /home/autoware/Autoware/install/autoware_config_msgs/include/ /home/autoware/Autoware/src/autoware/common/gnss/include/ /home/autoware/Autoware/src/autoware/common/libwaypoint_follower/include/ /usr/include/pcl-1.8/ /opt/ros/melodic/include/ /home/autoware/Autoware/src/autoware/common/vector_map/include/ /home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/include/ /usr/include/eigen3/ --cfg=1 -c /outputFolder/autoware/cfg/nodes/lattice_planner-lattice_trajectory_gen-nodes.csv /outputFolder/autoware/cfg/edges/lattice_planner-lattice_trajectory_gen-edges.csv
+terminate called after throwing an instance of 'std::domain_error'
+  what():  Unknown node type: decl;lattice_twist_convert.cpp::newSpline;;
+generateFactsCFG.sh: line 765: 26281 Aborted                 (core dumped) /Rex/Autoware-Rex/Rex -j 8 /home/autoware/Autoware/src/autoware/core_planning/lattice_planner/nodes/lattice_twist_convert/ /home/autoware/Autoware/src/autoware/core_planning/lattice_planner/ -H /home/autoware/Autoware/src/autoware/core_planning/lattice_planner/include/ /home/autoware/Autoware/install/autoware_can_msgs/include/ /home/autoware/Autoware/install/autoware_config_msgs/include/ /home/autoware/Autoware/src/autoware/common/gnss/include/ /home/autoware/Autoware/src/autoware/common/libwaypoint_follower/include/ /usr/include/pcl-1.8/ /opt/ros/melodic/include/ /home/autoware/Autoware/src/autoware/common/vector_map/include/ /home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/include/ /usr/include/eigen3/ --cfg=1 -c /outputFolder/autoware/cfg/nodes/lattice_planner-lattice_twist_convert-nodes.csv /outputFolder/autoware/cfg/edges/lattice_planner-lattice_twist_convert-edges.csv
+terminate called after throwing an instance of 'std::domain_error'
+  what():  Unknown node type: decl;lattice_velocity_set.cpp::main(int,char **,);;__ret!;;
+generateFactsCFG.sh: line 780: 26297 Aborted                 (core dumped) /Rex/Autoware-Rex/Rex -j 8 /home/autoware/Autoware/src/autoware/core_planning/lattice_planner/nodes/lattice_velocity_set/ /home/autoware/Autoware/src/autoware/core_planning/lattice_planner/ -H /home/autoware/Autoware/src/autoware/core_planning/lattice_planner/include/ /home/autoware/Autoware/install/autoware_can_msgs/include/ /home/autoware/Autoware/install/autoware_config_msgs/include/ /home/autoware/Autoware/src/autoware/common/gnss/include/ /home/autoware/Autoware/src/autoware/common/libwaypoint_follower/include/ /usr/include/pcl-1.8/ /opt/ros/melodic/include/ /home/autoware/Autoware/src/autoware/common/vector_map/include/ /home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/include/ /usr/include/eigen3/ --cfg=1 -c /outputFolder/autoware/cfg/nodes/lattice_planner-lattice_velocity_set-nodes.csv /outputFolder/autoware/cfg/edges/lattice_planner-lattice_velocity_set-edges.csv
+terminate called after throwing an instance of 'std::domain_error'
+  what():  Unknown node type: decl;path_select.cpp::main(int,char **,);;__ret!;;
+generateFactsCFG.sh: line 795: 26314 Aborted                 (core dumped) /Rex/Autoware-Rex/Rex -j 8 /home/autoware/Autoware/src/autoware/core_planning/lattice_planner/nodes/path_select/ /home/autoware/Autoware/src/autoware/core_planning/lattice_planner/ -H /home/autoware/Autoware/src/autoware/core_planning/lattice_planner/include/ /home/autoware/Autoware/install/autoware_can_msgs/include/ /home/autoware/Autoware/install/autoware_config_msgs/include/ /home/autoware/Autoware/src/autoware/common/gnss/include/ /home/autoware/Autoware/src/autoware/common/libwaypoint_follower/include/ /usr/include/pcl-1.8/ /opt/ros/melodic/include/ /home/autoware/Autoware/src/autoware/common/vector_map/include/ /home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/include/ /usr/include/eigen3/ --cfg=1 -c /outputFolder/autoware/cfg/nodes/lattice_planner-path_select-nodes.csv /outputFolder/autoware/cfg/edges/lattice_planner-path_select-edges.csv
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/ll2_global_planner/src/ll2_global_planner_node.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/ll2_global_planner/src/ll2_global_planner_nodelet.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/mpc_follower/src/qp_solver/qp_solver_unconstr_fast.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/mpc_follower/src/mpc_follower_core.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/mpc_follower/src/qp_solver/qp_solver_qpoases.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/mpc_follower/src/mpc_trajectory.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/mpc_follower/src/qp_solver/qp_solver_unconstr.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/mpc_follower/src/mpc_utils.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/mpc_follower/src/mpc_follower_node.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/mpc_follower/src/mpc_waypoints_converter.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/mpc_follower/src/vehicle_model/vehicle_model_bicycle_kinematics.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/mpc_follower/src/vehicle_model/vehicle_model_interface.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/mpc_follower/src/vehicle_model/vehicle_model_bicycle_dynamics.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/mpc_follower/src/vehicle_model/vehicle_model_bicycle_kinematics_no_delay.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/mpc_follower/src/lowpass_filter.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/mpc_follower/test/src/test_mpc_lowpass_filter.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/mpc_follower/test/src/test_mpc_utils.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/mpc_follower/test/src/test_mpc_follower.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/op_global_planner/nodes/op_global_planner_core.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/op_global_planner/nodes/op_global_planner.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/op_local_planner/nodes/op_behavior_selector/op_behavior_selector_core.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/op_local_planner/nodes/op_behavior_selector/op_behavior_selector.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/op_local_planner/nodes/op_common_params/op_common_params.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/op_local_planner/nodes/op_motion_predictor/op_motion_predictor_core.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/op_local_planner/nodes/op_motion_predictor/op_motion_predictor.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/op_local_planner/nodes/op_trajectory_evaluator/op_trajectory_evaluator_core.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/op_local_planner/nodes/op_trajectory_evaluator/op_trajectory_evaluator.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/op_local_planner/nodes/op_trajectory_generator/op_trajectory_generator_core.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/op_local_planner/nodes/op_trajectory_generator/op_trajectory_generator.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/op_simulation_package/nodes/op_car_simulator/op_car_simulator_core.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/op_simulation_package/nodes/op_car_simulator/op_car_simulator.cpp'
+Rex Warning: topic names that are not string literals are not supported. /home/autoware/Autoware/src/autoware/core_planning/op_simulation_package/nodes/op_car_simulator/op_car_simulator_core.cpp:81:29
+Rex Warning: topic names that are not string literals are not supported. /home/autoware/Autoware/src/autoware/core_planning/op_simulation_package/nodes/op_car_simulator/op_car_simulator_core.cpp:82:30
+Rex Warning: topic names that are not string literals are not supported. /home/autoware/Autoware/src/autoware/core_planning/op_simulation_package/nodes/op_car_simulator/op_car_simulator_core.cpp:83:33
+Rex Warning: topic names that are not string literals are not supported. /home/autoware/Autoware/src/autoware/core_planning/op_simulation_package/nodes/op_car_simulator/op_car_simulator_core.cpp:84:35
+Rex Warning: topic names that are not string literals are not supported. /home/autoware/Autoware/src/autoware/core_planning/op_simulation_package/nodes/op_car_simulator/op_car_simulator_core.cpp:85:32
+Rex Warning: topic names that are not string literals are not supported. /home/autoware/Autoware/src/autoware/core_planning/op_simulation_package/nodes/op_car_simulator/op_car_simulator_core.cpp:86:35
+Rex Warning: topic names that are not string literals are not supported. /home/autoware/Autoware/src/autoware/core_planning/op_simulation_package/nodes/op_car_simulator/op_car_simulator_core.cpp:87:31
+Rex Warning: topic names that are not string literals are not supported. /home/autoware/Autoware/src/autoware/core_planning/op_simulation_package/nodes/op_car_simulator/op_car_simulator_core.cpp:89:32
+Rex Warning: topic names that are not string literals are not supported. /home/autoware/Autoware/src/autoware/core_planning/op_simulation_package/nodes/op_car_simulator/op_car_simulator_core.cpp:137:31
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/op_simulation_package/nodes/op_perception_simulator/op_perception_simulator_core.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/op_simulation_package/nodes/op_perception_simulator/op_perception_simulator.cpp'
+Rex Warning: topic names that are not string literals are not supported. /home/autoware/Autoware/src/autoware/core_planning/op_simulation_package/nodes/op_perception_simulator/op_perception_simulator_core.cpp:63:13
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/op_simulation_package/nodes/op_signs_simulator/op_signs_simulator.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/op_simulation_package/nodes/op_signs_simulator/op_signs_simulator_core.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/op_utilities/nodes/op_data_logger/op_data_logger.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/op_utilities/nodes/op_data_logger/op_data_logger_core.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/op_utilities/nodes/op_pose2tf/op_pose2tf_core.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/op_utilities/nodes/op_pose2tf/op_pose2tf.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/op_utilities/nodes/op_bag_player/DrawingHelpers.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/op_utilities/nodes/op_bag_player/op_bag_player.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/op_utilities/nodes/op_bag_player/DrawObjBase.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/op_utilities/nodes/op_bag_player/op_bag_player_core.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/op_utilities/nodes/op_bag_player/BagTopicPlayer.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/op_utilities/nodes/op_bag_player/MainWindowWrapper.cpp'
+Rex Warning: topic names that are not string literals are not supported. /home/autoware/Autoware/src/autoware/core_planning/op_utilities/nodes/op_pose2tf/op_pose2tf_core.cpp:32:18
+Rex Warning: topic names that are not string literals are not supported. /home/autoware/Autoware/src/autoware/core_planning/op_utilities/nodes/op_bag_player/op_bag_player_core.cpp:276:24
+Rex Warning: topic names that are not string literals are not supported. /home/autoware/Autoware/src/autoware/core_planning/op_utilities/nodes/op_bag_player/op_bag_player_core.cpp:277:24
+Rex Warning: topic names that are not string literals are not supported. /home/autoware/Autoware/src/autoware/core_planning/op_utilities/nodes/op_bag_player/op_bag_player_core.cpp:278:23
+Rex Warning: topic names that are not string literals are not supported. /home/autoware/Autoware/src/autoware/core_planning/op_utilities/nodes/op_data_logger/op_data_logger_core.cpp:61:22
+Rex Warning: topic names that are not string literals are not supported. /home/autoware/Autoware/src/autoware/core_planning/op_utilities/nodes/op_data_logger/op_data_logger_core.cpp:67:13
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/pure_pursuit/src/pure_pursuit_viz.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/pure_pursuit/src/pure_pursuit_node.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/pure_pursuit/src/pure_pursuit.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/pure_pursuit/src/pure_pursuit_core.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/pure_pursuit/test/src/test_pure_pursuit.cpp'
+Rex Warning: Unable to determine variable passed to publish. /home/autoware/Autoware/src/autoware/core_planning/pure_pursuit/src/pure_pursuit_core.cpp:149:5
+Rex Warning: Unable to determine variable passed to publish. /home/autoware/Autoware/src/autoware/core_planning/pure_pursuit/src/pure_pursuit_core.cpp:150:5
+Rex Warning: Unable to determine variable passed to publish. /home/autoware/Autoware/src/autoware/core_planning/pure_pursuit/src/pure_pursuit_core.cpp:151:5
+Rex Warning: Unable to determine variable passed to publish. /home/autoware/Autoware/src/autoware/core_planning/pure_pursuit/src/pure_pursuit_core.cpp:152:5
+Rex Warning: Unable to determine variable passed to publish. /home/autoware/Autoware/src/autoware/core_planning/pure_pursuit/src/pure_pursuit_core.cpp:156:7
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/state_machine_lib/src/state_context.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/twist_filter/src/twist_filter.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/twist_filter/test/src/test_twist_filter_node.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/twist_filter/src/twist_filter_node_main.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/twist_filter/src/twist_filter_node.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/twist_gate/src/twist_gate_node.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/twist_gate/src/twist_gate.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/twist_gate/test/src/test_twist_gate.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/way_planner/nodes/way_planner.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/way_planner/nodes/ROSHelpers.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/way_planner/nodes/SocketServer.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/way_planner/nodes/way_planner_core.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/waypoint_maker/nodes/waypoint_loader/waypoint_loader_core.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/waypoint_maker/nodes/waypoint_clicker/waypoint_clicker.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/waypoint_maker/nodes/waypoint_loader/waypoint_loader_node.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/waypoint_maker/nodes/waypoint_creator/interpolate.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/waypoint_maker/nodes/waypoint_creator/waypoint_creator_node.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/waypoint_maker/nodes/waypoint_creator/waypoint_creator_core.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/waypoint_maker/nodes/waypoint_extractor/waypoint_extractor.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/waypoint_maker/nodes/waypoint_marker_publisher/waypoint_marker_publisher.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/waypoint_maker/nodes/waypoint_replanner/waypoint_replanner.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/waypoint_maker/nodes/waypoint_replanner/waypoint_replanner_node.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/waypoint_maker/nodes/waypoint_saver/waypoint_saver.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/waypoint_maker/nodes/waypoint_velocity_visualizer/waypoint_velocity_visualizer.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/astar_avoid/astar_avoid.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/astar_avoid/astar_avoid_node.cpp'
+Rex Warning: could not determine callback for call to createTimer. /home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/astar_avoid/astar_avoid.cpp:120:12
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set/velocity_set_path.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set/libvelocity_set.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set/velocity_set_info.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set/velocity_set.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set_lanelet2/velocity_set_lanelet2.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/lib/context.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/trafficlight_recognizer/test/src/test_feat_proj_lanelet2.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/lidar_localizer/test/src/test_launch_ndt_matching.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_perception/pcl_omp_registration/src/ndt.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/lane_planner/lib/lane_planner/lane_planner_vmap.cpp'
+Rex Warning: Unable to find package name for file: '/home/autoware/Autoware/src/autoware/core_planning/lane_planner/test/src/test_lane_select.cpp'
+/home/autoware/Autoware/src/autoware/core_perception/pcl_omp_registration/src/ndt.cpp:46:10: fatal error: 'pcl_omp_registration/ndt.h' file not found
+#include "pcl_omp_registration/ndt.h"
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+Error while processing /home/autoware/Autoware/src/autoware/core_perception/pcl_omp_registration/src/ndt.cpp.

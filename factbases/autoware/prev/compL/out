@@ -1,0 +1,34 @@
+3,4c3,4
+<     5393 cfg/nodes/costmap_generator-nodes.csv
+<     6155 cfg/nodes/decision_maker-nodes.csv
+---
+>     5392 cfg/nodes/costmap_generator-nodes.csv
+>     6158 cfg/nodes/decision_maker-nodes.csv
+11c11
+<     6306 cfg/nodes/imm_ukf_pda_track-nodes.csv
+---
+>     6307 cfg/nodes/imm_ukf_pda_track-nodes.csv
+21c21
+<      677 cfg/nodes/lidar_apollo_cnn_seg_detect-nodes.csv
+---
+>      675 cfg/nodes/lidar_apollo_cnn_seg_detect-nodes.csv
+25c25
+<     4906 cfg/nodes/lidar_localizer-approximate_ndt_mapping-nodes.csv
+---
+>     4912 cfg/nodes/lidar_localizer-approximate_ndt_mapping-nodes.csv
+27c27
+<     4933 cfg/nodes/lidar_localizer-ndt_mapping-nodes.csv
+---
+>     4939 cfg/nodes/lidar_localizer-ndt_mapping-nodes.csv
+39c39
+<        1 cfg/nodes/op_local_planner-op_behaviour_selector-nodes.csv
+---
+>      471 cfg/nodes/op_local_planner-op_behavior_selector-nodes.csv
+54c54
+<     2496 cfg/nodes/road_occupancy_processor-nodes.csv
+---
+>     2498 cfg/nodes/road_occupancy_processor-nodes.csv
+85c85
+<   157846 total
+---
+>   158349 total

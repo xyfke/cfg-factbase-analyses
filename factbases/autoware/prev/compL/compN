@@ -1,0 +1,26 @@
+21c21
+<      677 cfg/nodes/lidar_apollo_cnn_seg_detect-nodes.csv
+---
+>      425 cfg/nodes/lidar_apollo_cnn_seg_detect-nodes.csv
+32c32
+<     1078 cfg/nodes/lidar_point_pillars-nodes.csv
+---
+>      972 cfg/nodes/lidar_point_pillars-nodes.csv
+57,65c57,65
+<     5194 cfg/nodes/trafficlight_recognizer-label_maker-nodes.csv
+<     5100 cfg/nodes/trafficlight_recognizer-region_tlr_ssd-nodes.csv
+<     5075 cfg/nodes/trafficlight_recognizer-tlr_tuner-nodes.csv
+---
+>     4958 cfg/nodes/trafficlight_recognizer-label_maker-nodes.csv
+>     4968 cfg/nodes/trafficlight_recognizer-region_tlr_ssd-nodes.csv
+>     5065 cfg/nodes/trafficlight_recognizer-tlr_tuner-nodes.csv
+73,74c73,74
+<      184 cfg/nodes/vision_segment_enet_detect-nodes.csv
+<      303 cfg/nodes/vision_ssd_detect-nodes.csv
+---
+>      110 cfg/nodes/vision_segment_enet_detect-nodes.csv
+>      226 cfg/nodes/vision_ssd_detect-nodes.csv
+85c85
+<   157846 total
+---
+>   157463 total

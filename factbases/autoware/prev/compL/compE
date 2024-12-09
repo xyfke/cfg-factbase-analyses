@@ -1,0 +1,30 @@
+21c21
+<      3416 cfg/edges/lidar_apollo_cnn_seg_detect-edges.csv
+---
+>      1088 cfg/edges/lidar_apollo_cnn_seg_detect-edges.csv
+32c32
+<      4093 cfg/edges/lidar_point_pillars-edges.csv
+---
+>      2487 cfg/edges/lidar_point_pillars-edges.csv
+59c59
+<     20582 cfg/edges/trafficlight_recognizer-label_maker-edges.csv
+---
+>     19508 cfg/edges/trafficlight_recognizer-label_maker-edges.csv
+62c62
+<     20110 cfg/edges/trafficlight_recognizer-region_tlr_ssd-edges.csv
+---
+>     19229 cfg/edges/trafficlight_recognizer-region_tlr_ssd-edges.csv
+64d63
+<     19995 cfg/edges/trafficlight_recognizer-tlr_tuner-edges.csv
+65a65
+>     19928 cfg/edges/trafficlight_recognizer-tlr_tuner-edges.csv
+73,74c73,74
+<       860 cfg/edges/vision_segment_enet_detect-edges.csv
+<      1426 cfg/edges/vision_ssd_detect-edges.csv
+---
+>       266 cfg/edges/vision_segment_enet_detect-edges.csv
+>       833 cfg/edges/vision_ssd_detect-edges.csv
+85c85
+<    723609 total
+---
+>    718839 total

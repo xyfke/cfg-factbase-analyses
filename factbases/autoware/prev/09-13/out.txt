@@ -1,0 +1,56 @@
+No configuration file specified. Defaulting to Rex executable directory.
+Attempting to read configuration file located at: /Rex/Autoware-Rex/extraction.conf
+Instantiating 8 workers
+Spawning worker thread #1
+Spawning worker thread #2
+Spawning worker thread #3
+[1/2] Analyzing Spawning worker thread #4
+"/home/autoware/Autoware/src/autoware/core_perception/autoware_connector/nodes/can_odometry/can_odometry_node.cpp"
+[2/2] Analyzing Spawning worker thread #5
+"/home/autoware/Autoware/src/autoware/core_pSpawning worker thread #e6
+rception/autoware_connector/nodes/can_odometry/can_odometry_core.cpp"
+Spawning worker thread #7
+Spawning worker thread #8
+Could not auto detect a compilation database!
+Could not auto detect a compilation database!
+Using a default-generated compilation database!
+Using a default-generated compilation database!
+Wrote /home/autoware/Autoware/src/autoware/core_perception/autoware_connector/nodes/can_odometry/can_odometry_node.cpp to /outputFolder/autoware/objectFiles/jHcfg=1c-(;home;autoware;Autoware;src;autoware;core_perception;autoware_connector;nodes;can_odometry;can_odometry_node.cpp).tao
+Stopping worker thread #1
+Wrote /home/autoware/Autoware/src/autoware/core_perception/autoware_connector/nodes/can_odometry/can_odometry_core.cpp to /outputFolder/autoware/objectFiles/jHcfg=1c-(;home;autoware;Autoware;src;autoware;core_perception;autoware_connector;nodes;can_odometry;can_odometry_core.cpp).tao
+Stopping worker thread #2
+Stopping worker thread #3
+Stopping worker thread #4
+Stopping worker thread #5
+Stopping worker thread #6
+Stopping worker thread #7
+Stopping worker thread #8
+Completed in 6770.19 milliseconds
+Linking 2 object files...
+Wrote Nodes in 0 seconds
+Established Edges in 0 seconds
+Wrote Already Established Edges in 0 seconds
+Remaining Files: 1
+Remaining Files: 0
+Wrote Node Attributes in 0 seconds
+Remaining Files: 1
+Remaining Files: 0
+Wrote Edge Attributes in 0 seconds
+Finished linking in 48.5954 milliseconds
+No configuration file specified. Defaulting to Rex executable directory.
+Attempting to read configuration file located at: /Rex/Autoware-Rex/extraction.conf
+Instantiating 8 workers
+Spawning worker thread #1
+Spawning worker thread #2
+Spawning worker thread #3
+[1/2] Analyzing Spawning worker thread #4
+"/home/autoware/Autoware/src/autoware/core_perception/autoware_connector/nodes/can_status_translator/can_status_translator_node.cpp"
+Spawning worker thread #5
+[2/2] Analyzing "/home/autoware/Autoware/src/autoware/core_perception/autoware_connector/nodes/can_status_translator/can_status_translator_core.cpp"
+Spawning worker thread #6
+Spawning worker thread #7
+Spawning worker thread #8
+[2/2] Analyzing Could not auto detect a compilation database!
+Using a default-generated compilation database!
+Could not auto detect a compilation database!
+Using a default-generated compilation database!
